@@ -1,2 +1,2 @@
 var x = document.querySelector('#app');
-x.innerHTML = "<a>teste</a>";
+x.innerHTML = "./main.html";
