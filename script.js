@@ -1,5 +1,4 @@
-var indexphp = document.querySelector('#app');
-//indexphp.innerHTML = render();
+var indexphp = document.querySelector('#cad');
 
 var myObj = [
 {
@@ -143,44 +142,4 @@ var myObj = [
 ];
 
 
-
-function renderCAD(){
-
-    indexphp.innerHTML = myObj.map((item, index)=>{
-
-        var dropdown = `
-            <div class="card">
-                <div class="p-0 card-header" id="headingOne">
-                    <h1 class="mb-0">
-                        <button class="font-large btn btn-block text-left pl-4" type="button" data-toggle="collapse" data-target="#collapse${index}" aria-expanded="true" aria-controls="collapse${index}">
-                        <strong>${index+1}) ${item.title}</strong>
-                        </button>
-                    </h1>
-                </div>
-        
-                <div id="collapse${index}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body font-cousine text-justify">
-                        ${item.description}
-                    </div>
-                </div>
-            </div>
-        `
-
-        if(index == 0)
-        {
-            return `<br><div class=row-fluid>
-            <div class="accordion" id="accordionExample">${dropdown}`
-        } 
-        else if (index == myObj.length-1)
-        {
-            return `${dropdown}</div></div><br>`
-        } 
-        else 
-        {
-            return `${dropdown}`
-        }
-
-    }).join('');
-
-}
-renderCAD();
+renderCAD(this.indexphp ,this.myObj);
