@@ -18,11 +18,21 @@ var topContent = `
         </li>
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dúvidas Frequêntes
+            Dúvidas Frequêntes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item btn" id="btnCad">Cadastro Único (CAD)</a>
-          <a class="dropdown-item btn" id="btnAe">Auxílio Emergencial (Caixa)</a>
+
+            <a class="dropdown-item btn" id="btnCad">Cadastro Único (CAD)</a>
+
+            <div class="dropdown-divider"></div>
+            <span class="dropdown-header" style="font-size: 10px">Auxílio Emergencial (AE - Caixa)</span>
+            <a class="dropdown-item btn" id="btnAeIg">AE - Informações Gerais</a>
+            <a class="dropdown-item btn" id="btnAeCa">AE - Cadastramento</a>
+            <a class="dropdown-item btn" id="btnAeAp">AE - APP</a>
+            <a class="dropdown-item btn" id="btnAeRa">AE - Resultado da Avaliação do Cadastro</a>
+            <a class="dropdown-item btn" id="btnAePb">AE - Pagamento do Benefício</a>
+            <a class="dropdown-item btn" id="btnAeCe">AE - Casos Especiais</a>
+          
         </div>
       </li>
         </ul>
