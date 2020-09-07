@@ -1,17 +1,16 @@
-function renderCAD(php, obj) {
+//Renderizar o conteúdo de Dúvidas Frequentes
+
+function renderFQ(title, php, obj) {
     var indexphp = php;
     var myObj = obj;
     
     indexphp.innerHTML = myObj.map((item, index) => {
 
         var topOfThePage = `
-            <div class="pt-4 row-fluid">
-                <h1 class="col-12">Perguntas Frequêntes</h1>
-                <h3 class="col-12">Secretaria de Assistência Social e Direitos Humanos</h3>
-                <br>
+            <div class="row-fluid">
                 <strong>
                     <div class="col-12 bg-primary rounded-top pt-4 pb-3 text-white">
-                        Cadastro Único (CAD)
+                        ${title}
                     </div>
                 </strong>
             </div>
@@ -37,6 +36,7 @@ function renderCAD(php, obj) {
 
         if (index == 0) {
             return `
+            <h3 class="col-12 pt-4 pb-0">Perguntas Frequêntes</h3>
             ${topOfThePage}
             <div class=row-fluid>
             <div class="accordion" id="accordionExample">${dropdown}`;

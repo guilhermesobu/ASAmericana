@@ -1,6 +1,4 @@
-var indexphp = document.querySelector('#cad');
-
-var myObj = [
+var myCadContent = [
 {
     title: 'O que é?',
     description: 'O Cadastro Único (CadÚnico) para programas sociais do governo federal é um instrumento que identifica e caracteriza as famílias de baixa renda, permitindo que o governo conheça melhor a realidade socioeconômica dessa população. Nele são registradas informações como características da residência, identificação de cada pessoa, escolaridade, situação de trabalho e renda, entre outras.'
@@ -141,5 +139,52 @@ var myObj = [
 }
 ];
 
+var myAeContent = [
+    {
+        title: '',
+        description: ''
+    }
 
-renderCAD(this.indexphp ,this.myObj);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+/*
+INFORMAÇÕES GERAIS
+CADASTRAMENTO
+APP
+RESULTADO DA AVALIAÇÃO DO CADASTRO
+PAGAMENTO DO BENEFÍCIO
+*/
+
+
+var myCadHtml = document.querySelector('#body'),
+    myBtnCad = document.querySelector('#btnCad')
+    myBtnAe = document.querySelector('#btnAe');
+
+
+myBtnCad.addEventListener('click', ()=>{
+    renderFQ("Cadastro Único (CAD)", this.myCadHtml ,this.myCadContent);
+});
+
+myBtnAe.addEventListener('click', ()=>{
+    renderFQ("Auxílio Emergencial (Caixa)", this.myCadHtml ,this.myCadContent);
+});
+
+
+//Colocando os questionarios do CAD na página
+
+
