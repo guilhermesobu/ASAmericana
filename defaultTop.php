@@ -13,19 +13,19 @@
 <body>
 
     <div class="row-fluid">
-        <h3 class="col-12 pt-4">Secretaria de Assistência Social e Direitos Humanos</h3>
+        <h3 class="col-12 pt-2">Secretaria de Assistência Social e Direitos Humanos</h3>
     </div>
 
 <!-- NAVBAR -->
     <nav class="rounded-0 navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand text-white border-white" href="#">SASDH</a>
+        <a class="border rounded px-1 py-0 navbar-brand text-black bg-white" href="https://www.asamericana.com.br"><strong>SASDH</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="#">Página principal <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="https://www.asamericana.com.br">Página principal <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
