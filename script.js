@@ -762,7 +762,7 @@ var myAeContentCe = [
     }
 ]
 
-var myFrequentlyQuestions = document.querySelector('#body'),
+var myFrequentlyQuestions = document.querySelector('#app'),
     myBtnCad = document.querySelector('#btnCad'),
     myBtnAeIg = document.querySelector('#btnAeIg'),
     myBtnAeCa = document.querySelector('#btnAeCa');
