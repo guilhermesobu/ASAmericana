@@ -771,6 +771,16 @@ var myFrequentlyQuestions = document.querySelector('#app'),
     myBtnAePb = document.querySelector('#btnAePb'),
     myBtnAeCe = document.querySelector('#btnAeCe');
 
+
+if(document.URL.match('/perguntasfrequentes/cad.php')){
+    renderFQ("Cadastro Único (CAD)", this.myFrequentlyQuestions ,this.myCadContent), 1;
+}
+
+function executeCad(){
+    renderFQ("Cadastro Único (CAD)", this.myFrequentlyQuestions ,this.myCadContent), 1;
+}
+
+
 myBtnCad.addEventListener('click', ()=>{
     renderFQ("Cadastro Único (CAD)", this.myFrequentlyQuestions ,this.myCadContent);
 });
