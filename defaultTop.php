@@ -34,7 +34,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                        <a class="dropdown-item btn" id="btnCad" href="/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
+                        <a class="dropdown-item btn" id="btnCad" href="perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
 
                         <div class="dropdown-divider"></div>
                         <span class="dropdown-header" style="font-size: 10px">Auxílio Emergencial (AE - Caixa)</span>
