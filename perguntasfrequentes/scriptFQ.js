@@ -1,153 +1,156 @@
 var myCadContent = [
 {
     title: 'O que é?',
-    description: 'O Cadastro Único (CadÚnico) para programas sociais do governo federal é um instrumento que identifica e caracteriza as famílias de baixa renda, permitindo que o governo conheça melhor a realidade socioeconômica dessa população. Nele são registradas informações como características da residência, identificação de cada pessoa, escolaridade, situação de trabalho e renda, entre outras.'
+    description: '<p>O Cadastro Único (CadÚnico) para programas sociais do governo federal é um instrumento que identifica e caracteriza as famílias de baixa renda, permitindo que o governo conheça melhor a realidade socioeconômica dessa população. Nele são registradas informações como características da residência, identificação de cada pessoa, escolaridade, situação de trabalho e renda, entre outras.</p>'
 },
 {
     title: 'Para que serve?',
-    description: 'Desde 2003, o CadÚnico se tornou o principal instrumento do Estado brasileiro para a seleção e inclusão de famílias de baixa renda em programas federais, sendo usado obrigatoriamente para a concessão dos benefícios do programa Bolsa Família, da Tarifa Social de Energia Elétrica, do Programa Minha Casa Minha Vida, da Bolsa Verde, entre outros. Também pode ser utilizado para a seleção de beneficiários de programas ofertados pelos governos estaduais e municipais. Por isso, ele funciona como uma porta de entrada para as famílias acessarem diversas políticas públicas.'
+    description: '<p>Desde 2003, o CadÚnico se tornou o principal instrumento do Estado brasileiro para a seleção e inclusão de famílias de baixa renda em programas federais, sendo usado obrigatoriamente para a concessão dos benefícios do programa Bolsa Família, da Tarifa Social de Energia Elétrica, do Programa Minha Casa Minha Vida, da Bolsa Verde, entre outros. Também pode ser utilizado para a seleção de beneficiários de programas ofertados pelos governos estaduais e municipais. Por isso, ele funciona como uma porta de entrada para as famílias acessarem diversas políticas públicas.</p>'
 },
     {
     title: 'Quem faz?',
-    description: 'A execução do CadÚnico é de responsabilidade compartilhada entre o governo federal, os estados, os municípios e o distrito federal. Em nível federal, o Ministério da Cidadania é o gestor responsável e a Caixa Econômica Federal é o agente financeiro operador que mantém o Sistema de Cadastro Único.'
+    description: '<p>A execução do CadÚnico é de responsabilidade compartilhada entre o governo federal, os estados, os municípios e o distrito federal. Em nível federal, o Ministério da Cidadania é o gestor responsável e a Caixa Econômica Federal é o agente financeiro operador que mantém o Sistema de Cadastro Único.</p>'
 },
     {
     title: 'Quem pode/deve ser cadastrado no Cadastro Único?',
-    description: `Todas as pessoas que residem no mesmo endereço e compartilham da mesma renda e despesas fazem parte do núcleo familiar e devem ser cadastradas.<br>
-    Famílias com renda de até três salários mínimos ou acima se estiver vinculada a algum programa do Governo, como Ex.: Minha Casa Minha Vida.`
+    description: `<p>Todas as pessoas que residem no mesmo endereço e compartilham da mesma renda e despesas fazem parte do núcleo familiar e devem ser cadastradas.</p>
+    <p>Famílias com renda de até três salários mínimos ou acima se estiver vinculada a algum programa do Governo, como Ex.: Minha Casa Minha Vida.</p>`
 },
     {
     title: ' Como se cadastrar?',
-    description: `Para se inscrever no CadÚnico, é preciso que uma pessoa da família se responsabilize por prestar as informações de todos os membros da família para o entrevistador. Essa pessoa - chamada de Responsável pela Unidade Familiar (RF) - deve ter pelo menos 16 anos e, preferencialmente, ser mulher.
-    O Responsável Familiar é quem poderá garantir que as informações comunicadas durante a entrevista são verdadeiras, além de se comprometer a atualizar o cadastro sempre que houver mudanças na família (endereço, renda ou composição familiar) ou a cada 2 anos.<br>
-    O RF pode buscar essa orientação no Centro de Referência de Assistência Social (CRAS), mais próximo de sua casa, onde será explicado sobre seus direitos, e após será encaminhando ao CadÚnico.`
+    description: `<p>Para se inscrever no CadÚnico, é preciso que uma pessoa da família se responsabilize por prestar as informações de todos os membros da família para o entrevistador. Essa pessoa - chamada de Responsável pela Unidade Familiar (RF) - deve ter pelo menos 16 anos e, preferencialmente, ser mulher.
+    O Responsável Familiar é quem poderá garantir que as informações comunicadas durante a entrevista são verdadeiras, além de se comprometer a atualizar o cadastro sempre que houver mudanças na família (endereço, renda ou composição familiar) ou a cada 2 anos.</p>
+    <p>O RF pode buscar essa orientação no Centro de Referência de Assistência Social (CRAS), mais próximo de sua casa, onde será explicado sobre seus direitos, e após será encaminhando ao CadÚnico.</p>`
 },
     {
     title: 'Que documentos são necessários no cadastramento?',
-    description: `<strong>Obrigatório</strong>: Para o Responsável pela Unidade Familiar (RF) é obrigatória a apresentação do CPF ou do Título de Eleitor. Para as outras pessoas da família, é obrigatória a apresentação de qualquer um destes documentos de identificação: certidão de nascimento, certidão de casamento, CPF, carteira de identidade (RG), carteira de trabalho ou Título de Eleitor.<br>
-    <strong>Documentos que não são obrigatórios, mas facilitam o cadastramento</strong>: Comprovante de endereço, carteira de trabalho, Certidão de nascimento e Comprovante de matrícula escolar ou frequência escolar das crianças e jovens até 17 anos. Se não tiver o comprovante, o RF deve informar o nome da escola de cada criança ou jovem.<br>
-    Em caso de guarda, guarda compartilhada, tutela ou interdição é necessário apresentar o documento.<br><br>
-    Obs: As exceções são as famílias indígenas e quilombolas: O RF da família indígena pode apresentar o CPF, o título de eleitor, mas também o Registro Administrativo de Nascimento Indígena (RANI) ou outros documentos de identificação, como certidão de casamento, RG e carteira de trabalho. O RF da família quilombola pode apresentar o CPF, o título de eleitor ou outros documentos de identificação como certidão de nascimento, certidão de casamento, RG ou carteira de trabalho.`
+    description: `<p><strong>Obrigatório</strong>: Para o Responsável pela Unidade Familiar (RF) é obrigatória a apresentação do CPF ou do Título de Eleitor. Para as outras pessoas da família, é obrigatória a apresentação de qualquer um destes documentos de identificação: certidão de nascimento, certidão de casamento, CPF, carteira de identidade (RG), carteira de trabalho ou Título de Eleitor.<br>
+    <strong>Documentos que não são obrigatórios, mas facilitam o cadastramento</strong>: Comprovante de endereço, carteira de trabalho, Certidão de nascimento e Comprovante de matrícula escolar ou frequência escolar das crianças e jovens até 17 anos. Se não tiver o comprovante, o RF deve informar o nome da escola de cada criança ou jovem.</p>
+    <p>Em caso de guarda, guarda compartilhada, tutela ou interdição é necessário apresentar o documento.</p>
+    <p>Obs: As exceções são as famílias indígenas e quilombolas: O RF da família indígena pode apresentar o CPF, o título de eleitor, mas também o Registro Administrativo de Nascimento Indígena (RANI) ou outros documentos de identificação, como certidão de casamento, RG e carteira de trabalho. O RF da família quilombola pode apresentar o CPF, o título de eleitor ou outros documentos de identificação como certidão de nascimento, certidão de casamento, RG ou carteira de trabalho.</p>`
 },
     {
     title: 'E quem não tem documentos, pode se cadastrar mesmo assim?',
-    description: `O cadastramento é um direito da família de baixa renda. Mas, enquanto o (a) Responsável Familiar não apresentar um dos documentos obrigatórios ao entrevistador e um documento para cada membro da família, o cadastro ficará incompleto e a família não poderá participar de programas sociais, pois não gera o NIS (Número de identificação Social) e após 30 dias, “em cadastramento”, a pessoa será excluída do cadastro automaticamente pelo sistema.`
+    description: `<p>O cadastramento é um direito da família de baixa renda. Mas, enquanto o (a) Responsável Familiar não apresentar um dos documentos obrigatórios ao entrevistador e um documento para cada membro da família, o cadastro ficará incompleto e a família não poderá participar de programas sociais, pois não gera o NIS (Número de identificação Social) e após 30 dias, “em cadastramento”, a pessoa será excluída do cadastro automaticamente pelo sistema.</p>`
 },
     {
     title: 'Qual o telefone do Ministério da Cidadania?',
-    description: `O telefone é 121.`
+    description: `<p>O telefone é 121.</p>`
 },
     {
     title: 'Posso fazer meu cadastro Único por telefone?',
-    description: `Sim, a decisão é válida enquanto durar a situação de emergência ou o estado de calamidade pública. Após passar por atendimento no CRAS de seu território, é preciso agendar a atualização ou inclusão no Cadastro Único.`
+    description: `<p>Sim, a decisão é válida enquanto durar a situação de emergência ou o estado de calamidade pública. Após passar por atendimento no CRAS de seu território, é preciso agendar a atualização ou inclusão no Cadastro Único.</p>`
 },
     {
     title: 'Após o cadastramento, como sei se receberei o Bolsa Família?',
-    description: `A habilitação é feita pelo Governo Federal e pago pela CEF (Caixa Econômica Federal), então é preciso acompanhar no 0800 726 0207 da CEF ou baixar o Aplicativo “Bolsa Família” no celular ou acompanhar pelo 121.`
+    description: `<p>A habilitação é feita pelo Governo Federal e pago pela CEF (Caixa Econômica Federal), então é preciso acompanhar no 0800 726 0207 da CEF ou baixar o Aplicativo “Bolsa Família” no celular ou acompanhar pelo 121.</p>`
 },
     {
     title: 'Como faço para conseguir a Folha Resumo (Folha com o NIS de todos da família)?',
-    description: `Através do site “Consulta Cidadão” ou através do Aplicativo “Meu Cadunico”, isso após 90 dias do cadastramento. Caso necessite com urgência, pode ser retirado no CRAS do seu território ou na Central do Cadastro Único.<br><br>
+    description: `<p>Através do site “Consulta Cidadão” ou através do Aplicativo “Meu Cadunico”, isso após 90 dias do cadastramento. Caso necessite com urgência, pode ser retirado no CRAS do seu território ou na Central do Cadastro Único.</p>
 
-    <strong>Pelo Aplicativo</strong><br>
-    Se você preferir, pode baixar o aplicativo do Cadastro Único no seu celular<br>
-        1. Baixe o aplicativo na loja do seu celular (Google Play ou App Store)<br>
-        2. Abra o aplicativo e clique em entrar.<br>
-        3. Preencha o mesmo formulário do site: nome, data de nascimento, nome da mãe e lugar onde mora.<br><br>
-    
-    <strong>Pelo Site</strong><br>
-    A consulta pelo site do Ministério da Cidadania é simples.<br>
-        1. Acesse o site do <a href="https://meucadunico.cidadania.gov.br/meu_cadunico">Cadastro Único</a>.<br>
-        2. Preencha o formulário com seu nome completo, data de nascimento, o nome da mãe e selecione o estado e município onde mora.<br>
-        3. Clique em “Emitir” para saber se está no cadastro ou não.<br>`
+    <p><strong>Pelo Aplicativo</strong></p>
+    <p>Se você preferir, pode baixar o aplicativo do Cadastro Único no seu celular</p>
+        <ol>
+        <liaixe o aplicativo na loja do seu celular (Google Play ou App Store);</li>
+        <li>Abra o aplicativo e clique em entrar;</li>
+        <li>Preencha o mesmo formulário do site: nome, data de nascimento, nome da mãe e lugar onde mora.</li>
+        </ol>
+    <p><strong>Pelo Site</strong></p>
+    <p>A consulta pelo site do Ministério da Cidadania é simples.</p>
+        <ol>
+        <li>Acesse o site do <a href="https://meucadunico.cidadania.gov.br/meu_cadunico">Cadastro Único</a>.</li>
+        <li>Preencha o formulário com seu nome completo, data de nascimento, o nome da mãe e selecione o estado e município onde mora.</li>
+        <li>Clique em “Emitir” para saber se está no cadastro ou não.</li>
+        </ol>`
     },
     {
     title: 'Moro eu e meu marido, posso fazer um cadastro para mim e outro para ele?',
-    description: `Não. O Cadastro é da família. Nele devem constar todas as pessoas que moram na casa, parente ou não parente.`
+    description: `<p>Não. O Cadastro é da família. Nele devem constar todas as pessoas que moram na casa, parente ou não parente.</p>`
 },
     {
     title: 'De quanto em quanto tempo devo atualizar meu cadastro Único?',
-    description: `Sempre que houver mudanças na família sobre endereço, renda, escola das crianças ou composição familiar, caso nenhuma dessas situações aconteçam, a cada 2 anos.`
+    description: `<p>Sempre que houver mudanças na família sobre endereço, renda, escola das crianças ou composição familiar, caso nenhuma dessas situações aconteçam, a cada 2 anos.</p>`
 },
     {
     title: 'Preciso ter Cadastro Único para solicitar Cesta Básica?',
-    description: `Não. Para solicitar cesta básica, basta entrar no site da Prefeitura de Americana e preencher o cadastro de Benefício Emergencial.`
+    description: `<p>Não. Para solicitar cesta básica, basta entrar no site da Prefeitura de Americana e preencher o cadastro de Benefício Emergencial.</p>`
 },
     {
     title: 'Morava em outro município, como faço para transferir meu Cadastro para Americana?',
-    description: `Neste momento de pandemia é necessário enviar a documentação digitalizada ao município por email, juntamente com um contato telefônico. <u>bolsafamilia@americana.sp.gov.br</u> ou <u>cadunico1@americana.sp.gov.br</u>, caso não tenha como digitalizar pode solicitar ajuda no CRAS do seu território.`
+    description: `<p>Neste momento de pandemia é necessário enviar a documentação digitalizada ao município por email, juntamente com um contato telefônico. <u>bolsafamilia@americana.sp.gov.br</u> ou <u>cadunico1@americana.sp.gov.br</u>, caso não tenha como digitalizar pode solicitar ajuda no CRAS do seu território.</p>`
 },
     {
     title: 'Quero fazer a Troca do RF (Responsável Familiar) do meu Cadastro Único, como faço?',
-    description: `Neste momento de pandemia é necessário enviar a documentação digitalizada ao município por email, juntamente com um contato telefônico. <u>bolsafamilia@americana.sp.gov.br</u> ou <u>cadunico1@americana.sp.gov.br</u>, caso não tenha como digitalizar pode solicitar ajuda no CRAS do seu território.`
+    description: `<p>Neste momento de pandemia é necessário enviar a documentação digitalizada ao município por email, juntamente com um contato telefônico. <u>bolsafamilia@americana.sp.gov.br</u> ou <u>cadunico1@americana.sp.gov.br</u>, caso não tenha como digitalizar pode solicitar ajuda no CRAS do seu território.</p>`
 },
     {
     title: 'Quero excluir uma pessoa da composição familiar do meu Cadastro Único, como faço?',
-    description: `É preciso preencher o “Termo de Exclusão de Pessoa”, que está disponível nos CRAS ou no Cadastro Único e enviar para o email <u>bolsafamilia@americana.sp.gov.br</u> ou <u>cadunico1@americana.sp.gov.br</u>, com a solicitação e o contato telefone.`
+    description: `<p>É preciso preencher o “Termo de Exclusão de Pessoa”, que está disponível nos CRAS ou no Cadastro Único e enviar para o email <u>bolsafamilia@americana.sp.gov.br</u> ou <u>cadunico1@americana.sp.gov.br</u>, com a solicitação e o contato telefone.</p>`
 },
     {
     title: 'Como faço para ter direito a desconto na Energia Elétrica, através do Cadastro Único?',
-    description: `O Benefício se chama Tarifa Social, tem direito famílias com renda até meio salário mínimo por pessoa ou com renda familiar mensal de até 3 salários mínimos vigentes. É preciso se inscrever no Cadastro Único e após informar o número de NIS, que é gerado após 48h, à CPFL.`
+    description: `<p>O Benefício se chama Tarifa Social, tem direito famílias com renda até meio salário mínimo por pessoa ou com renda familiar mensal de até 3 salários mínimos vigentes. É preciso se inscrever no Cadastro Único e após informar o número de NIS, que é gerado após 48h, à CPFL.</p>`
 },
     {
     title: 'Quando devo atualizar meu Cadastro Único?',
-    description: `Quando houver qualquer mudança na renda de algum membro da família, mudança de endereço, mudança de escola no caso de beneficiários de Bolsa Família e mudança na composição familiar.`
+    description: `<p>Quando houver qualquer mudança na renda de algum membro da família, mudança de endereço, mudança de escola no caso de beneficiários de Bolsa Família e mudança na composição familiar.</p>`
  },
     {
     title: 'Qual o prazo de validade do Cadastro Único?',
-    description: `O prazo de validade do cadastro único é de 02 (dois) anos, se não houver mudança nas informações da família, caso não seja atualizado dentro deste prazo o Sistema V7 fará a exclusão automática da família.`
+    description: `<p>O prazo de validade do cadastro único é de 02 (dois) anos, se não houver mudança nas informações da família, caso não seja atualizado dentro deste prazo o Sistema V7 fará a exclusão automática da família.</p>`
   },
     {
     title: 'Como é registrada a renda no Cadastro Único?',
-    description: `Toda renda deve ser declarada, mesmo que informal ou de doação em dinheiro.`
+    description: `<p>Toda renda deve ser declarada, mesmo que informal ou de doação em dinheiro.</p>`
 },
     {
     title: 'Quais os benefícios que posso ter através do Cadastro Único?',
-    description: `O Cadastro Único é usado para a concessão de diversos benefícios e programas sociais, entidades, ONGs, escolas. Portanto é aconselhável que seja feito atendimento pelo CRAS – Centro de Referência de Assistência Social mais próximo para encaminhamento ao Cadastro Único e orientação ao prosseguimento dos benefícios se for o caso.`
+    description: `<p>O Cadastro Único é usado para a concessão de diversos benefícios e programas sociais, entidades, ONGs, escolas. Portanto é aconselhável que seja feito atendimento pelo CRAS – Centro de Referência de Assistência Social mais próximo para encaminhamento ao Cadastro Único e orientação ao prosseguimento dos benefícios se for o caso.</p>`
  },
     {
     title: 'Como sei quais os benefícios tenho direito?',
-    description: `Cada benefício tem seus critérios específicos, por esta razão é importante o cidadão passar em atendimento com o técnico do CRAS (Centro de Referência de Assistência Social).`
+    description: `<p>Cada benefício tem seus critérios específicos, por esta razão é importante o cidadão passar em atendimento com o técnico do CRAS (Centro de Referência de Assistência Social).</p>`
 },
     {
     title: 'Sou estrangeiro, quais documentos preciso levar para fazer o Cadastro Único?',
-    description: `O estrangeiro necessita de documentação emitida no Brasil. Ex. CPF`
+    description: `<p>O estrangeiro necessita de documentação emitida no Brasil. Ex: CPF.</p>`
 },
     {
     title: 'Preciso do NIS, quanto tempo demora para sair?',
-    description: `Se precisa apenas do NIS sem estar vinculado a qualquer programa social, encaminhe-se a CEF (Caixa Econômica Federal).`
+    description: `<p>Se precisa apenas do NIS sem estar vinculado a qualquer programa social, encaminhe-se a CEF (Caixa Econômica Federal).</p>`
 },
     {
     title: 'Meu neto mora comigo, preciso levar algum documento no Cadastro Único que comprove a guarda?',
-    description: `Sim, é necessário trazer o documento de guarda, juntamente com o restante da documentação de toda família.`
+    description: `<p>Sim, é necessário trazer o documento de guarda, juntamente com o restante da documentação de toda família.</p>`
 },
     {
     title: 'Meu filho não quer ir à escola, e meu Bolsa Família está bloqueado, posso excluí-lo do meu Cadastro Único?',
-    description: `Não, se ele mora na casa, deve estar na composição familiar do seu Cadastro Único.`
+    description: `<p>Não, se ele mora na casa, deve estar na composição familiar do seu Cadastro Único.</p>`
 },
     {
     title: 'Vou receber a última parcela do meu seguro desemprego, posso fazer meu Cadastro Único?',
-    description: `Geralmente orientamos a voltar 60 dias após o termino da última parcela. Caso faça antes, terá que voltar após o termino e atualizar novamente.`
+    description: `<p>Geralmente orientamos a voltar 60 dias após o termino da última parcela. Caso faça antes, terá que voltar após o termino e atualizar novamente.</p>`
 },
     {
     title: 'Sou morador de rua e perdi todos os meus documentos, posso fazer meu cadastro Único?',
-    description: `O cadastramento é um direito seu, mas para fazer o Cadastro Único é preciso pelo menos o CPF ou o Título de Eleitor. Solicitamos que você seja atendido pelo SEAS e lá receberá toda orientação para tirar seus documentos.<br>
-    <strong>Obs</strong>: Enquanto o (a) Responsável Familiar não apresentar um dos documentos obrigatórios ao entrevistador e um documento para cada membro da família, o cadastro ficará incompleto e a família não poderá participar de programas sociais, pois não gera o NIS (Número de identificação Social) e após 30 dias, “em cadastramento”, a pessoa será excluída do cadastro automaticamente pelo sistema.`
+    description: `<p>O cadastramento é um direito seu, mas para fazer o Cadastro Único é preciso pelo menos o CPF ou o Título de Eleitor. Solicitamos que você seja atendido pelo SEAS e lá receberá toda orientação para tirar seus documentos.</p>
+    <p><strong>Obs</strong>: Enquanto o (a) Responsável Familiar não apresentar um dos documentos obrigatórios ao entrevistador e um documento para cada membro da família, o cadastro ficará incompleto e a família não poderá participar de programas sociais, pois não gera o NIS (Número de identificação Social) e após 30 dias, “em cadastramento”, a pessoa será excluída do cadastro automaticamente pelo sistema.</p>`
 },
     {
     title: 'Meu CPF está suspenso, posso fazer meu Cadastro Único?',
-    description: `Você deve primeiro regularizar seu CPF junto a Receita Federal.`
+    description: `<p>Você deve primeiro regularizar seu CPF junto a Receita Federal.</p>`
 }
 ];
 
 var myAeContentIg = [
     {    
         title: 'O que é o Auxílio Emergencial aos Trabalhadores Informais?',
-        description: `O Auxílio Emergencial é um benefício financeiro destinado aos trabalhadores informais, microempreendedores individuais (MEI), autônomos e desempregados, e tem por objetivo fornecer proteção emergencial no período de enfrentamento à crise causada pela pandemia do Coronavírus - COVID 19.`
+        description: `<p>O Auxílio Emergencial é um benefício financeiro destinado aos trabalhadores informais, microempreendedores individuais (MEI), autônomos e desempregados, e tem por objetivo fornecer proteção emergencial no período de enfrentamento à crise causada pela pandemia do Coronavírus - COVID 19.</p>`
     },
     {    
         title: 'Quem tem direito ao Auxílio Emergencial?',
-        description: `Tem direito ao benefício o cidadão maior de 18 que atenda a todos os seguintes requisitos:<br>
+        description: `<p>Tem direito ao benefício o cidadão maior de 18 que atenda a todos os seguintes requisitos:</p>
                 <ul>
                 <li>Pertença à família cuja renda mensal por pessoa não ultrapasse meio salário mínimo (R$ 522,50), ou cuja renda familiar total seja de até 3 (três) salários mínimos (R$ 3.135,00);</li>
                 <li>Que não esteja recebendo benefício previdenciário ou assistencial, seguro-desemprego ou outro programa de transferência de renda federal, exceto o Bolsa Família;</li>
@@ -162,7 +165,7 @@ var myAeContentIg = [
     },
     {     
         title: 'Quem não tem direito ao Auxílio Emergencial?',
-        description: `Não tem direito ao Auxílio Emergencial o cidadão que:<br>
+        description: `<p>Não tem direito ao Auxílio Emergencial o cidadão que:</p>
                 <ul>
                 <li>Pertence à família com renda superior a três salários mínimos (R$ 3.135,00) ou cuja renda mensal por pessoa da família seja maior que meio salário mínimo (R$ 522,50);</li>
                 <li>Tem emprego formal;</li>
@@ -173,11 +176,11 @@ var myAeContentIg = [
     },
     {     
         title: 'Quantas pessoas da mesma família poderão receber o auxílio emergencial?',
-        description: `No máximo duas pessoas da mesma família poderão receber o auxílio emergencial.`
+        description: `<p>No máximo duas pessoas da mesma família poderão receber o auxílio emergencial.</p>`
     },
     {     
         title: 'Na minha família tem mais de duas pessoas com trabalho informal, quantas poderão receber o auxílio emergencial?',
-        description: `Se na mesma família houver mais de duas pessoas com trabalho informal, somente duas pessoas serão contempladas. Nesse caso, os trabalhadores informais que terão preferência para o recebimento do auxílio emergencial são:<br>
+        description: `<p>Se na mesma família houver mais de duas pessoas com trabalho informal, somente duas pessoas serão contempladas. Nesse caso, os trabalhadores informais que terão preferência para o recebimento do auxílio emergencial são:</p>
                 <ul>
                 <li>As mulheres;</li>
                 <li>As pessoas mais velhas;</li>
@@ -187,9 +190,9 @@ var myAeContentIg = [
     },
     {     
         title: 'Estou com dúvidas sobre os critérios para concessão do benefício e se tenho direito de receber, o que faço?',
-        description: `Os critérios de concessão para acesso ao benefício Auxílio Emergencial são os previstos na Lei nº 13.982, de 02/04/2020, regulamentada pelo Decreto 10.316, de 07/04/2020.<br>
-        A gestão da concessão do Auxílio Emergencial ao Trabalhadores Informais é de competência do Ministério da Cidadania. O papel da CAIXA é o pagamento do benefício após a concessão e o auxílio aos cidadãos na utilização do site e aplicativo.<br>
-        O cadastro pode ser realizado pelo aplicativo para celular CAIXA | Auxílio emergencial ou pelo site <a href="http://www.auxilio.caixa.gov.br/">AUXILIO</a>.`    
+        description: `<p>Os critérios de concessão para acesso ao benefício Auxílio Emergencial são os previstos na Lei nº 13.982, de 02/04/2020, regulamentada pelo Decreto 10.316, de 07/04/2020.<br>
+        A gestão da concessão do Auxílio Emergencial ao Trabalhadores Informais é de competência do Ministério da Cidadania. O papel da CAIXA é o pagamento do benefício após a concessão e o auxílio aos cidadãos na utilização do site e aplicativo.</p>
+        <p>O cadastro pode ser realizado pelo aplicativo para celular CAIXA | Auxílio emergencial ou pelo site <a href="http://www.auxilio.caixa.gov.br/">AUXILIO</a>.</p>`    
     },
     {
         title: 'Tem mais dúvidas? Tente esses outros assuntos sobre o Auxílio Emergencial',
@@ -208,65 +211,65 @@ var myAeContentIg = [
 var myAeContentCa = [
     {
         title: 'É necessário ter celular para realizar o cadastramento pelo site CAIXA ou APP Auxílio Emergencial?',
-        description: `Sim, é necessário. No entanto, informamos que o público alvo para esse cadastramento são os empreendedores individuais, trabalhadores informais e pessoas desempregadas que não estão recebendo seguro desemprego.<br>
-        A população em situação de vulnerabilidade ou extrema pobreza, que não tenha aparelho telefônico, em sua grande maioria, já estão incluídas no Cadastro Único e, portanto, não precisam realizar o cadastramento.<br>`
+        description: `<p>Sim, é necessário. No entanto, informamos que o público alvo para esse cadastramento são os empreendedores individuais, trabalhadores informais e pessoas desempregadas que não estão recebendo seguro desemprego.</p>
+        <p>A população em situação de vulnerabilidade ou extrema pobreza, que não tenha aparelho telefônico, em sua grande maioria, já estão incluídas no Cadastro Único e, portanto, não precisam realizar o cadastramento.</p>`
     },
     {
         title: 'Como será realizado o cadastramento?',
-        description: `Quem já estava cadastrado no Cadastro Único e que atenda as regras do Auxílio, receberá o benefício automaticamente, sem precisar se cadastrar pelo aplicativo ou site da CAIXA.<br>
-        Os beneficiários do Programa Bolsa Família que tenham direito ao auxílio também não precisam se cadastrar, pois serão automaticamente selecionados por meio das informações do Cadastro Único.<br>
-        As pessoas que não estão cadastradas no Cadastro Único, mas que se enquadram nas regras do benefício, poderão se cadastrar pelo aplicativo para celular CAIXA | Auxílio emergencial ou pelo site <a href="http://www.auxilio.caixa.gov.br/">AUXILIO</a>.<br>
-        Aplicativo para celular CAIXA | Auxílio emergencial está disponível para download nas lojas Android e Apple.<br>`
+        description: `<p>Quem já estava cadastrado no Cadastro Único e que atenda as regras do Auxílio, receberá o benefício automaticamente, sem precisar se cadastrar pelo aplicativo ou site da CAIXA.</p>
+        <p>Os beneficiários do Programa Bolsa Família que tenham direito ao auxílio também não precisam se cadastrar, pois serão automaticamente selecionados por meio das informações do Cadastro Único.</p>
+        <p>As pessoas que não estão cadastradas no Cadastro Único, mas que se enquadram nas regras do benefício, poderão se cadastrar pelo aplicativo para celular CAIXA | Auxílio emergencial ou pelo site <a href="http://www.auxilio.caixa.gov.br/">AUXILIO</a>.</p>
+        <p>Aplicativo para celular CAIXA | Auxílio emergencial está disponível para download nas lojas Android e Apple.</p>`
     },
     {
         title: 'O cadastro pode ser realizado pela internet?',
-        description: `Sim. A CAIXA disponibilizará página na internet e aplicativo para celular para que o cadastro seja realizado. Não será necessário comparecimento em agências da CAIXA ou outros canais físicos para que o cadastro seja realizado.<br>
-        O cadastro pode ser realizado pelo aplicativo para celular CAIXA | Auxílio emergencial ou pelo site <a href="http://www.auxilio.caixa.gov.br/">AUXILIO</a>.<br>
-        Lembre-se: As pessoas que já fazem parte do Cadastro Único ou recebem o Programa Bolsa Família, não precisam se cadastrar. Nesses casos, a seleção será automática com base nas informações do Cadastro Único.`
+        description: `<p>Sim. A CAIXA disponibilizará página na internet e aplicativo para celular para que o cadastro seja realizado. Não será necessário comparecimento em agências da CAIXA ou outros canais físicos para que o cadastro seja realizado.</p>
+        <p>O cadastro pode ser realizado pelo aplicativo para celular CAIXA | Auxílio emergencial ou pelo site <a href="http://www.auxilio.caixa.gov.br/">AUXILIO</a>.</p>
+        <p>Lembre-se: As pessoas que já fazem parte do Cadastro Único ou recebem o Programa Bolsa Família, não precisam se cadastrar. Nesses casos, a seleção será automática com base nas informações do Cadastro Único.</p>`
     },
     {
         title: 'Não tenho internet, como faço o cadastramento?',
-        description: `As operadoras de telefonia móvel estão disponibilizando o aplicativo CAIXA | Auxílio Emergencial para download e navegação gratuitas, assim todo brasileiro pode baixar no seu smartphone gratuitamente.`
+        description: `<p>As operadoras de telefonia móvel estão disponibilizando o aplicativo CAIXA | Auxílio Emergencial para download e navegação gratuitas, assim todo brasileiro pode baixar no seu smartphone gratuitamente.</p>`
     },
     {
         title: 'Eu recebo Bolsa Família, preciso me cadastrar para receber o Auxílio Emergencial?',
-        description: `Não. As famílias que recebem Bolsa Família serão automaticamente migradas para o novo benefício Auxílio Emergencial, sempre que esse for de valor maior.`
+        description: `<p>Não. As famílias que recebem Bolsa Família serão automaticamente migradas para o novo benefício Auxílio Emergencial, sempre que esse for de valor maior.</p>`
     },
     {
         title: 'Já estou cadastrado no Cadastro Único, preciso fazer outro cadastro?',
-        description: `Não. As famílias que já estão cadastradas no Cadastro Único e atendem aos critérios para recebimento do Auxílio emergencial, serão selecionadas automaticamente.`
+        description: `<p>Não. As famílias que já estão cadastradas no Cadastro Único e atendem aos critérios para recebimento do Auxílio emergencial, serão selecionadas automaticamente.</p>`
     },
     {
         title: 'Como sei se estou no Cadastro Único (CadÚnico)?',
-        description: `Para consultar seu cadastro no Cadastro Único, o Ministério da Cidadania disponibilizou o aplicativo para celular Meu CadÚnico, que está disponível para baixa nas lojas Android e Apple.<br>
-        A mesma consulta pode ser feita pela Central Telefônica 111 ou acessada também na internet no endereço <a href="https://meucadunico.cidadania.gov.br/">https://meucadunico.cidadania.gov.br/</a>.`
+        description: `<p>Para consultar seu cadastro no Cadastro Único, o Ministério da Cidadania disponibilizou o aplicativo para celular Meu CadÚnico, que está disponível para baixa nas lojas Android e Apple.</p>
+        <p>A mesma consulta pode ser feita pela Central Telefônica 111 ou acessada também na internet no endereço <a href="https://meucadunico.cidadania.gov.br/">https://meucadunico.cidadania.gov.br/</a>.</p>`
     },
     {
         title: 'Estou no Cadastro Único, mas meu cadastro está cancelado, o que fazer?',
-        description: `Neste caso, o cadastro pode ser realizado pelo aplicativo para celular CAIXA | Auxílio emergencial ou pelo site <a href="http://www.auxilio.caixa.gov.br/">AUXILIO</a>.`
+        description: `<p>Neste caso, o cadastro pode ser realizado pelo aplicativo para celular CAIXA | Auxílio emergencial ou pelo site <a href="http://www.auxilio.caixa.gov.br/">AUXILIO</a>.</p>`
     },
     {
         title: 'Meu CPF está irregular na Receita Federal. Tem algum impedimento?',
-        description: `Sim, o CPF precisa estar em situação regular na Receita Federal. Para regularizar acesse o endereço <a href="https://servicos.receita.fazenda.gov.br/Servicos/CPF/regularizar/Default.asp">https://servicos.receita.fazenda.gov.br/Servicos/CPF/regularizar/Default.asp</a>.`
+        description: `<p>Sim, o CPF precisa estar em situação regular na Receita Federal. Para regularizar acesse o endereço <a href="https://servicos.receita.fazenda.gov.br/Servicos/CPF/regularizar/Default.asp">https://servicos.receita.fazenda.gov.br/Servicos/CPF/regularizar/Default.asp</a>.</p>`
     },
     {
         title: 'Fiz minha inscrição durante a madrugada, estou inscrito? O link é verdadeiro? Como saber se as inscrições realizadas durante a madrugada dessa terça, dia 07/04/2020 são válidas e se sim porque o link já foi aberto durante a madrugada e não foi divulgado nos veículos oficiais?',
-        description: `Desde a disponibilização do site auxilio.caixa.gov.br e do app CAIXA | Auxílio emergencial nas lojas de aplicativos, o aplicativo registra e guarda todas as requisições efetuadas.<br>
-        No caso de dúvida o cidadão pode acompanhar o andamento da solicitação por meio da opção “Acompanhe sua solicitação”.`
+        description: `<p>Desde a disponibilização do site auxilio.caixa.gov.br e do app CAIXA | Auxílio emergencial nas lojas de aplicativos, o aplicativo registra e guarda todas as requisições efetuadas.</p>
+        <p>No caso de dúvida o cidadão pode acompanhar o andamento da solicitação por meio da opção “Acompanhe sua solicitação”.</p>`
     },
     {    
         title: 'É possível fazer modificações no cadastro? Ou mesmo apagar o que já foi feito para preencher um novo?',
-        description: `Se você perceber a necessidade de alteração antes de finalizar o cadastramento, basta clicar no botão Voltar e fazer as correções necessárias.<br>
-        Se você perceber essa necessidade quando for checar as informações na tela Resumo, basta clicar no botão Corrigir Informações ou Corrigir Integrantes ou Corrigir Conta Destino, conforme o caso e fazer o ajuste necessário.<br>
-        A opção Corrigir Conta Destino somente aparece se o cidadão houver feito a indicação de uma conta.<br>
-        Após a finalização do cadastro, caso você identifique a necessidade de alteração ou correção de dados, deverá aguardar o resultado da avaliação. Caso o resultado seja “Dados Inconclusivos” ou “Não aprovado” será possível realizar uma nova solicitação pelo site ou app.<br>
-        A CAIXA reforça a necessidade de conferência das informações digitadas antes da conclusão da solicitação, de forma que a análise de elegibilidade possa ser realizada corretamente.`
+        description: `<p>Se você perceber a necessidade de alteração antes de finalizar o cadastramento, basta clicar no botão Voltar e fazer as correções necessárias.</p>
+        <p>Se você perceber essa necessidade quando for checar as informações na tela Resumo, basta clicar no botão Corrigir Informações ou Corrigir Integrantes ou Corrigir Conta Destino, conforme o caso e fazer o ajuste necessário.</p>
+        <p>A opção Corrigir Conta Destino somente aparece se o cidadão houver feito a indicação de uma conta.</p>
+        <p>Após a finalização do cadastro, caso você identifique a necessidade de alteração ou correção de dados, deverá aguardar o resultado da avaliação. Caso o resultado seja “Dados Inconclusivos” ou “Não aprovado” será possível realizar uma nova solicitação pelo site ou app.</p>
+        <p>A CAIXA reforça a necessidade de conferência das informações digitadas antes da conclusão da solicitação, de forma que a análise de elegibilidade possa ser realizada corretamente.</p>`
     },
     {
         title: 'Realizei meu cadastro/solicitação pelo APP/Site equivocadamente, como faço para cancelar/excluir?',
-        description: `Após a finalização da solicitação pelo APP CAIXA | Auxílio Emergencial ou Site da Caixa é necessário aguardar a verificação dos órgãos responsáveis pela concessão, não havendo possibilidade, nessa fase, de cancelamento o cadastro.<br>
-        Após a finalização do cadastro, caso você identifique a necessidade de alteração ou correção de dados, deverá aguardar o resultado da avaliação. Caso o resultado seja “Dados Inconclusivos” ou “Não aprovado” será possível realizar uma nova solicitação pelo site ou app.<br>
-        Caso a solicitação seja aprovada, o cidadão deverá aguardar as orientações que serão disponibilizadas no site da caixa a respeito da devolução voluntária do recurso.`
+        description: `<p>Após a finalização da solicitação pelo APP CAIXA | Auxílio Emergencial ou Site da Caixa é necessário aguardar a verificação dos órgãos responsáveis pela concessão, não havendo possibilidade, nessa fase, de cancelamento o cadastro.</p>
+        <p>Após a finalização do cadastro, caso você identifique a necessidade de alteração ou correção de dados, deverá aguardar o resultado da avaliação. Caso o resultado seja “Dados Inconclusivos” ou “Não aprovado” será possível realizar uma nova solicitação pelo site ou app.</p>
+        <p>Caso a solicitação seja aprovada, o cidadão deverá aguardar as orientações que serão disponibilizadas no site da caixa a respeito da devolução voluntária do recurso.</p>`
     },
     {
         title: 'Tem mais dúvidas? Tente esses outros assuntos sobre o Auxílio Emergencial',
@@ -284,123 +287,123 @@ var myAeContentCa = [
 var myAeContentAp = [
     {
         title: `Para que serve o aplicativo CAIXA | Auxílio Emergencial?`,
-        description: `Por meio do aplicativo, o cidadão que não faz parte do Cadastro Único e não recebe Bolsa Família pode preencher um cadastro e se habilitar ao recebimento do Auxílio Emergencial, desde que cumpra os requisitos da lei.<br>
-        Também permite acompanhar a situação do cadastro e receber informações sobre o pagamento.<br>
-        Você também pode fazer o cadastramento pelo site <a href="https://auxilio.caixa.gov.br">AUXILIO</a>.`
+        description: `<p>Por meio do aplicativo, o cidadão que não faz parte do Cadastro Único e não recebe Bolsa Família pode preencher um cadastro e se habilitar ao recebimento do Auxílio Emergencial, desde que cumpra os requisitos da lei.</p>
+        <p>Também permite acompanhar a situação do cadastro e receber informações sobre o pagamento.</p>
+        <p>Você também pode fazer o cadastramento pelo site <a href="https://auxilio.caixa.gov.br">AUXILIO</a>.</p>`
     }, 
     {       
         title: `Não localizei o aplicativo na loja play store, o que fazer?`,
-        description: `Faça uma nova tentativa procurando pelo nome CAIXA | Auxílio Emergencial.`
+        description: `<p>Faça uma nova tentativa procurando pelo nome CAIXA | Auxílio Emergencial.</p>`
     }, 
     {  
         title: `Como baixar o aplicativo?`,
-        description: `O aplicativo está disponível nas lojas Google Play e App Store. Você também pode acessar o tutorial e tirar suas dúvidas.<br>
-        Link 
-        <a href="https://apps.apple.com/br/app/caixa-aux%C3%ADlio-emergencial/id1506494331">App Store</a> <br>
-        Link 
-        <a href="https://play.google.com/store/apps/details?id=br.gov.caixa.auxilio">Google Play</a>`
+        description: `<p>O aplicativo está disponível nas lojas Google Play e App Store. Você também pode acessar o tutorial e tirar suas dúvidas.</p>
+        <p>Link 
+        <a href="https://apps.apple.com/br/app/caixa-aux%C3%ADlio-emergencial/id1506494331">App Store</a></p>
+        <p>Link 
+        <a href="https://play.google.com/store/apps/details?id=br.gov.caixa.auxilio">Google Play</a></p>`
     }, 
     {   
         title: `O aplicativo pede para informar os CPFs dos membros da família, mas nem todas têm CPF. O que fazer?`,
-        description: `Não é necessário informar os membros que não possuem CPF. No entanto, caso deseje informar é necessário realizar o cadastramento do CPF junto a Receita Federal. A Receita Federal está realizando esse procedimento de forma online, sem necessidade de comparecimento ao órgão. Verifique as informações em <a href="receita.economia.gov.br">RECEITA</a>.`
+        description: `<p>Não é necessário informar os membros que não possuem CPF. No entanto, caso deseje informar é necessário realizar o cadastramento do CPF junto a Receita Federal. A Receita Federal está realizando esse procedimento de forma online, sem necessidade de comparecimento ao órgão. Verifique as informações em <a href="receita.economia.gov.br">RECEITA</a>.</p>`
     }, 
     {    
         title: `Como faço para preencher no APP a informação de nome da mãe, quando o cidadão não tiver o nome da mãe em seus registros (mãe desconhecida)?`,
-        description: `O app permite que seja selecionada a opção “mãe desconhecida”. O preenchimento do nome da mãe ou a seleção da opção “mãe desconhecida” deverá ser realizada conforme consta no cadastro do cidadão na base da Receita Federal.`
+        description: `<p>O app permite que seja selecionada a opção “mãe desconhecida”. O preenchimento do nome da mãe ou a seleção da opção “mãe desconhecida” deverá ser realizada conforme consta no cadastro do cidadão na base da Receita Federal.</p>`
     }, 
     {
         title: `O aplicativo pede para que insira o número da conta, mas ela não tem dígito, o que eu faço?`,
-        description: `Se a conta do seu banco não possui dígito você pode informar “x” ou “0” zero.`
+        description: `<p>Se a conta do seu banco não possui dígito você pode informar “x” ou “0” zero.</p>`
     }, 
     {    
         title: `No aplicativo tem a informação de que as pessoas com algum problema no cadastro poderiam procurar um CRAS. Há alguma necessidade de procurar o CRAS? Em quais situações?`,
-        description: `O aplicativo de cadastro CAIXA |Auxílio Emergencial não realiza direcionamento de atendimento para os CRAS, sendo todo o fluxo de cadastramento resolvido no próprio aplicativo, apresentando as respostas finais ao usuário.<br>
-        Dessa forma é necessário o cidadão checar se está utilizando com o aplicativo correto.`
+        description: `<p>O aplicativo de cadastro CAIXA |Auxílio Emergencial não realiza direcionamento de atendimento para os CRAS, sendo todo o fluxo de cadastramento resolvido no próprio aplicativo, apresentando as respostas finais ao usuário.</p>
+        <p>Dessa forma é necessário o cidadão checar se está utilizando com o aplicativo correto.</p>`
     }, 
     {    
         title: `Ao fazer o cadastramento no APP é apresentada a mensagem que os dados estão divergentes com a base da Receita Federal, o que fazer?`,
-        description: `Seu CPF deve ser consultado na Receita e verificado se as informações que estão no aplicativo estão iguais às que constam na Receita. Caso necessite alterar algum dado no Cadastro da Receita acesse a página <a href="https://servicos.receita.fazenda.gov.br/Servicos/CPF/regularizar/Default.asp">clicando aqui</a>.`
+        description: `<p>Seu CPF deve ser consultado na Receita e verificado se as informações que estão no aplicativo estão iguais às que constam na Receita. Caso necessite alterar algum dado no Cadastro da Receita acesse a página <a href="https://servicos.receita.fazenda.gov.br/Servicos/CPF/regularizar/Default.asp">clicando aqui</a>.</p>`
     }, 
     {    
         title: `No APP acusa que o CPF está em situação inválida, mas no site da receita ele está regular, o que fazer?`,
-        description: `Verifique novamente os dados digitados, para que eventuais erros de digitação sejam corrigidos, possibilitando a validação do cadastro.<br>
-        Caso o CPF não esteja regular na Receita Federal, é necessária a prévia regularização, antes da continuidade do cadastro.<br>
-        A atualização da situação do CPF na Receita Federal não sensibiliza automaticamente as informações no aplicativo da CAIXA. Essas informações são encaminhadas pela Receita.<br>
-        Federal para a CAIXA em processamento noturno, podendo levar até três dias para que a base do aplicativo esteja atualizada.`
+        description: `<p>Verifique novamente os dados digitados, para que eventuais erros de digitação sejam corrigidos, possibilitando a validação do cadastro.</p>
+        <p>Caso o CPF não esteja regular na Receita Federal, é necessária a prévia regularização, antes da continuidade do cadastro.</p>
+        <p>A atualização da situação do CPF na Receita Federal não sensibiliza automaticamente as informações no aplicativo da CAIXA. Essas informações são encaminhadas pela Receita.</p>
+        <p>Federal para a CAIXA em processamento noturno, podendo levar até três dias para que a base do aplicativo esteja atualizada.</p>`
     }, 
     {    
         title: `Como alterar dados inseridos errados ou voltar a página se o cidadão pulou um passo`, 
-        description: `Se você perceber a necessidade de alteração antes de finalizar o cadastramento, basta clicar no botão Voltar e fazer as correções necessárias.<br>
-        Se você perceber essa necessidade quando for checar as informações na tela Resumo, basta clicar no botão Corrigir Informações ou Corrigir Integrantes ou Corrigir Conta Destino, conforme o caso e fazer o ajuste necessário.
-        A opção Corrigir Conta Destino somente aparece se o cidadão houver feito a indicação de uma conta.<br>
-        A CAIXA reforça a necessidade de conferência das informações digitadas antes da conclusão da solicitação, de forma que a análise de elegibilidade possa ser realizada corretamente.`
+        description: `<p>Se você perceber a necessidade de alteração antes de finalizar o cadastramento, basta clicar no botão Voltar e fazer as correções necessárias.</p>
+        <p>Se você perceber essa necessidade quando for checar as informações na tela Resumo, basta clicar no botão Corrigir Informações ou Corrigir Integrantes ou Corrigir Conta Destino, conforme o caso e fazer o ajuste necessário.</p>
+        <p>A opção Corrigir Conta Destino somente aparece se o cidadão houver feito a indicação de uma conta.</p>
+        <p>A CAIXA reforça a necessidade de conferência das informações digitadas antes da conclusão da solicitação, de forma que a análise de elegibilidade possa ser realizada corretamente.</p>`
     }, 
     {    
         title: `Qual é o prazo para finalizar o cadastramento e ser contemplado com o benefício?`,
-        description: `O Cadastramento é finalizado quando você conclui a inclusão dos dados no App ou Site. Após essa etapa, será realizada a seleção e você poderá acompanhar o resultado pelo App.<br>
-        O cadastro deve ser feito durante o período de vigência da lei, que é de 90 dias a partir da sua publicação, 02/04/2020.`
+        description: `<p>O Cadastramento é finalizado quando você conclui a inclusão dos dados no App ou Site. Após essa etapa, será realizada a seleção e você poderá acompanhar o resultado pelo App.<br>
+        O cadastro deve ser feito durante o período de vigência da lei, que é de 90 dias a partir da sua publicação, 02/04/2020.</p>`
     }, 
     {    
         title: `Depois de finalizado o cadastro, como posso editar meus dados?`, 
-        description: `Uma vez finalizado o cadastro no aplicativo, os dados são guardados para verificações e batimentos com as bases de dados administrativas, por essa razão não é possível o retorno para alterações após essa fase.<br>
-        Após a finalização do cadastro, caso você identifique a necessidade de alteração ou correção de dados, deverá aguardar o resultado da avaliação. Caso o resultado seja “Dados Inconclusivos” ou “Não aprovado” será possível realizar uma nova solicitação pelo site ou app.<br>
-        A CAIXA reforça a necessidade de conferência das informações digitadas antes da conclusão da solicitação, de forma que a análise de elegibilidade possa ser realizada corretamente.`
+        description: `<p>Uma vez finalizado o cadastro no aplicativo, os dados são guardados para verificações e batimentos com as bases de dados administrativas, por essa razão não é possível o retorno para alterações após essa fase.</p>
+        <p>Após a finalização do cadastro, caso você identifique a necessidade de alteração ou correção de dados, deverá aguardar o resultado da avaliação. Caso o resultado seja “Dados Inconclusivos” ou “Não aprovado” será possível realizar uma nova solicitação pelo site ou app.</p>
+        <p>A CAIXA reforça a necessidade de conferência das informações digitadas antes da conclusão da solicitação, de forma que a análise de elegibilidade possa ser realizada corretamente.</p>`
     }, 
     {   
         title: `Possuo benefício Bolsa Família, minha a filha que está em meu cadastro, ela pode realizar o cadastro do auxílio emergencial.`,
-        description: `As pessoas que estão no Cadastro Único serão avaliadas automaticamente, na composição familiar que consta do Cadastro Único, não sendo possível realizar qualquer alteração nessas informações, nem realizar cadastro pelo aplicativo.`
+        description: `<p>As pessoas que estão no Cadastro Único serão avaliadas automaticamente, na composição familiar que consta do Cadastro Único, não sendo possível realizar qualquer alteração nessas informações, nem realizar cadastro pelo aplicativo.</p>`
     }, 
     {    
         title: `Errei ao preencher os dados da minha renda no APP. Como faço para alterar meu cadastro?`, 
-        description: `Se você perceber a necessidade de alteração antes de finalizar o cadastramento, basta clicar no botão Voltar e fazer as correções necessárias.<br>
-        Se você perceber essa necessidade quando for checar as informações na tela Resumo, basta clicar no botão Corrigir Informações ou Corrigir Integrantes ou Corrigir Conta Destino, conforme o caso e fazer o ajuste necessário.
-        A opção Corrigir Conta Destino somente aparece se o cidadão houver feito a indicação de uma conta.<br>
-        Após a finalização do cadastro, caso você identifique a necessidade de alteração ou correção de dados, deverá aguardar o resultado da avaliação. Caso o resultado seja “Dados Inconclusivos” ou “Não aprovado” será possível realizar uma nova solicitação pelo site ou app.<br>
-        A CAIXA reforça a necessidade de conferência das informações digitadas antes da conclusão da solicitação, de forma que a análise de elegibilidade possa ser realizada corretamente.`
+        description: `<p>Se você perceber a necessidade de alteração antes de finalizar o cadastramento, basta clicar no botão Voltar e fazer as correções necessárias.</p>
+        <p>Se você perceber essa necessidade quando for checar as informações na tela Resumo, basta clicar no botão Corrigir Informações ou Corrigir Integrantes ou Corrigir Conta Destino, conforme o caso e fazer o ajuste necessário.</p>
+        <p>A opção Corrigir Conta Destino somente aparece se o cidadão houver feito a indicação de uma conta.</p>
+        <p>Após a finalização do cadastro, caso você identifique a necessidade de alteração ou correção de dados, deverá aguardar o resultado da avaliação. Caso o resultado seja “Dados Inconclusivos” ou “Não aprovado” será possível realizar uma nova solicitação pelo site ou app.</p>
+        <p>A CAIXA reforça a necessidade de conferência das informações digitadas antes da conclusão da solicitação, de forma que a análise de elegibilidade possa ser realizada corretamente.</p>`
     }, 
     {    
         title: `Posso realizar o cadastro de um celular que não seja meu?`,
-        description: `Não é necessário que seja de celular próprio, no entanto, o número informado no cadastro poderá ser utilizado apenas para uma solicitação.`
+        description: `<p>Não é necessário que seja de celular próprio, no entanto, o número informado no cadastro poderá ser utilizado apenas para uma solicitação.</p>`
     }, 
     {    
         title: `Eu posso cadastrar mais de um CPF apenas com o número de uma linha de celular?`, 
-        description: `Não, o número informado no cadastro poderá ser utilizado apenas para uma solicitação.`
+        description: `<p>Não, o número informado no cadastro poderá ser utilizado apenas para uma solicitação.</p>`
     }, 
     {   
         title: `Qual a importância de cadastrar um celular? É só para receber o código de verificação ou é essencial para recebimento do benefício?`,
-        description: `Para as pessoas que receberão o benefício por meio da Poupança Social Digital, é importante ter celular, pois a movimentação da conta será feita pelo App Caixa Tem.`
+        description: `<p>Para as pessoas que receberão o benefício por meio da Poupança Social Digital, é importante ter celular, pois a movimentação da conta será feita pelo App Caixa Tem.</p>`
     }, 
     {    
         title: ` Minha operadora não aparece nas opções (ALGAR, Correios e Nextel, etc). E aí, o SMS não chega?`,
-        description: `O aplicativo foi atualizado para incluir as demais operadoras.`
+        description: `<p>O aplicativo foi atualizado para incluir as demais operadoras.</p>`
     }, 
     {   
         title: `O SMS não chegou`,
-        description: `O tempo previsto para recebimento do SMS é de até 10 minutos.
-        Verifique se os dados do telefone foram digitados corretamente inclusive DDD. Cheque também se a linha informada está ativa e apta para recebimento dessas mensagens instantâneas.<br>
-        Nas eventuais situações em que o cidadão não tenha recebido o SMS, o cadastro não é finalizado. Contudo, pode ser refeito, sem prejuízo da solicitação do cidadão.`
+        description: `<p>O tempo previsto para recebimento do SMS é de até 10 minutos.
+        Verifique se os dados do telefone foram digitados corretamente inclusive DDD. Cheque também se a linha informada está ativa e apta para recebimento dessas mensagens instantâneas.</p>
+        <p>Nas eventuais situações em que o cidadão não tenha recebido o SMS, o cadastro não é finalizado. Contudo, pode ser refeito, sem prejuízo da solicitação do cidadão.</p>`
     }, 
     {    
         title: `O APP foi atualizado após a disponibilização da primeira versão?`,
-        description: `Sim, o APP é atualizado regularmente.`
+        description: `<p>Sim, o APP é atualizado regularmente.</p>`
     }, 
     {   
         title: `E para quem não tem endereço fixo, como preencher os dados no APP?`, 
-        description: `Informamos que é necessário o cadastramento de um endereço para validação cadastral. Ressaltamos que o público alvo para esse cadastramento são os empreendedores individuais, trabalhadores informais e pessoas desempregadas que não estão recebendo seguro desemprego. A população em extrema pobreza já está inserida no Cadastro Único onde consta essa informação.`
+        description: `<p>Informamos que é necessário o cadastramento de um endereço para validação cadastral. Ressaltamos que o público alvo para esse cadastramento são os empreendedores individuais, trabalhadores informais e pessoas desempregadas que não estão recebendo seguro desemprego. A população em extrema pobreza já está inserida no Cadastro Único onde consta essa informação.</p>`
     }, 
     {        
         title: `Recebi o código, mas quando vou inserir no app retorna “código inválido”. Como proceder?`,
-        description: `Verifique se você digitou corretamente o código recebido. O código tem validade de 24 horas, devendo ser solicitado outro após decorrido esse tempo.`
+        description: `<p>Verifique se você digitou corretamente o código recebido. O código tem validade de 24 horas, devendo ser solicitado outro após decorrido esse tempo.</p>`
     }, 
     {    
         title: `Fiz o cadastro ontem. Hoje, quando fui consultar a situação, o aplicativo pediu um código para consulta. Que outro código é esse?`,
-        description: `Todas as vezes que for realizada uma consulta no App será enviado novo código de SMS para garantir a segurança da operação. O código enviado tem validade de 24 horas, caso seja feita mais de uma consulta nesse período deverá ser utilizado o mesmo código.`
+        description: `<p>Todas as vezes que for realizada uma consulta no App será enviado novo código de SMS para garantir a segurança da operação. O código enviado tem validade de 24 horas, caso seja feita mais de uma consulta nesse período deverá ser utilizado o mesmo código.</p>`
     }, 
     {   
         title: `Quanto tempo demora a análise do cadastro do solicitante para saber se ele pode receber o benefício?`,
-        description: `No que se refere ao Auxílio Emergencial, a CAIXA é responsável pela disponibilização do site e do app CAIXA | Auxílio Emergencial para o cadastramento e por efetuar os pagamentos. E a DATAPREV é responsável pela aplicação dos critérios de elegibilidade definidos pela lei.<br>
-        Esse processo foi previsto para ser executado em poucos dias, entretanto tem demandado um tempo maior em função do volume de cadastros realizados e das validações que devem ser realizadas.<br>
-        Orientamos que o cidadão acompanhe o resultado do seu cadastro e demais informações pagamento pelo site/app CAIXA | Auxílio Emergencial, sem comparecimento as agências da CAIXA, uma vez que essas unidades não dispõem dessa informação.`
+        description: `<p>No que se refere ao Auxílio Emergencial, a CAIXA é responsável pela disponibilização do site e do app CAIXA | Auxílio Emergencial para o cadastramento e por efetuar os pagamentos. E a DATAPREV é responsável pela aplicação dos critérios de elegibilidade definidos pela lei.</p>
+        <p>Esse processo foi previsto para ser executado em poucos dias, entretanto tem demandado um tempo maior em função do volume de cadastros realizados e das validações que devem ser realizadas.</p>
+        <p>Orientamos que o cidadão acompanhe o resultado do seu cadastro e demais informações pagamento pelo site/app CAIXA | Auxílio Emergencial, sem comparecimento as agências da CAIXA, uma vez que essas unidades não dispõem dessa informação.</p>`
     },
     {
         title: 'Tem mais dúvidas? Tente esses outros assuntos sobre o Auxílio Emergencial',
@@ -418,28 +421,28 @@ var myAeContentAp = [
 var myAeContentRa = [
     {
         title: `Como faço para consultar o resultado da avaliação da minha solicitação?`,
-        description: `Para verificar se a solicitação foi aprovada ou indeferida, o cidadão pode consultar pelo APP/Site, na opção: Acompanhe sua solicitação. Ressaltamos que os cidadãos não devem comparecer as agências da CAIXA, uma vez que essas unidades não dispõem dessa informação.`
+        description: `<p>Para verificar se a solicitação foi aprovada ou indeferida, o cidadão pode consultar pelo APP/Site, na opção: Acompanhe sua solicitação. Ressaltamos que os cidadãos não devem comparecer as agências da CAIXA, uma vez que essas unidades não dispõem dessa informação.</p>`
     }, 
     {
         title: ` Fui aprovado para receber o auxílio emergencial e recebi o valor de R$ 600,00. No entanto, sou chefe de família e pela Lei deveria ter recebido R$ 1.200,00. O que posso fazer?`,
-        description: `Não é possível contestar o valor de um auxílio já concedido. Os casos de contestação são apenas para os cadastros não aprovados. Em caso de dúvida, deve ser consultado o Ministério da Cidadania.`
+        description: `<p>Não é possível contestar o valor de um auxílio já concedido. Os casos de contestação são apenas para os cadastros não aprovados. Em caso de dúvida, deve ser consultado o Ministério da Cidadania.</p>`
     },
     {
         title: `Faço parte do público do Cadastro Único e não fui aprovado, como posso contestar esse resultado?`,
-        description: `Para o público do Cadastro Único é possível a verificação do resultado da análise cadastral por meio do APP e site da caixa. Caso o resultado tenha sido não aprovado e o cidadão entenda que preenche os requisitos necessários para receber o benefício, ele poderá realizar uma nova solicitação, no APP/Site, conforme passo a passo Auxílio Emergencial.`
+        description: `<p>Para o público do Cadastro Único é possível a verificação do resultado da análise cadastral por meio do APP e site da caixa. Caso o resultado tenha sido não aprovado e o cidadão entenda que preenche os requisitos necessários para receber o benefício, ele poderá realizar uma nova solicitação, no APP/Site, conforme passo a passo Auxílio Emergencial.</p>`
     },  
     {
         title: `Fiz minha solicitação pelo APP/Site e não fui aprovada pelo motivo “Dados Inconclusivos”, o que posso fazer?`,
-        description: `Caso o resultado da solicitação do cidadão, realizada pelo APP ou Site da Caixa tenha como resultado “Dados Inconclusivos”, será possível realizar uma nova solicitação, com novo preenchimentos dos dados solicitados, conforme passo a passo Auxílio Emergencial.`
+        description: `<p>Caso o resultado da solicitação do cidadão, realizada pelo APP ou Site da Caixa tenha como resultado “Dados Inconclusivos”, será possível realizar uma nova solicitação, com novo preenchimentos dos dados solicitados, conforme passo a passo Auxílio Emergencial.</p>`
     },
     {
         title: `Fiz minha solicitação pelo APP/Site, não fui aprovada, mas não concordo com o resultado, o que posso fazer?`,
-        description: `Caso a solicitação tenha como resultado “Auxílio Emergencial não aprovado”, será apresentado o motivo do indeferimento e o cidadão terá 2 opções, conforme abaixo:<br><br>
+        description: `<p>Caso a solicitação tenha como resultado “Auxílio Emergencial não aprovado”, será apresentado o motivo do indeferimento e o cidadão terá 2 opções, conforme abaixo:</p>
         <ul>
         <li>Realizar nova solicitação caso entenda que foi informado algum dado errado na primeira solicitação.</li>
         <li>Contestar o resultado, caso ele entenda que informou os dados corretamente e não concorda com o motivo da não aprovação.</li>
         </ul>
-    As opções acima estarão disponíveis para o cidadão no APP/Site no momento da apresentação do resultado da solicitação.`
+        <p>As opções acima estarão disponíveis para o cidadão no APP/Site no momento da apresentação do resultado da solicitação.</p>`
     },
     {
         title: `Tem mais dúvidas? Tente esses outros assuntos sobre o Auxílio Emergencial`,
