@@ -28,7 +28,7 @@ function renderFQ(title, php, obj) {
         
                 <div id="collapse${index}" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                     <div class="card-body">
-                        <span class="">${item.description}</span>
+                        <span>${item.description}</span>
                     </div>
                 </div>
             </div>
