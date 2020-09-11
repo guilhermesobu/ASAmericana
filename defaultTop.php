@@ -19,14 +19,14 @@
 
 <!-- NAVBAR -->
     <nav class="rounded-0 navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="border rounded px-1 py-0 navbar-brand text-black bg-white" href="/asamericana/"><strong>SASDH</strong></a>
+        <a class="border rounded px-1 py-0 navbar-brand text-black bg-white" href="/asamericana><strong>SASDH</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link text-white" href="/asamericana/">Página principal <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-white" href="/asamericana">Página principal <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,16 +34,16 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-                        <a class="dropdown-item btn" id="btnCad" href="/asamericana/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
+                        <a class="dropdown-item btn" id="btnCad" href="/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
 
                         <div class="dropdown-divider"></div>
                         <span class="dropdown-header" style="font-size: 10px">Auxílio Emergencial (AE - Caixa)</span>
-                        <a class="dropdown-item btn" id="btnAeIg" href="/asamericana/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
-                        <a class="dropdown-item btn" id="btnAeCa" href="/asamericana/perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
-                        <a class="dropdown-item btn" id="btnAeAp" href="/asamericana/perguntasfrequentes/aeapp.php">AE - APP</a>
-                        <a class="dropdown-item btn" id="btnAeRa" href="/asamericana/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
-                        <a class="dropdown-item btn" id="btnAePb" href="/asamericana/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
-                        <a class="dropdown-item btn" id="btnAeCe" href="/asamericana/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
+                        <a class="dropdown-item btn" id="btnAeIg" href="perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
+                        <a class="dropdown-item btn" id="btnAeCa" href="perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
+                        <a class="dropdown-item btn" id="btnAeAp" href="perguntasfrequentes/aeapp.php">AE - APP</a>
+                        <a class="dropdown-item btn" id="btnAeRa" href="perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
+                        <a class="dropdown-item btn" id="btnAePb" href="perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
+                        <a class="dropdown-item btn" id="btnAeCe" href="perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
 
                     </div>
                 </li>
