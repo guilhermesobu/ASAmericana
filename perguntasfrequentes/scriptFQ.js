@@ -762,49 +762,33 @@ var myAeContentCe = [
     }
 ]
 
-var myFrequentlyQuestions = document.querySelector('#app'),
-    myBtnCad = document.querySelector('#btnCad'),
-    myBtnAeIg = document.querySelector('#btnAeIg'),
-    myBtnAeCa = document.querySelector('#btnAeCa');
-    myBtnAeAp = document.querySelector('#btnAeAp'),
-    myBtnAeRa = document.querySelector('#btnAeRa'),
-    myBtnAePb = document.querySelector('#btnAePb'),
-    myBtnAeCe = document.querySelector('#btnAeCe');
+var myFrequentlyQuestions = document.querySelector('#app');
 
 
 if(document.URL.match('/perguntasfrequentes/cad.php')){
-    renderFQ("Cadastro Único (CAD)", this.myFrequentlyQuestions ,this.myCadContent), 1;
-}
-
-function executeCad(){
-    renderFQ("Cadastro Único (CAD)", this.myFrequentlyQuestions ,this.myCadContent), 1;
-}
-
-
-myBtnCad.addEventListener('click', ()=>{
     renderFQ("Cadastro Único (CAD)", this.myFrequentlyQuestions ,this.myCadContent);
-});
+}
 
-myBtnAeIg.addEventListener('click', ()=>{
-    renderFQ("Auxílio Emergencial (AE - Caixa) - Informações Gerais", this.myFrequentlyQuestions ,this.myAeContentIg);
-});
+if(document.URL.match('/perguntasfrequentes/aeinformacoes.php')){
+    renderFQ("AE - Informações Gerais", this.myFrequentlyQuestions ,this.myAeContentIg);
+}
 
-myBtnAeCa.addEventListener('click', ()=>{
-    renderFQ("Auxílio Emergencial (AE - Caixa) - Cadastramento", this.myFrequentlyQuestions ,this.myAeContentCa);
-});
+if(document.URL.match('/perguntasfrequentes/aecadastramento.php')){
+    renderFQ("AE - Cadastramento", this.myFrequentlyQuestions ,this.myAeContentCa);
+}
 
-myBtnAeAp.addEventListener('click', ()=>{
-    renderFQ("Auxílio Emergencial (AE - Caixa) - APP", this.myFrequentlyQuestions ,this.myAeContentAp);
-});
+if(document.URL.match('/perguntasfrequentes/aeapp.php')){
+    renderFQ("AE - APP", this.myFrequentlyQuestions ,this.myAeContentAp);
+}
 
-myBtnAeRa.addEventListener('click', ()=>{
-    renderFQ("Auxílio Emergencial (AE - Caixa) - Resultado da Avaliação do Cadastro", this.myFrequentlyQuestions ,this.myAeContentRa);
-});
+if(document.URL.match('/perguntasfrequentes/aeresultado.php')){
+    renderFQ("AE - Resultado da Avaliação do Cadastro", this.myFrequentlyQuestions ,this.myAeContentRa);
+}
 
-myBtnAePb.addEventListener('click', ()=>{
-    renderFQ("Auxílio Emergencial (AE - Caixa) - Pagamento do Benefício", this.myFrequentlyQuestions ,this.myAeContentPb);
-});
+if(document.URL.match('/perguntasfrequentes/aepagamento.php')){
+    renderFQ("AE - Pagamento do Benefício", this.myFrequentlyQuestions ,this.myAeContentPb);
+}
 
-myBtnAeCe.addEventListener('click', ()=>{
-    renderFQ("Auxílio Emergencial (AE - Caixa) - Casos Especiais", this.myFrequentlyQuestions ,this.myAeContentCe);
-});
+if(document.URL.match('/perguntasfrequentes/aecasosespeciais.php')){
+    renderFQ("AE - Casos Especiais", this.myFrequentlyQuestions ,this.myAeContentCe);
+}
