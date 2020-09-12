@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="index.css">
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 
 <body>
 
-    <div class="row-fluid">
-        <h3 class="col-12 pt-2">Secretaria de Assistência Social e Direitos Humanos</h3>
+    <div class="row justify-content-between">
+
+        <div class="col-2"><img src="./asamericana/src/brasao_americana.png"></div>
+
+        <div class="col text-center">
+            <h1 class="pt-2">Secretaria de Assistência Social e Direitos Humanos</h1>
+            <h4>Prefeitura de Americana</h4>
+        </div>
+
+        <div class="col-2"></div>
+
     </div>
 
 <!-- NAVBAR -->
