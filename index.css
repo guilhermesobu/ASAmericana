@@ -7,3 +7,8 @@
     font-size: large;
 }
 
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 90px;
+}

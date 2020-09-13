@@ -5,6 +5,7 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cousine&display=swap">
+    <link rel="stylesheet" href="http://asamericana.com.br/index.css">
     <link rel="stylesheet" href="index.css">
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -14,14 +15,22 @@
 
     <div class="row justify-content-between">
 
-        <div class="col-2"><img src="./asamericana/src/brasao_americana.png"></div>
-
-        <div class="col text-center">
-            <h1 class="pt-2">Secretaria de Assistência Social e Direitos Humanos</h1>
-            <h4>Prefeitura de Americana</h4>
+        <div class="col-2 text-center">
+            <img class="logo" src="http://asamericana.com.br/src/brasao_americana.png">
         </div>
 
-        <div class="col-2"></div>
+        <div class="col">
+        <div class="d-none d-md-block text-center">
+            <h3 class="pt-2">Secretaria de Assistência Social e Direitos Humanos</h3>
+            <h4>Prefeitura de Americana</h4>
+        </div>
+        <div class="d-block d-md-none text-center">
+            <h3 class="pt-2">SASDH</h3>
+        </div>
+        </div>
+
+
+        <div class="col-2 d-none d-md-block"></div>
 
     </div>
 
@@ -38,7 +47,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dúvidas Frequêntes
+                        Dúvidas Frequentes
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
