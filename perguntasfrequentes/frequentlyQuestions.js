@@ -44,7 +44,8 @@ function renderFQ(title, php, obj) {
         else if (index == myObj.length - 1) {
             return `${dropdown}
                 </div>
-            </div><br>`;
+            </div><br>
+            `;
         }
         else {
             return `${dropdown}`;
