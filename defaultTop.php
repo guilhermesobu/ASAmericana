@@ -42,17 +42,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+
                 <li class="nav-item active">
                     <a class="nav-link text-white" href="/">Página principal <span class="sr-only">(current)</span></a>
                 </li>
+
+                <li>
+                    <a class="nav-link text-white" href="/servicos.php">Serviços</a>
+                </li>
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dúvidas Frequentes
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
                         <a class="dropdown-item btn" id="btnCad" href="/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
-
                         <div class="dropdown-divider"></div>
                         <span class="dropdown-header" style="font-size: 10px">Auxílio Emergencial (AE - Caixa)</span>
                         <a class="dropdown-item btn" id="btnAeIg" href="/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
@@ -61,12 +65,14 @@
                         <a class="dropdown-item btn" id="btnAeRa" href="/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
                         <a class="dropdown-item btn" id="btnAePb" href="/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
                         <a class="dropdown-item btn" id="btnAeCe" href="/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
-
                     </div>
                 </li>
+
             </ul>
         </div>
     </nav>
 
 <!-- CONTENT -->
-    <div id="app" class="container font-cousine text-justify">
+    <div class="container font-cousine text-justify">
+        <div class="row">
+            <div id="app" class="col-md-10">
