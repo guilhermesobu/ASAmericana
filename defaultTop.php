@@ -12,29 +12,30 @@
 </head>
 
 <body>
+    <div class="container-fluid">
+        <div class="row justify-content-between">
 
-    <div class="row justify-content-between">
+            <div class="col-2 text-center">
+                <img class="logo" src="http://asamericana.com.br/src/brasao_americana.png">
+            </div>
 
-        <div class="col-2 text-center">
-            <img class="logo" src="http://asamericana.com.br/src/brasao_americana.png">
+            <div class="col">
+                <div class="d-none d-md-block text-center">
+                    <h3 class="pt-2">Secretaria de Assistência Social e Direitos Humanos</h3>
+                    <h4>Prefeitura de Americana</h4>
+                </div>
+                <div class="d-block d-md-none text-center">
+                    <h3 class="pt-2">SASDH</h3>
+                </div>
+            </div>
+
+            <div class="col-2 d-none d-md-block">
+            </div>
+
         </div>
-
-        <div class="col">
-        <div class="d-none d-md-block text-center">
-            <h3 class="pt-2">Secretaria de Assistência Social e Direitos Humanos</h3>
-            <h4>Prefeitura de Americana</h4>
-        </div>
-        <div class="d-block d-md-none text-center">
-            <h3 class="pt-2">SASDH</h3>
-        </div>
-        </div>
-
-
-        <div class="col-2 d-none d-md-block"></div>
-
     </div>
-
-<!-- NAVBAR -->
+    
+    <!-- NAVBAR -->
     <nav class="rounded-0 navbar navbar-expand-lg navbar-light bg-dark">
         <a class="border rounded px-1 py-0 navbar-brand text-black bg-white" href="/"><strong>SASDH</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +73,7 @@
         </div>
     </nav>
 
-<!-- CONTENT -->
+    <!-- CONTENT -->
     <div class="container font-cousine text-justify">
         <div class="row">
             <div id="app" class="col-md-10">

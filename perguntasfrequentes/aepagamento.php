@@ -1,4 +1,4 @@
-<!-- CADASTRO ÚNICO -->
+<!-- PAGAMENTO DO BENEFÍCIO -->
 <?php
 include '../defaultTop.php';
 ?>

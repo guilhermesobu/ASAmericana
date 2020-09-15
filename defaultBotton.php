@@ -3,7 +3,7 @@
 
             <!-- Aqui está o conteúdo do lado direito do site -->
             <div class="col-md-2">
-                <a>Teste</a>
+                <?php include 'rightContent.php' ?>
             </div>
         
         </div>

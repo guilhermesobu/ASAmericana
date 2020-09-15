@@ -1,4 +1,4 @@
-<!-- CADASTRO ÚNICO -->
+<!-- CADASTRAMENTO -->
 <?php
 include '../defaultTop.php';
 ?>

@@ -1,4 +1,4 @@
-<!-- CADASTRO ÚNICO -->
+<!-- RESULTADO DA AVAIAÇÃO DO CADASTRO -->
 <?php
 include '../defaultTop.php';
 ?>
