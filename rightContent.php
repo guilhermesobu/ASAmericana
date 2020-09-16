@@ -1,12 +1,7 @@
-<div class="row pl-4 pt-4">
+<div class="row h-100 pl-4 py-4 border-left">
 
-<div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
+<div class="border" style="width: 18rem;">
+  <img src="../src/brasao_americana.png" class="img-size mx-auto d-block card-img-top" alt="...">
 </div>
 
 </div>
