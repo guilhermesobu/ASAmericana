@@ -4,8 +4,9 @@ include 'defaultTop.php';
 ?>
 
 <div class="row-fluid pt-4">
-    <img src="../src/disket.png">
+    
     <a class="border border-dark btn btn-secondary w-100" href="https://www.americana.sp.gov.br/download/cmas/diversos/pmas-2018-2021.pdf">
+        <img class="img-icon" src="../src/disket.png"> 
         Plano Municipal de Assistência Social - 2018 - 2020
     </a>
 </div>
