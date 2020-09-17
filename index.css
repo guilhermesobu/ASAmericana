@@ -7,6 +7,10 @@
     font-size: large;
 }
 
+.font-small {
+    font-size: 10px;
+}
+
 .logo{
     padding-top: 10px;
     padding-bottom: 10px;
