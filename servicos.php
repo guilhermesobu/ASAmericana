@@ -3,19 +3,57 @@
 include 'defaultTop.php';
 ?>
 
+<!-- PLANO MUINICIPAL DE ASSISTÊNCIA SOCIAL -->
 <div class="row-fluid pt-4">
 
     <a class="border border-dark btn btn-primary w-100" href="https://www.americana.sp.gov.br/download/cmas/diversos/pmas-2018-2021.pdf">
         <div class="row">
             <div class="col-1"><img style="width: 24px;" src="src/icon-pdf.png"></div>
-            <div class="col-10">Municipal de Assistência Social - 2018 - 2020</div>
+            <div class="col-10">Plano Municipal de Assistência Social - 2018 - 2020</div>
             <div class="col-1"><img style="width: 24px;" src="src/icon-pdf.png"></div>
         </div>
     </a>
 
 </div>
 
+
 <!-- CREAS -->
+<div class="row-fluid pt-4 border-bottom pb-4">
+
+    <h3 class="font-weight-bolder my-0">CREAS</h3>
+    <p class="mt-0">BREVE descrição sobre os serviços</p>
+
+    <a class="rounded-bottom-0 btn btn-dark w-100" data-toggle="collapse" href="#collapseCe" role="button" aria-expanded="false" aria-controls="collapseCe">
+        Mais informações sobre o CREAS
+    </a>
+    <div class="collapse px-1" id="collapseCe">
+        <div class="card card-body">
+            <p class="my-0">
+                <p>
+                    Descrição do serviço (se couber fazê-lo)
+                </p>
+
+                <address class="h6">
+
+                    <strong>CRAS São Manoel</strong><br>
+                    Rua São Thiago, 320 - São Manoel<br>
+                    Telefone: (19) 3468-6103<br>
+                    E-mail: <a class="text-primary">crassmanoel@americana.sp.gov.br</a><br>
+
+                </address>
+            </p>
+
+            <a class="rounded-bottom-0 btn btn-dark w-100" data-toggle="collapse" href="#collapseCe" role="button" aria-expanded="false" aria-controls="collapseCe">
+                Reduzir exibição
+            </a>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!-- CRAS -->
 <div class="row-fluid pt-4 border-bottom pb-4">
 
     <h3 class="font-weight-bolder my-0">CRAS</h3>
@@ -80,41 +118,6 @@ include 'defaultTop.php';
 
 </div>
 
-<!-- CRAS -->
-<div class="row-fluid pt-4 border-bottom pb-4">
-
-    <h3 class="font-weight-bolder my-0">CREAS</h3>
-    <p class="mt-0">BREVE descrição sobre os serviços</p>
-
-    <a class="rounded-bottom-0 btn btn-dark w-100" data-toggle="collapse" href="#collapseCe" role="button" aria-expanded="false" aria-controls="collapseCe">
-        Mais informações sobre o CREAS
-    </a>
-    <div class="collapse px-1" id="collapseCe">
-        <div class="card card-body">
-            <p class="my-0">
-                <p>
-                    Descrição do serviço (se couber fazê-lo)
-                </p>
-
-                <address class="h6">
-
-                    <strong>CRAS São Manoel</strong><br>
-                    Rua São Thiago, 320 - São Manoel<br>
-                    Telefone: (19) 3468-6103<br>
-                    E-mail: <a class="text-primary">crassmanoel@americana.sp.gov.br</a><br>
-
-                </address>
-            </p>
-
-            <a class="rounded-bottom-0 btn btn-dark w-100" data-toggle="collapse" href="#collapseCe" role="button" aria-expanded="false" aria-controls="collapseCe">
-                Reduzir exibição
-            </a>
-
-        </div>
-    </div>
-
-</div>
-
 
 <!-- CONSELHOS -->
 <div class="row-fluid pt-4 border-bottom pb-4">
@@ -148,6 +151,7 @@ include 'defaultTop.php';
     </div>
 
 </div>
+
 
 <?php
 include 'defaultBotton.php';
