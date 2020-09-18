@@ -14,9 +14,8 @@
             <!-- Aqui fica o footer -->
             <div class="container-fluid border-top border-primary py-4">
                 <div class="row d-flex justify-content-around align-items-center">
-
                     <div class="col-3 text-center">
-                        <img src="src/brasao_americana.png">
+                        <img src="http://asamericana.com.br/src/brasao_americana.png">
                     </div>
 
                     <div class="col">
@@ -32,7 +31,12 @@
 
                     <div class="col-3">
                     </div>
+                </div>
 
+                <div class="row-fluid pt-4 d-flex justify-content-around align-items-center">
+                    <p style="font-size: 10px;" class="border p-2 rounded-pill">© 2020 - Desenvolvido por 
+                        <strong><a href="">Guilherme de Souza Bueno</a></strong>
+                    </p>
                 </div>
             </div>
 
