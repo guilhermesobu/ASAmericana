@@ -75,6 +75,6 @@
     </div>
 
     <!-- CONTENT -->
-    <div class="container font-cousine text-justify">
+    <div class="container-fluid font-cousine text-justify px-0">
         <div class="row">
-            <div id="app" class="col-md-10">
+            <div id="app" class="col-md-10 col-sm-12 px-0">
