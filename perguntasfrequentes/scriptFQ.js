@@ -736,7 +736,7 @@ var myAeContentCe = [
             <li>Ser Microempreendedor individual, contribuinte individual ou trabalhador informal, seja empregado, autônomo ou desempregado;</li>
             <li>Desde que atenda às regras do Auxílio, quem já está cadastrado no Cadastro Único, ou recebe o benefício Bolsa Família, receberá o benefício automaticamente, sem precisar se cadastrar.</li>
             </ul>
-        <p>Se você não está no Cadastro Único, você deve solicitar o auxílio no site da CAIXA: <a href="https://auxilio.caixa.gov.br/">://auxilio.caixa.gov.br/</a>. Você também pode solicitar o auxílio pelo aplicativo CAIXA - Auxílio Emergencial, depois de instalá-lo no seu celular.</p>
+        <p>Se você não está no Cadastro Único, você deve solicitar o auxílio no site da CAIXA: <a href="https://auxilio.caixa.gov.br/">//auxilio.caixa.gov.br/</a>. Você também pode solicitar o auxílio pelo aplicativo CAIXA - Auxílio Emergencial, depois de instalá-lo no seu celular.</p>
         <p>Lá, o(a) senhor(a) deverá declarar sua composição familiar e as informações da sua família e declarar que cumpre com os requisitos para receber o auxílio emergencial.</p>`
     },
     {
@@ -760,7 +760,7 @@ var myAeContentCe = [
             <li>Ser Microempreendedor individual, contribuinte individual ou trabalhador informal, seja empregado, autônomo ou desempregado.</li>
             <ul>
         <p>Desde que atenda às regras do Auxílio, quem já está cadastrado no Cadastro Único, ou recebe o benefício Bolsa Família, receberá o benefício automaticamente, sem precisar se cadastrar.</p>
-        <p>Se você não está no Cadastro Único, você deve solicitar o auxílio no site da CAIXA: https://auxilio.caixa.gov.br/. Você também pode solicitar o auxílio pelo aplicativo CAIXA - Auxílio Emergencial, depois de instalá-lo no seu celular.</p>
+        <p>Se você não está no Cadastro Único, você deve solicitar o auxílio no site da CAIXA: <a href="https://auxilio.caixa.gov.br/">https://auxilio.caixa.gov.br/</a>. Você também pode solicitar o auxílio pelo aplicativo CAIXA - Auxílio Emergencial, depois de instalá-lo no seu celular.</p>
         <p>Lá, o(a) senhor(a) deverá declarar sua composição familiar e as informações da sua família e declarar que cumpre com os requisitos para receber o auxílio emergencial.</p>`
     },
     {
@@ -768,54 +768,60 @@ var myAeContentCe = [
         description: `<p>Depende. Se ao somar todas as rendas das pessoas da sua família e dividir pelo número de pessoas, a renda por pessoa for menor do que meio salário mínimo ou a renda total da sua família for menor do três salários, o(a) senhor(a) pode ter direito ao auxílio emergencial, mesmo que outra pessoa da sua família trabalhe de carteira assinada.</p>
         <p>Para receber o auxílio emergencial, o(a) senhor(a) também deve cumprir os requisitos do programa:</p>
             <ul>
-            ◦ Ter mais de 18 anos de idade;
-            ◦ Não ter emprego formal;
-            ◦ Não receber nenhum outro benefício, como aposentadoria, BPC, seguro desemprego, auxílio doença, entre outros;
-            ◦ Estar em família com renda por pessoa de até meio salário mínimo (R$ 522,5) ou com renda total de até três salários mínimos (R$ 3.135)
-            ◦ Em 2018, não ter recebido rendimentos tributáveis acima de R$ 28.559,70 (vinte e oito mil, quinhentos e cinquenta e nove reais e setenta centavos) - não houve necessidade de declarar imposto de renda
-            ◦ Ser Microempreendedor individual, contribuinte individual ou trabalhador informal, seja empregado, autônomo ou desempregado.
+            <li>Ter mais de 18 anos de idade;</li>
+            <li>Não ter emprego formal;</li>
+            <li>Não receber nenhum outro benefício, como aposentadoria, BPC, seguro desemprego, auxílio doença, entre outros;</li>
+            <li>Estar em família com renda por pessoa de até meio salário mínimo (R$ 522,5) ou com renda total de até três salários mínimos (R$ 3.135);</li>
+            <li>Em 2018, não ter recebido rendimentos tributáveis acima de R$ 28.559,70 (vinte e oito mil, quinhentos e cinquenta e nove reais e setenta centavos) - não houve necessidade de declarar imposto de renda;</li>
+            <li>Ser Microempreendedor individual, contribuinte individual ou trabalhador informal, seja empregado, autônomo ou desempregado.</li>
             </ul>
         <p>Desde que atenda às regras do Auxílio, quem já está cadastrado no Cadastro Único, ou recebe o benefício Bolsa Família, receberá o benefício automaticamente, sem precisar se cadastrar.</p>
-        <p>Se você não está no Cadastro Único, você deve solicitar o auxílio no site da CAIXA: https://auxilio.caixa.gov.br/. Você também pode solicitar o auxílio pelo aplicativo CAIXA - Auxílio Emergencial, depois de instalá-lo no seu celular.</p>
+        <p>Se você não está no Cadastro Único, você deve solicitar o auxílio no site da CAIXA: <a href="https://auxilio.caixa.gov.br/">https://auxilio.caixa.gov.br/</a>. Você também pode solicitar o auxílio pelo aplicativo CAIXA - Auxílio Emergencial, depois de instalá-lo no seu celular.</p>
         <p>Lá, o(a) senhor(a) deverá declarar sua composição familiar e as informações da sua família e declarar que cumpre com os requisitos para receber o auxílio emergencial.</p>`
     },
     {
         title: `Sou trabalhador informal/desempregado/MEI/contribuinte individual/autônomo, mas na minha família alguém recebe aposentadoria, tenho direito ao auxílio emergencial?`,
-        description: `Depende. Se ao somar todas as rendas das pessoas da sua família e dividir pelo número de pessoas, a renda por pessoa for menor do que meio salário mínimo ou a renda total da sua família for menor do três salários o(a) senhor(a) pode ter direito ao auxílio emergencial, mesmo que outra pessoa da sua família receba aposentadoria.
-        Para receber o auxílio emergencial, o(a) senhor(a) também deve cumprir os requisitos do programa:
-                ◦ Ter mais de 18 anos de idade;
-                ◦ Não ter emprego formal;
-                ◦ Não receber nenhum outro benefício, como aposentadoria, BPC, seguro desemprego, auxílio doença, entre outros;
-                ◦ Estar em família com renda por pessoa de até meio salário mínimo (R$ 522,5) ou com renda total de até três salários mínimos (R$ 3.135)
-                ◦ Em 2018, não ter recebido rendimentos tributáveis acima de R$ 28.559,70 (vinte e oito mil, quinhentos e cinquenta e nove reais e setenta centavos) - não houve necessidade de declarar imposto de renda
-                ◦ Ser Microempreendedor individual, contribuinte individual ou trabalhador informal, seja empregado, autônomo ou desempregado.
-        Desde que atenda às regras do Auxílio, quem já está cadastrado no Cadastro Único, ou recebe o benefício Bolsa Família, receberá o benefício automaticamente, sem precisar se cadastrar.
-        Se você não está no Cadastro Único, você deve solicitar o auxílio no site da CAIXA: https://auxilio.caixa.gov.br/. Você também pode solicitar o auxílio pelo aplicativo CAIXA - Auxílio Emergencial, depois de instalá-lo no seu celular.
-        Lá, o(a) senhor(a) deverá declarar sua composição familiar e as informações da sua família e declarar que cumpre com os requisitos para receber o auxílio emergencial.`
+        description: `<p>Depende. Se ao somar todas as rendas das pessoas da sua família e dividir pelo número de pessoas, a renda por pessoa for menor do que meio salário mínimo ou a renda total da sua família for menor do três salários o(a) senhor(a) pode ter direito ao auxílio emergencial, mesmo que outra pessoa da sua família receba aposentadoria.</p>
+        <p>Para receber o auxílio emergencial, o(a) senhor(a) também deve cumprir os requisitos do programa:</p>
+                <ul>
+                <li>Ter mais de 18 anos de idade;</li>
+                <li>Não ter emprego formal;</li>
+                <li>Não receber nenhum outro benefício, como aposentadoria, BPC, seguro desemprego, auxílio doença, entre outros;</li>
+                <li>Estar em família com renda por pessoa de até meio salário mínimo (R$ 522,5) ou com renda total de até três salários mínimos (R$ 3.135);</li>
+                <li>Em 2018, não ter recebido rendimentos tributáveis acima de R$ 28.559,70 (vinte e oito mil, quinhentos e cinquenta e nove reais e setenta centavos) - não houve necessidade de declarar imposto de renda;</li>
+                <li>Ser Microempreendedor individual, contribuinte individual ou trabalhador informal, seja empregado, autônomo ou desempregado.</li>
+                </ul>
+        <p>Desde que atenda às regras do Auxílio, quem já está cadastrado no Cadastro Único, ou recebe o benefício Bolsa Família, receberá o benefício automaticamente, sem precisar se cadastrar.</p>
+        <p>Se você não está no Cadastro Único, você deve solicitar o auxílio no site da CAIXA: <a href="https://auxilio.caixa.gov.br/">https://auxilio.caixa.gov.br/</a>. Você também pode solicitar o auxílio pelo aplicativo CAIXA - Auxílio Emergencial, depois de instalá-lo no seu celular.</p>
+        <p>Lá, o(a) senhor(a) deverá declarar sua composição familiar e as informações da sua família e declarar que cumpre com os requisitos para receber o auxílio emergencial.</p>`
     },
     {
         title: `Recebia	o	benefício	do	Programa	Bolsa	Família,	mas	meu	benefício	foi bloqueado/cancelado. Tenho direito ao auxílio emergencial?`,
-        description: `Sim. Se após as checagens do Governo Federal for identificado que o(a) senhor(a) cumpre com os requisitos para receber o auxílio emergencial, o(a) senhor(a) receberá o auxílio.
-        Para receber o auxílio emergencial, o(a) senhor(a) também deve cumprir os requisitos do programa:
-                ◦ Ter mais de 18 anos de idade;
-                ◦ Não ter emprego formal;
-                ◦ Não receber nenhum outro benefício, como aposentadoria, BPC, seguro desemprego, auxílio doença, entre outros;
-                ◦ Estar em família com renda por pessoa de até meio salário mínimo (R$ 522,5) ou com renda total de até três salários mínimos (R$ 3.135)
-                ◦ Em 2018, não ter recebido rendimentos tributáveis acima de R$ 28.559,70 (vinte e oito mil, quinhentos e cinquenta e nove reais e setenta centavos) - não houve necessidade de declarar imposto de renda
-                ◦ Ser Microempreendedor individual, contribuinte individual ou trabalhador informal, seja empregado, autônomo ou desempregado.`
+        description: `<p>Sim. Se após as checagens do Governo Federal for identificado que o(a) senhor(a) cumpre com os requisitos para receber o auxílio emergencial, o(a) senhor(a) receberá o auxílio.</p>
+        <p>Para receber o auxílio emergencial, o(a) senhor(a) também deve cumprir os requisitos do programa:</p>
+            <ul>
+                <li>Ter mais de 18 anos de idade;</li>
+                <li>Não ter emprego formal;</li>
+                <li>Não receber nenhum outro benefício, como aposentadoria, BPC, seguro desemprego, auxílio doença, entre outros;</li>
+                <li>Estar em família com renda por pessoa de até meio salário mínimo (R$ 522,5) ou com renda total de até três salários mínimos (R$ 3.135);</li>
+                <li>Em 2018, não ter recebido rendimentos tributáveis acima de R$ 28.559,70 (vinte e oito mil, quinhentos e cinquenta e nove reais e setenta centavos) - não houve necessidade de declarar imposto de renda;</li>
+                <li>Ser Microempreendedor individual, contribuinte individual ou trabalhador informal, seja empregado, autônomo ou desempregado.</li>
+            </ul>`
     },
     {
         title: `Tinha trabalho com carteira assinada, mas não estou trabalhando mais porque a empresa onde eu trabalhava decretou falência e a ação está já justiça, tenho direito a receber?`,
-        description: `Depende. Se o(a) senhor(a) não tiver recebido renda desse trabalho nos últimos três meses, pode ter direito ao auxílio emergencial, mesmo sem ter baixa na carteira.
-        Para receber o auxílio emergencial, o(a) senhor(a) também deve cumprir os requisitos do programa:
-                ◦ Ter mais de 18 anos de idade;
-                ◦ Não receber nenhum outro benefício, como aposentadoria, BPC, seguro desemprego, auxílio doença, entre outros;
-                ◦ Estar em família com renda por pessoa de até meio salário mínimo (R$ 522,5) ou com renda total de até três salários mínimos (R$ 3.135)
-                ◦ Em 2018, não ter recebido rendimentos tributáveis acima de R$ 28.559,70 (vinte e oito mil, quinhentos e cinquenta e nove reais e setenta centavos) - não houve necessidade de declarar imposto de renda
-                ◦ Ser Microempreendedor individual, contribuinte individual ou trabalhador informal, seja empregado, autônomo ou desempregado.
-        Desde que atenda às regras do Auxílio, quem já está cadastrado no Cadastro Único, ou recebe o benefício Bolsa Família, receberá o benefício automaticamente, sem precisar se cadastrar.
-        Se você não está no Cadastro Único, você deve solicitar o auxílio no site da CAIXA: https://auxilio.caixa.gov.br/. Você também pode solicitar o auxílio pelo aplicativo CAIXA - Auxílio Emergencial, depois de instalá-lo no seu celular.
-        Lá, o(a) senhor(a) deverá declarar sua composição familiar e as informações da sua família e declarar que cumpre com os requisitos para receber o auxílio emergencial.`
+        description: `<p>Depende. Se o(a) senhor(a) não tiver recebido renda desse trabalho nos últimos três meses, pode ter direito ao auxílio emergencial, mesmo sem ter baixa na carteira.</p>
+        <p>Para receber o auxílio emergencial, o(a) senhor(a) também deve cumprir os requisitos do programa:</p>
+            <ul>
+                <li>Ter mais de 18 anos de idade;</li>
+                <li>Não receber nenhum outro benefício, como aposentadoria, BPC, seguro desemprego, auxílio doença, entre outros;</li>
+                <li>Estar em família com renda por pessoa de até meio salário mínimo (R$ 522,5) ou com renda total de até três salários mínimos (R$ 3.135);</li>
+                <li>Em 2018, não ter recebido rendimentos tributáveis acima de R$ 28.559,70 (vinte e oito mil, quinhentos e cinquenta e nove reais e setenta centavos) - não houve necessidade de declarar imposto de renda;</li>
+                <li>Ser Microempreendedor individual, contribuinte individual ou trabalhador informal, seja empregado, autônomo ou desempregado.</li>
+            </ul>
+        <p>Desde que atenda às regras do Auxílio, quem já está cadastrado no Cadastro Único, ou recebe o benefício Bolsa Família, receberá o benefício automaticamente, sem precisar se cadastrar.</p>
+        <p>Se você não está no Cadastro Único, você deve solicitar o auxílio no site da CAIXA: <a href="https://auxilio.caixa.gov.br/">https://auxilio.caixa.gov.br/</a>. Você também pode solicitar o auxílio pelo aplicativo CAIXA - Auxílio Emergencial, depois de instalá-lo no seu celular.</p>
+        <p>Lá, o(a) senhor(a) deverá declarar sua composição familiar e as informações da sua família e declarar que cumpre com os requisitos para receber o auxílio emergencial.</p>`
     },
     {
         title: `Tem mais dúvidas? Tente esses outros assuntos sobre o Auxílio Emergencial`,

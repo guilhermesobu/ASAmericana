@@ -15,7 +15,7 @@
         <div class="row justify-content-between d-flex align-items-center">
 
             <div class="col-2 text-center">
-                <img src="http://asamericana.com.br/src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
+                <img src="https://asamericana.com.br/src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
             </div>
 
             <div class="col-8">

@@ -15,7 +15,7 @@
             <div class="container-fluid border-top border-primary py-4">
                 <div class="row d-flex justify-content-around align-items-center">
                     <div class="col-3 text-center">
-                        <img src="http://asamericana.com.br/src/brasao_americana.png">
+                        <img src="https://asamericana.com.br/src/brasao_americana.png">
                     </div>
 
                     <div class="col">
