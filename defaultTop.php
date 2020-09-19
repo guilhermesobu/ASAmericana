@@ -5,7 +5,7 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cousine&display=swap">
-    <link rel="stylesheet" href="https://asamericana.com.br/index.css">
+    <link rel="stylesheet" href="https://www.asamericana.com.br/index.css">
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 </head>
@@ -15,7 +15,7 @@
         <div class="row justify-content-between d-flex align-items-center">
 
             <div class="col-2 text-center">
-                <img src="https://asamericana.com.br/src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
+                <img src="https://www.asamericana.com.br/src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
             </div>
 
             <div class="col-8">
@@ -45,11 +45,11 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item border-left border-right border-primary">
-                        <a class="nav-link" href="https://asamericana.com.br/">Página principal <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="https://www.asamericana.com.br/">Página principal <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item border-right border-primary">
-                        <a class="nav-link" href="https://asamericana.com.br/servicos.php">Serviços</a>
+                        <a class="nav-link" href="https://www.asamericana.com.br/servicos.php">Serviços</a>
                     </li>
 
                     <li class="nav-item dropdown border-right border-primary">
