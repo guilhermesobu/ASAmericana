@@ -5,7 +5,7 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cousine&display=swap">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/asamericana/index.css">
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 </head>
@@ -15,7 +15,7 @@
         <div class="row justify-content-between d-flex align-items-center">
 
             <div class="col-2 text-center">
-                <img src="https://asamericana.com.br/src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
+                <img src="/asamericana/src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
             </div>
 
             <div class="col-8">
@@ -36,7 +36,7 @@
 
     <!-- NAVBAR -->
     <div class="row-fluid border-bottom border-primary">
-        <nav class="rounded-bottom navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="rounded-bottom navbar navbar-expand-md navbar-light bg-white">
             <a class="border rounded px-1 py-0 navbar-brand text-white bg-dark" href="/"><strong>SASDH</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -75,6 +75,6 @@
     </div>
 
     <!-- CONTENT -->
-    <div class="container-fluid font-cousine text-justify px-0">
+    <div class="container font-cousine text-justify">
         <div class="row">
-            <div id="app" class="col-md-10 col-sm-12 px-0">
+            <div id="app" class="col-md-10 col-sm-12">
