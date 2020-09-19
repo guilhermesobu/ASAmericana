@@ -3,19 +3,19 @@ var rightContent = document.querySelector('#rc');
 var myRc = [
     {
         'href': 'https://www.americana.sp.gov.br/',
-        'src': '/asamericana/src/brasao_americana.png', 
+        'src': 'https://asamericana/src/brasao_americana.png', 
         'text': 'Prefeitura de Americana',
         'alt': 'Brasão da Prefeitura de Americana'
     },
     {
         'href': 'https://www.americana.sp.gov.br/',
-        'src': '/asamericana/src/brasao_americana.png', 
+        'src': 'https://asamericana/src/brasao_americana.png', 
         'text': 'Prefeitura de Americana',
         'alt': 'Brasão da Prefeitura de Americana'
     },
     {
         'href': 'https://www.americana.sp.gov.br/',
-        'src': '/asamericana/src/brasao_americana.png', 
+        'src': 'https://asamericana/src/brasao_americana.png', 
         'text': 'Prefeitura de Americana',
         'alt': 'Brasão da Prefeitura de Americana'
     },
