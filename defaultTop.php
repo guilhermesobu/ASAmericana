@@ -5,7 +5,7 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cousine&display=swap">
-    <link rel="stylesheet" href="/asamericana/index.css">
+    <link rel="stylesheet" href="/asamericana.com.br/index.css">
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 </head>
@@ -15,7 +15,7 @@
         <div class="row justify-content-between d-flex align-items-center">
 
             <div class="col-2 text-center">
-                <img src="../asamericana/src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
+                <img src="/asamericana.com.br/src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
             </div>
 
             <div class="col-8">
@@ -37,7 +37,7 @@
     <!-- NAVBAR -->
     <div class="row-fluid border-bottom border-primary">
         <nav class="rounded-bottom navbar navbar-expand-md navbar-light bg-white">
-            <a class="border rounded px-1 py-0 navbar-brand text-white bg-dark" href="/"><strong>SASDH</strong></a>
+            <a class="border rounded px-1 py-0 navbar-brand text-white bg-dark" href="/asamericana.com.br/"><strong>SASDH</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,11 +45,11 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item border-left border-right border-primary">
-                        <a class="nav-link" href="/">Página principal <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/asamericana.com.br/">Página principal <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item border-right border-primary">
-                        <a class="nav-link" href="/servicos.php">Serviços</a>
+                        <a class="nav-link" href="/asamericana.com.br/servicos.php">Serviços</a>
                     </li>
 
                     <li class="nav-item dropdown border-right border-primary">
@@ -57,15 +57,15 @@
                             Dúvidas Frequentes
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item btn" id="btnCad" href="/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
+                            <a class="dropdown-item btn" id="btnCad" href="/asamericana.com.br/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
                             <div class="dropdown-divider"></div>
                             <span class="dropdown-header" style="font-size: 10px">Auxílio Emergencial (AE - Caixa)</span>
-                            <a class="dropdown-item btn" id="btnAeIg" href="/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
-                            <a class="dropdown-item btn" id="btnAeCa" href="/perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
-                            <a class="dropdown-item btn" id="btnAeAp" href="/perguntasfrequentes/aeapp.php">AE - APP</a>
-                            <a class="dropdown-item btn" id="btnAeRa" href="/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
-                            <a class="dropdown-item btn" id="btnAePb" href="/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
-                            <a class="dropdown-item btn" id="btnAeCe" href="/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
+                            <a class="dropdown-item btn" id="btnAeIg" href="/asamericana.com.br/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
+                            <a class="dropdown-item btn" id="btnAeCa" href="/asamericana.com.br/perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
+                            <a class="dropdown-item btn" id="btnAeAp" href="/asamericana.com.br/perguntasfrequentes/aeapp.php">AE - APP</a>
+                            <a class="dropdown-item btn" id="btnAeRa" href="/asamericana.com.br/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
+                            <a class="dropdown-item btn" id="btnAePb" href="/asamericana.com.br/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
+                            <a class="dropdown-item btn" id="btnAeCe" href="/asamericana.com.br/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
                         </div>
                     </li>
 
