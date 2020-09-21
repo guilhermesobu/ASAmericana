@@ -5,12 +5,14 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cousine&display=swap">
-    <link rel="stylesheet" href="https://www.asamericana.com.br/index.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="index.css">
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 </head>
 
 <body>
+
     <div class="container-fluid">
         <div class="row justify-content-between d-flex align-items-center">
 
@@ -35,9 +37,9 @@
     </div>
 
     <!-- NAVBAR -->
-    <div class="row-fluid border-bottom border-primary">
+    <div class="row-fluid border-bottom border-primary sticky-top">
         <nav class="rounded-bottom navbar navbar-expand-md navbar-light bg-white">
-            <a class="border rounded px-1 py-0 navbar-brand text-white bg-dark" href="https://asamericana.com.br/"><strong>SASDH</strong></a>
+            <a class="border rounded px-1 py-0 navbar-brand text-white bg-primary" href="https://asamericana.com.br/"><strong>SASDH</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -75,6 +77,6 @@
     </div>
 
     <!-- CONTENT -->
-    <div class="container font-cousine text-justify">
+    <div class="container font-cousine text-justify py-4">
         <div class="row">
             <div id="app" class="col-md-10 col-sm-12">

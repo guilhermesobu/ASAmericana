@@ -7,17 +7,19 @@ function renderFQ(title, php, obj) {
     indexphp.innerHTML = myObj.map((item, index) => {
 
         var topOfThePage = `
-            <div class="row-fluid">
+
+            <div class="row-fluid col-12 bg-primary rounded-top pt-4 pb-3 text-white">
                 <strong>
-                    <div class="col-12 bg-primary rounded-top pt-4 pb-3 text-white">
+                    <h3 class="col-12 pt-1 pb-0">Perguntas Frequêntes</h3>
+                    <p class="pl-3">
                         ${title}
-                    </div>
+                    </p>
                 </strong>
             </div>
         `;
 
         var dropdown = `
-            <div class="card border-primary rounded-0">
+            <div class="card border-primary rounded-0 border-top-0 border">
                 <div class="p-0 card-header" id="headingOne">
                     <h1 class="mb-0">
                         <button class="rounded-0 font-large btn btn-block text-left pl-4" type="button" data-toggle="collapse" data-target="#collapse${index}" aria-expanded="true" aria-controls="collapse${index}">
@@ -36,7 +38,6 @@ function renderFQ(title, php, obj) {
 
         if (index == 0) {
             return `
-            <h3 class="col-12 pt-4 pb-0">Perguntas Frequêntes</h3>
             ${topOfThePage}
             <div class=row-fluid>
             <div class="accordion" id="accordionExample">${dropdown}`;
