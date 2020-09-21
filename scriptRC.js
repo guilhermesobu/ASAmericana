@@ -29,6 +29,7 @@ function renderRc(html, obj){
     myHtml.innerHTML = myObj.map((item, index) => {
         if(index == 0){
             return `
+            
                 <div class="row border rounded border-primary p-2 bg-white">
                     <div class="col-md-12 col pt-3">
                         <a href="${item.href}">
