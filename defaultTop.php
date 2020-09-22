@@ -18,7 +18,7 @@
         <div class="row justify-content-between d-flex align-items-center">
 
             <div class="col-2 text-center">
-                <img src="https://www.asamericana.com.br/src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
+                <img src="src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
             </div>
 
             <div class="col-8">
@@ -40,7 +40,7 @@
     <!-- NAVBAR -->
     <div class="row-fluid border-bottom border-primary sticky-top">
         <nav class="rounded-bottom navbar navbar-expand-md navbar-light bg-white">
-            <a class="border rounded px-1 py-0 navbar-brand text-white bg-primary" href="https://asamericana.com.br/"><strong>SASDH</strong></a>
+            <a class="border rounded px-1 py-0 navbar-brand text-white bg-primary" href="/"><strong>SASDH</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,11 +48,11 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item border-left border-right border-primary">
-                        <a class="nav-link" href="https://www.asamericana.com.br/">Página principal <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/">Página principal <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item border-right border-primary">
-                        <a class="nav-link" href="https://www.asamericana.com.br/servicos.php">Serviços</a>
+                        <a class="nav-link" href="/servicos.php">Serviços</a>
                     </li>
 
                     <li class="nav-item dropdown border-right border-primary">
