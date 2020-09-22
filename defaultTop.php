@@ -60,15 +60,15 @@
                             Dúvidas Frequentes
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item btn" id="btnCad" href="https://www.asamericana.com.br/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
+                            <a class="dropdown-item btn" id="btnCad" href="/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
                             <div class="dropdown-divider"></div>
                             <span class="dropdown-header" style="font-size: 10px">Auxílio Emergencial (AE - Caixa)</span>
-                            <a class="dropdown-item btn" id="btnAeIg" href="https://www.asamericana.com.br/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
-                            <a class="dropdown-item btn" id="btnAeCa" href="https://www.asamericana.com.br/perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
-                            <a class="dropdown-item btn" id="btnAeAp" href="https://www.asamericana.com.br/perguntasfrequentes/aeapp.php">AE - APP</a>
-                            <a class="dropdown-item btn" id="btnAeRa" href="https://www.asamericana.com.br/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
-                            <a class="dropdown-item btn" id="btnAePb" href="https://www.asamericana.com.br/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
-                            <a class="dropdown-item btn" id="btnAeCe" href="https://www.asamericana.com.br/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
+                            <a class="dropdown-item btn" id="btnAeIg" href="/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
+                            <a class="dropdown-item btn" id="btnAeCa" href="/perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
+                            <a class="dropdown-item btn" id="btnAeAp" href="/perguntasfrequentes/aeapp.php">AE - APP</a>
+                            <a class="dropdown-item btn" id="btnAeRa" href="/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
+                            <a class="dropdown-item btn" id="btnAePb" href="/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
+                            <a class="dropdown-item btn" id="btnAeCe" href="/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
                         </div>
                     </li>
 
