@@ -5,8 +5,8 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cousine&display=swap">
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" type="image/x-icon" hef="favicon.ico" />
+    <link rel="stylesheet" href="/index.css">
+    <link rel="shortcut icon" type="/image/x-icon" hef="favicon.ico" />
 
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -18,7 +18,7 @@
         <div class="row justify-content-between d-flex align-items-center">
 
             <div class="col-2 text-center">
-                <img src="src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
+                <img src="/src/brasao_americana.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
             </div>
 
             <div class="col-8">

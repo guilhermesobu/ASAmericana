@@ -10,10 +10,10 @@
             </div>
         </div>
 
-        <div class="row-fluid pt-4">
-            <div class="col-12">
-                <a class="btn" href="#">
-                    <img src="src/brasao_americana.png" alt="Benefício Eventual (COVID-19)">
+        <div class="row pt-4">
+            <div class="col">
+                <a class="bb btn mx-auto d-block" href="https://forms.gle/Axn9WYHJCw6W5pw28">
+                    <img class="bb" src="./src/banner-cesta-emergencial-acao-social.png" alt="Benefício Eventual (COVID-19)">
                 </a>
             </div>
         </div>
