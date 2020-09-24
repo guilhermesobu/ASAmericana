@@ -23,8 +23,11 @@
 }
 
 /*Banner border*/
-.bb{
-    background-color: black;
-    border: 200px;
-    border-color: black;
+.banner-back{
+    width: auto;
+    background-color: blue;
+}
+
+.banner-width{
+    max-width: 620px;
 }

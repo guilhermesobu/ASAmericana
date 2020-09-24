@@ -7,7 +7,7 @@ function renderFQ(title, php, obj) {
     indexphp.innerHTML = myObj.map((item, index) => {
 
         var topOfThePage = `
-
+        <div class="container shadow py-3 rounded">
             <div class="row-fluid col-12 bg-primary rounded-top pt-4 pb-3 text-white">
                 <strong>
                     <h3 class="col-12 pt-1 pb-0">Perguntas Frequêntes</h3>
@@ -44,6 +44,7 @@ function renderFQ(title, php, obj) {
         }
         else if (index == myObj.length - 1) {
             return `${dropdown}
+                    </div>
                 </div>
             </div><br>
             `;
