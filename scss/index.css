@@ -1,33 +1,26 @@
-.font-cousine {
-    font-family: 'Cousine', monospace;
-    font-size: medium;
+.bg-purple{
+    background-color: purple;
 }
 
-.font-large {
-    font-size: large;
+.bg-green{
+    background-color: greenyellow;
 }
 
-.font-small {
-    font-size: 10px;
+p {
+    margin: 0;
 }
 
-.logo{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-height: 90px;
+#am > p{
+    padding-top: 12px;
+    text-align: justify;
 }
 
-/*point event none*/
-.pen{ 
-    pointer-events: none;
+h1{
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 900;
 }
 
-/*Banner border*/
-.banner-back{
-    width: auto;
-    background-color: blue;
-}
-
-.banner-width{
-    max-width: 620px;
+li{
+    padding-top: 20px;
 }
