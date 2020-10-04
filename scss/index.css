@@ -1,26 +1,33 @@
-.bg-purple{
-    background-color: purple;
+.font-cousine {
+    font-family: 'Cousine', monospace;
+    font-size: medium;
 }
 
-.bg-green{
-    background-color: greenyellow;
+.font-large {
+    font-size: large;
 }
 
-p {
-    margin: 0;
+.font-small {
+    font-size: 10px;
 }
 
-#am > p{
-    padding-top: 12px;
-    text-align: justify;
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 90px;
 }
 
-h1{
-    font-style: italic;
-    font-variant: small-caps;
-    font-weight: 900;
+/*point event none*/
+.pen{ 
+    pointer-events: none;
 }
 
-li{
-    padding-top: 20px;
+/*Banner border*/
+.banner-back{
+    width: auto;
+    background-color: blue;
+}
+
+.banner-width{
+    max-width: 620px;
 }
