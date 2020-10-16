@@ -25,9 +25,27 @@
 /*Banner border*/
 .banner-back{
     width: auto;
-    background-color: blue;
+    background-color: #0062cc;
 }
 
 .banner-width{
     max-width: 620px;
+}
+
+.width-400{
+    width: 400px;
+}
+
+#addressServices > div address {
+    border-left: 5px solid #0062cc;
+    border-radius: 5px;
+}
+
+h3{
+    color: #0062cc;
+    font-weight: bolder;
+}
+
+.webkit{
+    -webkit-text-stroke: 1px #ffffff;
 }

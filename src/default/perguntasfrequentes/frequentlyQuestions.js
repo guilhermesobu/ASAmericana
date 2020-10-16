@@ -10,7 +10,7 @@ function renderFQ(title, php, obj) {
         <div class="container shadow py-3 rounded">
             <div class="row-fluid col-12 bg-primary rounded-top pt-4 pb-3 text-white">
                 <strong>
-                    <h3 class="col-12 pt-1 pb-0">Perguntas Frequêntes</h3>
+                    <h3 class="col-12 pt-1 pb-0 webkit">Perguntas Frequêntes</h3>
                     <p class="pl-3">
                         ${title}
                     </p>

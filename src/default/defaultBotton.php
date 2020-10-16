@@ -15,7 +15,7 @@
                 <div class="row d-flex justify-content-around align-items-center">
 
                     <div class="col-md-3 col-sm-12 text-center mx-4 my-1">
-                        <img src="/src/brasao_americana.png">
+                        <img src="/src/img/brasao_americana.png">
                     </div>
 
                     <div class="col-md col-sm-6 my-1">
@@ -48,7 +48,8 @@
                 
             </div>
             
-            <script src="/scriptRC.js"></script>
+            <script src="/src/default/script.js"></script>
+            <script src="/src/default/scriptRC.js"></script>
             <script src="/bootstrap/js/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
             <script src="/bootstrap/js/popper.min.js" crossorigin="anonymous"></script>
             <script src="/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
