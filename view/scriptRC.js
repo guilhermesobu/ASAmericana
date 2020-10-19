@@ -3,46 +3,50 @@ var rightContent = document.querySelector('#rc');
 var myRc = [
     {
         'href': 'https://www.transparencia.americana.sp.gov.br/',
-        'src': '/src/img/banner_portal_transparencia.jpg', 
+        'src': '/src/img/banner_portal_transparencia.jpg',
         'text': 'Portal da Transparência',
         'alt': 'Icone do portal da transparência'
     },
     {
         'href': 'https://www.americana.sp.gov.br/',
-        'src': '/src/img/banner-protocolo-digital.png', 
+        'src': '/src/img/banner-protocolo-digital.png',
         'text': 'Protocolo Digital',
         'alt': 'Icone protocolo digital'
     },
     {
         'href': 'https://www.americana.sp.gov.br/',
-        'src': '/src/img/banner-sic-3.jpg', 
+        'src': '/src/img/banner-sic-3.jpg',
         'text': 'SIC',
         'alt': 'SIC'
     },
 ];
 
-function renderRc(html, obj){
+function renderRc(html, obj) {
     var myHtml = html,
-        myObj = obj; 
-        
+        myObj = obj;
+
 
     myHtml.innerHTML = myObj.map((item, index) => {
-        if(index == 0){
+        if (index == 0) {
             return `
-            <div class="container shadow">
-                <div class="d-sm-block d-md-none mt-4"></div>
-                    <div class="row border rounded border-primary p-2 bg-white">
-                        <div class="col-md-12 col pt-3">
-                            <a href="${item.href}">
-                                <img src="${item.src}" alt="${item.alt}" class="mx-auto d-block" style="width: 90px; height: 90px;">
-                                <!-- <p style="font-size: 8px;" class="text-center">${item.text}</p> -->
-                            </a>
-                        </div>
+            <div class="container">
+                <div class="d-lg-block d-xl-none mt-5"></div> <!-- Essa linha só serve para dar MT-4 -->
+
+                <div class="row">
+                    <h5>Principais Links</h5>
+                </div>
+                <div class="row border rounded border-primary p-2 bg-white shadow">
+                    <div class="col-xl-12 col pt-3">
+                        <a href="${item.href}">
+                            <img src="${item.src}" alt="${item.alt}" class="mx-auto d-block" style="width: 90px; height: 90px;">
+                            <!-- <p style="font-size: 8px;" class="text-center">${item.text}</p> -->
+                        </a>
+                    </div>
                 
             `
-        } else if (index == myObj.length - 1){
+        } else if (index == myObj.length - 1) {
             return `
-                        <div class="col-md-12 col pt-3">
+                        <div class="col-xl-12 col pt-3">
                             <a href="${item.href}">
                                 <img src="${item.src}" alt="${item.alt}" class="mx-auto d-block" style="width: 90px; height: 90px;">
                                 <!-- <p style="font-size: 8px;" class="text-center">${item.text}</p> -->
@@ -53,7 +57,7 @@ function renderRc(html, obj){
             `
         } else {
             return `
-                <div class="col-md-12 col pt-3">
+                <div class="col-xl-12 col pt-3">
                     <a href="${item.href}">
                         <img src="${item.src}" alt="${item.alt}" class="mx-auto d-block" style="width: 90px; height: 90px;">
                         <!-- <p style="font-size: 8px;" class="text-center">${item.text}</p> -->

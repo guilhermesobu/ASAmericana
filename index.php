@@ -1,4 +1,4 @@
-<?php include 'src/default/defaultTop.php'; ?>
+<?php include 'view/defaultTop.php'; ?>
 
     <div class="p-3 mb-4 shadow rounded">
 
@@ -28,4 +28,4 @@
 
     </div>
 
-<?php include 'src/default/defaultBotton.php'; ?>
+<?php include 'view/defaultBotton.php'; ?>

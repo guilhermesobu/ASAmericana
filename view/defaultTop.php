@@ -70,10 +70,15 @@
                                 </div>
                             </a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/src/default/servicos/protecaoSocialBasica.php">Proteção Social Básica</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/src/default/servicos/protecaoSocialEspecial.php">Proteção Social Especial</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/src/default/servicos/cadastroUnico.php">Cadastro Único</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="">Entidades</a>
+                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/assistenciaSocial.php">Secretaria de Assistencia Social e Direitos Humanos</a>
+                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/suas.php">Sistema Único de Assistência Social (SUAS)</a>
+                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/unidadeDirHum.php">Unidade de Direitos Humanos</a>
+                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/protecaoSocialBasica.php">Proteção Social Básica</a>
+                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/protecaoSocialEspecial.php">Proteção Social Especial</a>
+                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/cadastroUnico.php">Cadastro Único</a>
+                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/programas.php">Programas de rede Pública e Privada</a>
+                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/controles.php">Controles</a>
+                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/conselhos.php">Conselhos</a>
 
                         </div>
                     </li>
@@ -84,15 +89,15 @@
                             Dúvidas Frequentes
                         </a>
                         <div class="dropdown-menu pt-0 mt-0 width-400" aria-labelledby="frequentlyQuestion">
-                            <a class="dropdown-item btn" id="btnCad" href="/src/default/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
+                            <a class="dropdown-item btn" id="btnCad" href="/view/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
                             <div class="dropdown-divider"></div>
                             <span class="dropdown-header" style="font-size: 10px">Auxílio Emergencial (AE - Caixa)</span>
-                            <a class="dropdown-item btn" id="btnAeIg" href="/src/default/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
-                            <a class="dropdown-item btn" id="btnAeCa" href="/src/default/perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
-                            <a class="dropdown-item btn" id="btnAeAp" href="/src/default/perguntasfrequentes/aeapp.php">AE - APP</a>
-                            <a class="dropdown-item btn" id="btnAeRa" href="/src/default/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
-                            <a class="dropdown-item btn" id="btnAePb" href="/src/default/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
-                            <a class="dropdown-item btn" id="btnAeCe" href="/src/default/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
+                            <a class="dropdown-item btn" id="btnAeIg" href="/view/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
+                            <a class="dropdown-item btn" id="btnAeCa" href="/view/perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
+                            <a class="dropdown-item btn" id="btnAeAp" href="/view/perguntasfrequentes/aeapp.php">AE - APP</a>
+                            <a class="dropdown-item btn" id="btnAeRa" href="/view/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
+                            <a class="dropdown-item btn" id="btnAePb" href="/view/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
+                            <a class="dropdown-item btn" id="btnAeCe" href="/view/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
                         </div>
                     </li>
 
@@ -107,4 +112,4 @@
     <!-- CONTENT -->
     <div class="container text-justify py-4">
         <div class="row">
-            <div id="app" class="col-md-10 col-sm-12">
+            <div id="app" class="col-xl-10 col-12">

@@ -2,7 +2,7 @@
                     </div>
 
                     <!-- RIGHT CONTENT -->
-                    <div id="rc" class="col-md-2 col-sm-12 px-4">
+                    <div id="rc" class="col-xl-2 col-12 px-4">
                         
                     </div>
                 </div>
@@ -48,8 +48,8 @@
                 
             </div>
             
-            <script src="/src/default/script.js"></script>
-            <script src="/src/default/scriptRC.js"></script>
+            <script src="/view/script.js"></script>
+            <script src="/view/scriptRC.js"></script>
             <script src="/bootstrap/js/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
             <script src="/bootstrap/js/popper.min.js" crossorigin="anonymous"></script>
             <script src="/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
