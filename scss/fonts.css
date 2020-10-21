@@ -1,0 +1,23 @@
+@font-face{
+    font-family: Adamina;
+    src: url(/src/fonts/adamina/Adamina-Regular.ttf);
+}
+.adamina{
+    font-family: Adamina !important;
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url(/src/fonts/montserrat/Montserrat-Medium.ttf);
+}
+.montserrat{
+    font-family: Montserrat !important;
+}
+
+@font-face{
+    font-family: Nunito;
+    src: url(/src/fonts/nunito/Nunito-Regular.ttf);
+}
+.nunito{
+    font-family: Nunito !important;
+}

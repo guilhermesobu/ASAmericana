@@ -14,6 +14,8 @@ include '../defaultTop.php';
 
         <p><b>Serviço de Proteção e Atendimento Integral à Família (PAIF)</b> que consiste no trabalho social com famílias, de caráter continuado, com a finalidade de fortalecer a função protetiva das famílias, prevenir a ruptura dos seus vínculos, promover seu acesso e usufruto de direitos e contribuir na melhoria de sua qualidade de vida.</p>
 
+        <p><b>Serviço de Proteção em Situações de Calamidades Públicas e de Emergências</b> que promove apoio e proteção à população atingida por situações de emergência e calamidade pública, com a oferta de alojamentos provisórios, atenções e provisões materiais, conforme as necessidades detectadas. Assegura a realização de articulações e a participação em ações conjuntas de caráter intersetorial para a minimização dos danos ocasionados e o provimento das necessidades verificadas.</p>
+
     </div>
 
     <!-- CRAS -->
@@ -21,7 +23,7 @@ include '../defaultTop.php';
 
         <h3 class="my-0 pb-2">Unidades Executoras PÚBLICAS</h3>
         <h3 class="my-0 pb-2">Centro de Referência de Assistência Social (CRAS)</h3>
-        <p>O <b>CRAS</b> CRAS é unidade pública municipal, de base territorial, localizada em áreas com maiores índices de vulnerabilidade e risco social, destinada à articulação dos serviços socioassistenciais no seu território de abrangência e à prestação de serviços, programas e projetos socioassistenciais de proteção social básica às famílias.</p>
+        <p>O <b>CRAS</b> é a unidade pública municipal, de base territorial, localizada em áreas com maiores índices de vulnerabilidade e risco social, destinada à articulação dos serviços socioassistenciais no seu território de abrangência e à prestação de serviços, programas e projetos socioassistenciais de proteção social básica às famílias.</p>
         <a class="rounded-bottom-0 btn btn-dark w-100" data-toggle="collapse" href="#collapseCa" role="button" aria-expanded="false" aria-controls="collapseCa">
             Endereço/Contato dos CRAS
         </a>

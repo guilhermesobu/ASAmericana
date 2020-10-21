@@ -49,3 +49,40 @@ h3{
 .webkit{
     -webkit-text-stroke: 1px #ffffff;
 }
+
+
+/* COLORING THE NAVBAR */
+.nav-item:hover * {
+    background-color: #0062cc;
+    color: #ffffff !important;
+    border: 0;
+}
+.nav-item:hover > a{
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    border-radius: 5px 5px 0px 0px;
+}
+.nav-item > .dropdown-menu{
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    border-radius: 0px 5px 5px 5px;
+    width: 400px;
+    margin-top: 0px;
+}
+.dropdown-item:hover{
+    font-weight: 900;
+}
+.nav-link{
+    width: fit-content;
+}
+
+/* BACKGROUND TEXTURES */
+.bg-texture{
+    background-image: url(/src/textures/bright-squares.png);
+    background-repeat: repeat;
+}
+.bg-texture-content{
+    background-image: url(/src/textures/light-wool.png);
+}

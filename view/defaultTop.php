@@ -6,16 +6,19 @@
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cousine&display=swap">
     <link rel="stylesheet" href="/scss/index.css">
+    <link rel="stylesheet" href="/scss/fonts.css">
     <link rel="shortcut icon" type="/image/x-icon" hef="favicon.ico" />
+
+    <title>Secretaria de Assistência Social e Direitos Humanos</title>
 
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 </head>
 
-<body>
+<body class="nunito" style="min-width: 440px;">
+    <!-- adamina, montserrat, nunito -->
 
-
-    <div class="container-fluid">
+    <div class="container-fluid py-4">
         <div class="row justify-content-between d-flex align-items-center">
 
             <div class="col-2 text-center">
@@ -53,7 +56,7 @@
 
                     <!-- HOME -->
                     <li class="nav-item border-primary">
-                        <a class="nav-link" href="/">Página principal <span class="sr-only">(current)</span></a>
+                        <a class="nav-link rounded" href="/">Página principal <span class="sr-only">(current)</span></a>
                     </li>
 
                     <!-- SERVICES -->
@@ -61,44 +64,48 @@
                         <a class="nav-link dropdown-toggle" id="services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Serviços
                         </a>
-                        <div class="dropdown-menu pt-0 mt-0 width-400" aria-labelledby="services">
-
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="https://www.americana.sp.gov.br/download/cmas/diversos/pmas-2018-2021.pdf">
+                        <div class="dropdown-menu" aria-labelledby="services">
+                            <a class="dropdown-item btn mt-1" id="btnPmas">
                                 <div class="row">
-                                    <div class="col-fill d-flex align-tems-center"><img style="width: 24px;" class="float-left" src="/src/icons/icon-pdf.png"></div>
-                                    <div class="col text-wrap mt-0">Plano Municipal de Assistência Social - 2018 - 2020</div>
+                                    <div class="col-fill d-flex align-tems-center">
+                                        <img style="width: 24px; height: 25px" class="float-left align-self-center" src="/src/icons/icon-pdf-white.png">
+                                    </div>
+                                    <div class="col text-wrap mt-0">
+                                        Plano Municipal de Assistência Social - 2018 - 2020
+                                    </div>
                                 </div>
                             </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/assistenciaSocial.php">Secretaria de Assistencia Social e Direitos Humanos</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/suas.php">Sistema Único de Assistência Social (SUAS)</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/unidadeDirHum.php">Unidade de Direitos Humanos</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/protecaoSocialBasica.php">Proteção Social Básica</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/protecaoSocialEspecial.php">Proteção Social Especial</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/cadastroUnico.php">Cadastro Único</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/programas.php">Programas de rede Pública e Privada</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/controles.php">Controles</a>
-                            <a class="dropdown-item btn mt-1" id="btnCad" href="/view/servicos/conselhos.php">Conselhos</a>
-
+                            <a class="dropdown-item btn mt-1" href="/view/servicos/assistenciaSocial.php">Secretaria de Assistencia Social e Direitos Humanos</a>
+                            <a class="dropdown-item btn mt-1" href="/view/servicos/suas.php">Unidade de Assistência Social (SUAS)</a>
+                            <a class="dropdown-item btn mt-1" href="/view/servicos/unidadeDirHum.php">Unidade de Direitos Humanos</a>
+                            <a class="dropdown-item btn mt-1" href="/view/servicos/protecaoSocialBasica.php">Proteção Social Básica</a>
+                            <a class="dropdown-item btn mt-1" href="/view/servicos/protecaoSocialEspecial.php">Proteção Social Especial</a>
+                            <a class="dropdown-item btn mt-1" href="/view/servicos/cadastroUnico.php">Cadastro Único</a>
+                            <a class="dropdown-item btn mt-1" href="/view/servicos/programas.php">Programas de rede Pública e Privada</a>
+                            <a class="dropdown-item btn mt-1" href="/view/servicos/controles.php">Controle Social</a>
                         </div>
                     </li>
 
                     <!-- FREQUENTLY QUESTION -->
                     <li class="nav-item dropdown border-primary" id="dropfrequentlyQuestion">
                         <a class="nav-link dropdown-toggle" id="frequentlyQuestion" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dúvidas Frequentes
+                            Perguntas Frequentes
                         </a>
-                        <div class="dropdown-menu pt-0 mt-0 width-400" aria-labelledby="frequentlyQuestion">
+                        <div class="dropdown-menu" aria-labelledby="frequentlyQuestion">
                             <a class="dropdown-item btn" id="btnCad" href="/view/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
-                            <div class="dropdown-divider"></div>
-                            <span class="dropdown-header" style="font-size: 10px">Auxílio Emergencial (AE - Caixa)</span>
-                            <a class="dropdown-item btn" id="btnAeIg" href="/view/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
-                            <a class="dropdown-item btn" id="btnAeCa" href="/view/perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
-                            <a class="dropdown-item btn" id="btnAeAp" href="/view/perguntasfrequentes/aeapp.php">AE - APP</a>
-                            <a class="dropdown-item btn" id="btnAeRa" href="/view/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
-                            <a class="dropdown-item btn" id="btnAePb" href="/view/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
-                            <a class="dropdown-item btn" id="btnAeCe" href="/view/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
+                            <span class="dropdown-header font-small">Auxílio Emergencial (AE - Caixa)</span>
+                            <a class="dropdown-item btn" href="/view/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
+                            <a class="dropdown-item btn" href="/view/perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
+                            <a class="dropdown-item btn" href="/view/perguntasfrequentes/aeapp.php">AE - APP</a>
+                            <a class="dropdown-item btn" href="/view/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
+                            <a class="dropdown-item btn" href="/view/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
+                            <a class="dropdown-item btn"x href="/view/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
                         </div>
+                    </li>
+
+                    <!-- CONTATO -->
+                    <li class="nav-item border-primary">
+                        <a class="nav-link rounded" href="/view/contato.php">Contato</a>
                     </li>
 
                 </ul>
@@ -108,8 +115,7 @@
         </nav>
     </div>
 
-
     <!-- CONTENT -->
-    <div class="container text-justify py-4">
-        <div class="row">
-            <div id="app" class="col-xl-10 col-12">
+    <div class="container-fluid text-justify py-4 bg-texture-content">
+        <div class="row justify-content-center">
+            <div id="app" class="col-xl-8 col-12 bg-white">

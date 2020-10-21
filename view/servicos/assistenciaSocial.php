@@ -7,7 +7,7 @@ include '../defaultTop.php';
 
     <div class="row-fluid p-4 border-bottom">
 
-        <h3>Secretaria de Assistência Social e Direitos Humaos (SASDH)</h3>
+        <h3>Secretaria de Assistência Social e Direitos Humanos (SASDH)</h3>
 
         <p><b>Nós somos</b> o órgão responsável pela articulação, execução, coordenação e supervisão das políticas, serviços, programas, projetos e benefícios do Município de Americana voltado para a gestão do Sistema Único de Assistência Social (SUAS) e da garantia dos direitos humanos e bem estar da comunidade.
         </p>

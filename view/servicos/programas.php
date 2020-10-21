@@ -18,13 +18,19 @@ include '../defaultTop.php';
 
         <p><b>TRANSFERÊNCIA DE RENDA</b> – É um direito social que assegura a sobrevivência de famílias em situação de pobreza, por meio do acesso a renda, e a promoção da autonomia dessas famílias, a política de Transferência de Renda é uma estratégica no enfrentamento da pobreza e inclusão social de milhares de famílias.</p>
 
-        <p><b>BPC – BENEFÍCIO DE PRESTAÇÃO CONTINUADA</b> - É um benefício da Política de Assistência Social, individual, não vitalício e que garante o pagamento mensal de 01 (um) salário mínimo à pessoa idosa, com 65 (sessenta e cinco) anos ou mais, e à pessoa com deficiência, de qualquer idade, com impedimentos de longo prazo, de natureza física, mental, intelectual ou sensorial, que comprovem não possuir meios para prover a própria manutenção nem de tê-la provida por sua família. O BPC integra a Proteção Social Básica no âmbito do Sistema Único de Assistência Social – SUAS e para acessá-lo não é necessário ter contribuído com a Previdência Social.</p>
-
         <p><b>BOLSA FAMÍLIA</b> - O Bolsa Família é um programa da Secretaria Nacional de Renda de Cidadania (Senarc), que contribui para o combate à pobreza e à desigualdade no Brasil. O Programa Bolsa Família atende às famílias que vivem em situação de pobreza e de extrema pobreza. Quem recebe Bolsa Família precisa manter seu cadastro sempre atualizado para continuar a receber o benefício. Mudanças na situação da família devem ser informadas, a qualquer tempo, no setor responsável pelo Cadastro Único/Bolsa Família na cidade em que a família mora. Mesmo que não haja nenhuma mudança, a confirmação das informações do cadastro deve ser feita obrigatoriamente a cada dois anos.</p>
 
         <p><b>SEGURANÇA ALIMENTAR</b>: A situação de insegurança alimentar e nutricional é uma vulnerabilidade presente nos territórios de atuação do SUAS que afeta as condições de vida do público atendido. Quando identificada a necessidade deste benefício, a oferta de alimentos deve ser integrada aos demais serviços, programas, projetos e outros benefícios da Assistência Social no Município. A oferta do Benefício Eventual/BE do alimento deve ser temporária, conforme prazo indicado pelos Conselhos Municipais de Assistência Social e previstos na lei municipal. Quando houver necessidade de provisão alimentar contínua em âmbito local, ocasionada, por exemplo, por desemprego acentuado.</p>
 
         <p><b>BANCO DE ALIMENTOS</b>: O Banco de alimentos trabalha sobre um tripé: diminuir o desperdício de alimentos; promover a educação alimentar e a segurança alimentar e nutricional e auxiliar na realização progressiva do direito humano à alimentação adequada. Como funciona? Capta alimento de um doador (indústria de alimentos, varejo, agricultora), depois vai para um banco de alimento fixo ou móvel até chegar nas instituições.</p>
+
+    </div>
+
+    <div class="row-fluid p-4 border-bottom">
+
+        <h3>Benefícios de Rede PÚBLICA</h3>
+
+        <p><b>BPC – BENEFÍCIO DE PRESTAÇÃO CONTINUADA</b> - É um benefício da Política de Assistência Social, individual, não vitalício e que garante o pagamento mensal de 01 (um) salário mínimo à pessoa idosa, com 65 (sessenta e cinco) anos ou mais, e à pessoa com deficiência, de qualquer idade, com impedimentos de longo prazo, de natureza física, mental, intelectual ou sensorial, que comprovem não possuir meios para prover a própria manutenção nem de tê-la provida por sua família. O BPC integra a Proteção Social Básica no âmbito do Sistema Único de Assistência Social – SUAS e para acessá-lo não é necessário ter contribuído com a Previdência Social.</p>
 
     </div>
 
@@ -110,7 +116,7 @@ include '../defaultTop.php';
     </div>
 
     <div class="row-fluid p-4">
-        <h5>PROGRAMA DE DEFESA DE DIREITO A CONVIVÊNCIA FAMILIAR E COMUNITÁRIA (APADRINHAMENTO AFETIVO E APOIO A ADOÇÃO</h5>
+        <h5>PROGRAMA DE DEFESA DE DIREITO A CONVIVÊNCIA FAMILIAR E COMUNITÁRIA (APADRINHAMENTO AFETIVO E APOIO A ADOÇÃO)</h5>
         <p>Unidades Executora Casa de Orientação e Assistência Social Seareiros de Jesus (COASSEJE)</p>
 
         <p>a) Projeto de Apoio a adoção – destina-se a indivíduos e/ou famílias pretendentes a adoção.</p>
