@@ -8,7 +8,7 @@ include '../defaultTop.php';
     <!-- PROTEÇÃO SOCIAL ESPECIAL -->
     <div class="row-fluid p-4 border-bottom">
 
-        <h3 class="my-0 pb-2">Proteção Social ESPECIAL</h3>
+        <h3 class="my-0 pb-2">Proteção Social Especial</h3>
 
         <p>A <b>Proteção Social Especial</b> organiza-se por conjunto de serviços, programas e projetos que tem por objetivo contribuir para a reconstrução de vínculos familiares e comunitários, a defesa de direito, o fortalecimento das potencialidades e aquisições e a proteção de famílias e indivíduos para o enfrentamento das situações de violação de direitos. Destina-se às famílias e indivíduos que se encontram em situação de risco pessoal e social, por ocorrência de abandono, maus tratos físicos e, ou psíquicos, abuso sexual, e uso de substâncias psicoativas, cumprimento de medidas socioeducativas, situação de rua, situação de trabalho infantil, entre outras. São serviços que requerem acompanhamento individual e maior flexibilidade nas soluções protetivas.</p>
 
@@ -34,10 +34,17 @@ include '../defaultTop.php';
                             <div class="row">
 
                                 <address class="col-12">
-                                    <strong>CREAS (Centro de Referência Especializado de Assistência Social)</strong><br>
-                                    Endereço: Rua Antonio Feliciano Castilho, nº 594 - Vila Almorim<br>
-                                    Telefone: (19) 3475-3400<br>
-                                    E-mail: <a class="text-primary">creas.coord@americana.sp.gov.br</a><br>
+                                    <div class="row">
+                                        <div class="col-md-8 col-sm-12">
+                                            <strong>CREAS (Centro de Referência Especializado de Assistência Social)</strong><br>
+                                            Endereço: Rua Antonio Feliciano Castilho, nº 594 - Vila Almorim<br>
+                                            Telefone: (19) 3475-3400<br>
+                                            E-mail: <a class="text-primary">creas.coord@americana.sp.gov.br</a><br>
+                                        </div>
+                                        <div class="col align-self-center text-center">
+                                            <a href="https://goo.gl/maps/KGaCECoyXSTzFNNA7"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                        </div>
+                                    </div>
                                 </address>
                                 <br>
 
@@ -402,6 +409,11 @@ include '../defaultTop.php';
 
                 </div>
             </div>
+        </div>
+
+        <div>
+            <h5 class="my-0 pb-2 pt-4">SERVIÇO DE PROTEÇÃO EM SITUAÇÕES DE CALAMIDADES PÚBLICAS E DE EMERGÊNCIA</h5>
+            <p>Serviço que promove apoio e proteção à população atingida por situações de emergência e calamidade pública, com a oferta de alojamentos provisórios, atenções e provisões materiais, conforme as necessidades detectadas. Assegura a realização de articulações e a participação em ações conjuntas de caráter intersetorial para a minimização dos danos ocasionados e o provimento das necessidades verificadas.</p>
         </div>
 
 

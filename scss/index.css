@@ -36,11 +36,6 @@
     width: 400px;
 }
 
-#addressServices > div address {
-    border-left: 5px solid #0062cc;
-    border-radius: 5px;
-}
-
 h3{
     color: #0062cc;
     font-weight: bolder;
@@ -85,4 +80,22 @@ h3{
 }
 .bg-texture-content{
     background-image: url(/src/textures/light-wool.png);
+}
+
+
+/* ADDRESS */
+#common-icons{
+    width: 44px;
+    height: 44px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#addressServices > div address {
+    border-left: 5px solid #0062cc;
+    border-bottom: 5px solid #4e88c5;
+    border-radius: 5px;
+}
+.card-body{
+    padding-left: 0px;
+    padding-right: 0px;
 }

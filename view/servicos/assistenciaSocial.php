@@ -38,37 +38,38 @@ include '../defaultTop.php';
     <div class="row-fluid p-4">
 
         <h3>Estrutura do Órgão Gestor</h3>
+        <p>Obs: Caso queira verificar os detalhes, clique nos títulos/links a seguir (o que está em <b class="text-primary">AZUL</b>).</p>
 
-        <p class="mb-0"><b>Gestão do Sistema Único de Assistência Social (SUAS)</b></p>
+        <p class="mb-0"><b><a href="/view/servicos/suas.php">Gestão do Sistema Único de Assistência Social (SUAS)</a></b></p>
         <p class="pl-4 mb-0">Vigilância Socioassistencial</p>
         <p class="pl-4 mb-0">Gestão do Trabalho</p>
         <p class="pl-4 mb-0">Regulação do SUAS</p>
         <p class="pl-4 mb-0">Gestão Financeira e Orçamentária do Fundo Municipal de Assistência Social</p>
         <p class="pl-4">Gestão de Benefícios, Transferência de Renda e Cadastro Único</p>
 
-        <p class="mb-0"><b>Unidade de Direitos Humanos</b></p>
+        <p class="mb-0"><b><a href="/view/servicos/unidadeDirHum.php">Unidade de Direitos Humanos</a></b></p>
         <p class="pl-4">Conselho Tutelar</p>
 
-        <p class="mb-0"><b>Proteção Social Básica</b></p>
+        <p class="mb-0"><b><a href="/view/servicos/protecaoSocialBasica.php">Proteção Social Básica</a></b></p>
         <p class="pl-4 mb-0">Serviço de Proteção e Atendimento Integral à Família (PAIF)</p>
         <p class="pl-4 mb-0">Unidade Executora Pública: Centro de Referência de Assistência Social (CRAS)</p>
         <p class="pl-4">Unidade Executora Privada: Serviço de Convivência e Fortalecimento de Vínculos (SCFV)</p>
 
-        <p class="mb-0"><b>Proteção Social Especial</b></p>
+        <p class="mb-0"><b><a href="/view/servicos/protecaoSocialEspecial.php">Proteção Social Especial</a></b></p>
         <p class="pl-4 mb-0">Proteção Social Especial</p>
         <p class="pl-4 mb-0">Serviço de Proteção e Atendimento Especializado a Famílias e Indivíduos - Média complexidade (PAEFI)</p>
         <p class="pl-4 mb-0">Unidade Executora Pública: Centro de Referência Especializado de Assistência Social (CREAS)</p>
         <p class="pl-4">Serviços de Acolhimento Institucional</p>
 
-        <p class=""><b>Cadastro Único para Programas Sociais do Governo Federal</b></p>
+        <p class=""><b><a href="/view/servicos/cadastroUnico.php">Cadastro Único para Programas Sociais do Governo Federal</a></b></p>
 
-        <p class="mb-0"><b>Programas de</b></p>
+        <p class="mb-0"><b><a href="/view/servicos/programas.php">Programas da rede</a></b></p>
         <p class="pl-4 mb-0">Rede Pública</p>
         <p class="pl-4">Rede Privada</p>
 
-        <p class=""><b>Controle Social: Secretaria Executiva do CMAS</b></p>
+        <p class=""><b><a href="/view/servicos/controles.php">Controle Social: Secretaria Executiva do CMAS</a</b></p>
 
-        <p class=""><b>Secretarias Executivas dos Conselhos</b></p>
+        <p class=""><b><a href="/view/servicos/controles.php">Secretarias Executivas dos Conselhos</a></b></p>
 
     </div>
 

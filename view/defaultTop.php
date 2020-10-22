@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 </head>
 
-<body class="nunito" style="min-width: 440px;">
+<body class="nunito" style="min-width: 350px;">
     <!-- adamina, montserrat, nunito -->
 
     <div class="container-fluid py-4">

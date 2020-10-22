@@ -2,19 +2,19 @@
 var rightContent = document.querySelector('#rc');
 var myRc = [
     {
-        'href': 'https://www.transparencia.americana.sp.gov.br/',
+        'href': 'https://transparencia.americana.sp.gov.br/transparencia_index.php',
         'src': '/src/img/banner_portal_transparencia.jpg',
         'text': 'Portal da Transparência',
         'alt': 'Icone do portal da transparência'
     },
     {
-        'href': 'https://www.americana.sp.gov.br/',
+        'href': 'https://americana.1doc.com.br/b.php?pg=o/wp&s=americana',
         'src': '/src/img/banner-protocolo-digital.png',
         'text': 'Protocolo Digital',
         'alt': 'Icone protocolo digital'
     },
     {
-        'href': 'https://www.americana.sp.gov.br/',
+        'href': 'https://esic.americana.sp.gov.br/esic_index.php',
         'src': '/src/img/banner-sic-3.jpg',
         'text': 'SIC',
         'alt': 'SIC'
@@ -30,7 +30,7 @@ function renderRc(html, obj) {
         if (index == 0) {
             return `
             <div class="container">
-                <div class="d-lg-block d-xl-none mt-5"></div> <!-- Essa linha só serve para dar MT-4 -->
+                <div class="d-lg-block d-xl-none mt-3"></div> <!-- Essa linha só serve para dar MT-4 -->
 
                 <div class="row">
                     <h5>Principais Links</h5>

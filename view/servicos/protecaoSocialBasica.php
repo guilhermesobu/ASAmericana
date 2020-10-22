@@ -8,13 +8,11 @@ include '../defaultTop.php';
     <!-- PROTEÇÃO SOCIAL BÁSICA -->
     <div class="row-fluid p-4 border-bottom">
 
-        <h3 class="my-0 pb-2">Proteção Social BÁSICA</h3>
+        <h3 class="my-0 pb-2">Proteção Social Básica</h3>
 
         <p>A <b>Proteção Social Básica</b> organiza-se por conjunto de serviços, programas, projetos e benefícios de assistência social que visa prevenir situações de vulnerabilidade e risco social por meio do desenvolvimento de potencialidades e aquisições e do fortalecimento de vínculos familiares e comunitários. Destina-se à população que vive em situação de vulnerabilidade social decorrente da pobreza, privação (ausência de renda, precário ou nulo acesso aos serviços públicos, dentre outros) e, ou, fragilização de vínculos afetivos – relacionais e de pertencimento social (discriminações etárias, étnicas, de gênero ou por deficiências, dentre outras).</p>
 
         <p><b>Serviço de Proteção e Atendimento Integral à Família (PAIF)</b> que consiste no trabalho social com famílias, de caráter continuado, com a finalidade de fortalecer a função protetiva das famílias, prevenir a ruptura dos seus vínculos, promover seu acesso e usufruto de direitos e contribuir na melhoria de sua qualidade de vida.</p>
-
-        <p><b>Serviço de Proteção em Situações de Calamidades Públicas e de Emergências</b> que promove apoio e proteção à população atingida por situações de emergência e calamidade pública, com a oferta de alojamentos provisórios, atenções e provisões materiais, conforme as necessidades detectadas. Assegura a realização de articulações e a participação em ações conjuntas de caráter intersetorial para a minimização dos danos ocasionados e o provimento das necessidades verificadas.</p>
 
     </div>
 
@@ -34,51 +32,95 @@ include '../defaultTop.php';
                     <div class="px-4" id="addressServices">
                         <div class="row">
 
-                            <address class="col-md-6 col-12">
-                                <strong>CRAS Mathiensen</strong><br>
-                                Rua dos Tucanos, 270 - Vila Mathiensen<br>
-                                Telefone: (19) 3407-2770<br>
-                                E-mail: <a class="text-primary">crasvm@americana.sp.gov.br</a><br>
+                            <address class="col-12">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-12">
+                                        <strong>CRAS Mathiensen</strong><br>
+                                        Rua dos Tucanos, 270 - Vila Mathiensen<br>
+                                        Telefone: (19) 3407-2770<br>
+                                        E-mail: <a class="text-primary">crasvm@americana.sp.gov.br</a><br>
+                                    </div>
+                                    <div class="col align-self-center text-center">
+                                        <a href="https://goo.gl/maps/iz4oUcQTYQbQwCAT6"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    </div>
+                                </div>
                             </address>
                             <br>
 
-                            <address class="col-md-6 col-12">
-                                <strong>CRAS Praia Azul</strong><br>
-                                Rua Maranhão, 1595 - Praia Azul<br>
-                                Telefone: (19) 3467-2256<br>
-                                E-mail: <a class="text-primary">craspa@americana.sp.gov.br</a><br>
+                            <address class="col-12">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-12">
+                                        <strong>CRAS Praia Azul</strong><br>
+                                        Rua Maranhão, 1595 - Praia Azul<br>
+                                        Telefone: (19) 3467-2256<br>
+                                        E-mail: <a class="text-primary">craspa@americana.sp.gov.br</a><br>
+                                    </div>
+                                    <div class="col align-self-center text-center">
+                                        <a href="https://goo.gl/maps/jSHkuaPBqzKtnbe18"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    </div>
+                                </div>
                             </address>
                             <br>
 
-                            <address class="col-md-6 col-12">
-                                <strong>CRAS Jardim Nossa Senhora Aparecida</strong><br>
-                                Rua Caetano de Campos, s/n - Jardim Nossa Senhora Aparecida<br>
-                                Telefone: (19) 3469-2339<br>
-                                E-mail: <a class="text-primary">crasnsa@americana.sp.gov.br</a><br>
+                            <address class="col-12">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-12">
+                                        <strong>CRAS Jardim Nossa Senhora Aparecida</strong><br>
+                                        Rua Caetano de Campos, s/n - Jardim Nossa Senhora Aparecida<br>
+                                        Telefone: (19) 3469-2339<br>
+                                        E-mail: <a class="text-primary">crasnsa@americana.sp.gov.br</a><br>
+                                    </div>
+                                    <div class="col align-self-center text-center">
+                                        <a href="https://goo.gl/maps/bybAyHVVHVJnBbfu8"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                        <a href="https://www.facebook.com/crasjnsa/"><img src="/src/icons/Face-Circle.png" id="common-icons" alt="Facebook"></a>
+                                    </div>
+                                </div>
                             </address>
                             <br>
 
-                            <address class="col-md-6 col-12">
-                                <strong>CRAS São Jerônimo</strong><br>
-                                Rua Carlos Vassalo, 370 - São Jerônimo<br>
-                                Telefone: (19) 3462-7151<br>
-                                E-mail: <a class="text-primary">crassj@americana.sp.gov.br</a><br>
+                            <address class="col-12">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-12">
+                                        <strong>CRAS São Jerônimo</strong><br>
+                                        Rua Carlos Vassalo, 370 - São Jerônimo<br>
+                                        Telefone: (19) 3462-7151<br>
+                                        E-mail: <a class="text-primary">crassj@americana.sp.gov.br</a><br>
+                                    </div>
+                                    <div class="col align-self-center text-center">
+                                        <a href="https://goo.gl/maps/eYyL5WY2Ec2sUccb6"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    </div>
+                                </div>
                             </address>
                             <br>
 
-                            <address class="col-md-6 col-12">
-                                <strong>CRAS Guanabara</strong><br>
-                                Rua da Tijuca, 182 - Jardim Guanabara<br>
-                                Telefone: (19) 3407-8002<br>
-                                E-mail: <a class="text-primary">crasguanabara@americana.sp.gov.br</a><br>
+                            <address class="col-12">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-12">
+                                        <strong>CRAS Guanabara</strong><br>
+                                        Rua da Tijuca, 182 - Jardim Guanabara<br>
+                                        Telefone: (19) 3407-8002<br>
+                                        E-mail: <a class="text-primary">crasguanabara@americana.sp.gov.br</a><br>
+                                    </div>
+                                    <div class="col align-self-center text-center">
+                                        <a href="https://goo.gl/maps/kAAc4qALAR22VyXv9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                        <a href="https://www.facebook.com/crasguanabara/"><img src="/src/icons/Face-Circle.png" id="common-icons" alt="Facebook"></a>
+                                    </div>
+                                </div>
                             </address>
                             <br>
 
-                            <address class="col-md-6 col-12">
-                                <strong>CRAS São Manoel</strong><br>
-                                Rua São Thiago, 320 - São Manoel<br>
-                                Telefone: (19) 3468-6103<br>
-                                E-mail: <a class="text-primary">crassmanoel@americana.sp.gov.br</a><br>
+                            <address class="col-12">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-12">
+                                        <strong>CRAS São Manoel</strong><br>
+                                        Rua São Thiago, 320 - São Manoel<br>
+                                        Telefone: (19) 3468-6103<br>
+                                        E-mail: <a class="text-primary">crassmanoel@americana.sp.gov.br</a><br>
+                                    </div>
+                                    <div class="col align-self-center text-center">
+                                        <a href="https://goo.gl/maps/4MZMJ7NWeFJaXFkr6"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    </div>
+                                </div>
                             </address>
 
                         </div>
