@@ -5,12 +5,11 @@ include '../defaultTop.php';
 
 <div class="container shadow rounded">
 
-    <div class="row-fluid p-4 border-bottom">
+    <div class="row p-4 border-bottom">
 
         <h3>Secretaria de Assistência Social e Direitos Humanos (SASDH)</h3>
 
-        <p><b>Nós somos</b> o órgão responsável pela articulação, execução, coordenação e supervisão das políticas, serviços, programas, projetos e benefícios do Município de Americana voltado para a gestão do Sistema Único de Assistência Social (SUAS) e da garantia dos direitos humanos e bem estar da comunidade.
-        </p>
+        <p><b>Nós somos</b> o órgão responsável pela articulação, execução, coordenação e supervisão das políticas, serviços, programas, projetos e benefícios do Município de Americana voltado para a gestão do Sistema Único de Assistência Social (SUAS) e da garantia dos direitos humanos e bem estar da comunidade.</p>
         <p><b>Nossa missão</b> é garantir o atendimento das necessidades básicas, realizada mediante um conjunto integrado de ações de iniciativa pública e da sociedade. Para o enfrentamento da pobreza, a assistência social realiza-se de forma integrada com as políticas setoriais, visando universalizar a proteção social em atender às contingências sociais.</p>
 
         <p class="pt-2">
@@ -67,7 +66,7 @@ include '../defaultTop.php';
         <p class="pl-4 mb-0">Rede Pública</p>
         <p class="pl-4">Rede Privada</p>
 
-        <p class=""><b><a href="/view/servicos/controles.php">Controle Social: Secretaria Executiva do CMAS</a</b></p>
+        <p class=""><b><a href="/view/servicos/controles.php">Controle Social: Secretaria Executiva do CMAS</a></b></p>
 
         <p class=""><b><a href="/view/servicos/controles.php">Secretarias Executivas dos Conselhos</a></b></p>
 

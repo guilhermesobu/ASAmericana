@@ -10,6 +10,8 @@
     <link rel="shortcut icon" type="/image/x-icon" hef="favicon.ico" />
 
     <title>Secretaria de Assistência Social e Direitos Humanos</title>
+    <meta name="description" content="Secretaria de Assistência Social e Direitos Humano">
+    <meta name="keywords" content="Secretaria de Assistencia, Secretaria, Assistencia Social, Americana, AS, Secretaria de Assistência Social e Direitos Humanos, SASDH, Assistencia Social Americana, Americana, Prefeitura de Americana"> 
 
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
