@@ -15,7 +15,7 @@ if (window.innerWidth > 767) {
 }
 
 //SERVIÇOS
-if (window.innerWidth > 767) {
+/*if (window.innerWidth > 767) {
     var dropServices = document.querySelector('#dropServices');
     console.log('1');
     dropServices.addEventListener("mouseleave", () => {
@@ -27,8 +27,37 @@ if (window.innerWidth > 767) {
             services.click();
         };
     });
+}*/
+
+//INSTITUCIONAL
+if (window.innerWidth > 767) {
+    var dropInstitutional = document.querySelector('#dropInstitutional');
+    console.log('1');
+    dropInstitutional.addEventListener("mouseleave", () => {
+        dropInstitutional.click();
+    });
+    var institutional = document.querySelector('#institutional');
+    institutional.addEventListener("mouseenter", () => {
+        if (dropInstitutional.classList[3] == undefined) {
+            institutional.click();
+        };
+    });
 }
 
+//ASSISTENCIA SOCIAL
+if (window.innerWidth > 767) {
+    var dropSocialAssistance = document.querySelector('#dropSocialAssistance');
+    console.log('1');
+    dropSocialAssistance.addEventListener("mouseleave", () => {
+        dropSocialAssistance.click();
+    });
+    var socialAssistance = document.querySelector('#socialAssistance');
+    socialAssistance.addEventListener("mouseenter", () => {
+        if (dropSocialAssistance.classList[3] == undefined) {
+            socialAssistance.click();
+        };
+    });
+}
 
 // AQUI ESTÁ A ABERTURA DE NOVA ABA AO CLICAR NO PMAS
 var pmas = document.querySelector('#btnPmas');

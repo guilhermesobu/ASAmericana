@@ -11,7 +11,7 @@
 
     <title>Secretaria de Assistência Social e Direitos Humanos</title>
     <meta name="description" content="Secretaria de Assistência Social e Direitos Humano">
-    <meta name="keywords" content="Secretaria de Assistencia, Secretaria, Assistencia Social, Americana, AS, Secretaria de Assistência Social e Direitos Humanos, SASDH, Assistencia Social Americana, Americana, Prefeitura de Americana"> 
+    <meta name="keywords" content="Secretaria de Assistencia, Secretaria, Assistencia Social, Americana, AS, Secretaria de Assistência Social e Direitos Humanos, SASDH, Assistencia Social Americana, Americana, Prefeitura de Americana">
 
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -43,7 +43,6 @@
         </div>
     </div>
 
-
     <!-- NAVBAR -->
     <div class="row-fluid border-bottom border-primary sticky-top">
         <nav class="rounded-bottom navbar navbar-expand-md navbar-light bg-white">
@@ -56,35 +55,30 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
 
-                    <!-- HOME -->
-                    <li class="nav-item border-primary">
-                        <a class="nav-link rounded" href="/">Página principal <span class="sr-only">(current)</span></a>
+                    <!-- INSTITUCIONAL -->
+                    <li class="nav-item dropdown border-primary" id="dropInstitutional">
+                        <a class="nav-link dropdown-toggle" id="institutional" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Institucional
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="institutional">
+                            <a class="dropdown-item btn" href="/view/institucional/historico.php">Histórico</a>
+                            <a class="dropdown-item btn" href="">Estrutura Organizacional</a>
+                            <a class="dropdown-item btn" href="">Composição</a>
+                            <a class="dropdown-item btn" href="">Base Jurídica</a>
+                            <a class="dropdown-item btn" href="">Plano Estratégico</a>
+                        </div>
                     </li>
 
-                    <!-- SERVICES -->
-                    <li class="nav-item dropdown border-primary" id="dropServices">
-                        <a class="nav-link dropdown-toggle" id="services" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Serviços
+                    <!-- ASSISTENCIA SOCIAL -->
+                    <li class="nav-item dropdown border-primary" id="dropSocialAssistance">
+                        <a class="nav-link dropdown-toggle" id="socialAssistance" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Assistência Social
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="services">
-                            <a class="dropdown-item btn mt-1" id="btnPmas">
-                                <div class="row">
-                                    <div class="col-fill d-flex align-tems-center">
-                                        <img style="width: 24px; height: 25px" class="float-left align-self-center" src="/src/icons/icon-pdf-white.png">
-                                    </div>
-                                    <div class="col text-wrap mt-0">
-                                        Plano Municipal de Assistência Social - 2018 - 2020
-                                    </div>
-                                </div>
-                            </a>
-                            <a class="dropdown-item btn mt-1" href="/view/servicos/assistenciaSocial.php">Secretaria de Assistencia Social e Direitos Humanos</a>
-                            <a class="dropdown-item btn mt-1" href="/view/servicos/suas.php">Unidade de Assistência Social (SUAS)</a>
-                            <a class="dropdown-item btn mt-1" href="/view/servicos/unidadeDirHum.php">Unidade de Direitos Humanos</a>
-                            <a class="dropdown-item btn mt-1" href="/view/servicos/protecaoSocialBasica.php">Proteção Social Básica</a>
-                            <a class="dropdown-item btn mt-1" href="/view/servicos/protecaoSocialEspecial.php">Proteção Social Especial</a>
-                            <a class="dropdown-item btn mt-1" href="/view/servicos/cadastroUnico.php">Cadastro Único</a>
-                            <a class="dropdown-item btn mt-1" href="/view/servicos/programas.php">Programas de rede Pública e Privada</a>
-                            <a class="dropdown-item btn mt-1" href="/view/servicos/controles.php">Controle Social</a>
+                        <div class="dropdown-menu" aria-labelledby="socialAssistance">
+                            <a class="dropdown-item btn" href="/view/assistenciaSocial/sobre.php">O que é</a>
+                            <a class="dropdown-item btn" href="/view/assistenciaSocial/uda.php">Unidade de Atendimento</a>
+                            <a class="dropdown-item btn" href="">Documentos</a>
+                            <a class="dropdown-item btn" href="https://www.gov.br/cidadania/pt-br/noticias-e-conteudos/publicacoes-1/desenvolvimento-social">Publicações</a>
                         </div>
                     </li>
 
@@ -101,7 +95,7 @@
                             <a class="dropdown-item btn" href="/view/perguntasfrequentes/aeapp.php">AE - APP</a>
                             <a class="dropdown-item btn" href="/view/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
                             <a class="dropdown-item btn" href="/view/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
-                            <a class="dropdown-item btn"x href="/view/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
+                            <a class="dropdown-item btn" x href="/view/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
                         </div>
                     </li>
 
@@ -116,6 +110,7 @@
 
         </nav>
     </div>
+
 
     <!-- CONTENT -->
     <div class="container-fluid text-justify py-4 bg-texture-content">
