@@ -36,7 +36,7 @@ include '../../defaultTop.php';
                     <address class="col-12">
                         <div class="row">
                             <div class="col-md-8 col-sm-12">
-                                <strong>Casa de Dom Bosco</strong><br>
+                                <strong></strong><br>
                                 Rua dos Colibris, nº 235 – Jardim dos Lírios<br>
                                 Telefone: : (19) 3406-1147 / (19) 3406-3332<br>
                                 E-mail: <a class="text-primary">coord.casade@dombosco.br</a><br>
