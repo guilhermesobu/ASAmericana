@@ -1,3 +1,7 @@
+.bg-prefeitura{
+    background-image: linear-gradient(to right, blue 70%, red);
+}
+
 .font-cousine {
     font-family: 'Cousine', monospace;
     font-size: medium;
@@ -52,6 +56,11 @@ h3{
     color: #ffffff !important;
     border: 0;
 }
+.nav-item > a{ /* Isso serve para não ficar alterando tamanho quando passar o mouse em cima dos menus */
+    border-left: 1px solid #ffffff00;
+    border-right: 1px solid #ffffff00;
+    border-top: 1px solid #ffffff00;
+}
 .nav-item:hover > a{
     border-left: 1px solid #ffffff;
     border-right: 1px solid #ffffff;
@@ -63,7 +72,7 @@ h3{
     border-bottom: 1px solid #ffffff;
     border-right: 1px solid #ffffff;
     border-radius: 0px 5px 5px 5px;
-    width: 400px;
+    min-width: 300px;
     margin-top: 0px;
 }
 .dropdown-item:hover{
@@ -76,7 +85,7 @@ h3{
 /* BACKGROUND TEXTURES */
 .bg-texture{
     background-image: url(/src/textures/bright-squares.png);
-    background-repeat: repeat;
+    background-color: #002c5a;
 }
 .bg-texture-content{
     background-image: url(/src/textures/light-wool.png);

@@ -12,10 +12,10 @@
 
             <!-- FOOTER -->
             <div class="container-fluid py-4 m-0 bg-texture">
-                <div class="row d-flex justify-content-around align-items-center">
+                <div class="row d-flex justify-content-around align-items-center text-white">
 
                     <div class="col-md-3 col-sm-12 text-center mx-4 my-1 py-4">
-                        <img src="/src/img/brasao_americana.png">
+                        <img class="rounded-circle bg-white py-2 px-3" src="/src/img/brasao_americana.png">
                     </div>
 
                     <div class="col-md col-sm-6 my-1 py-4">
