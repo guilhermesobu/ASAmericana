@@ -3,14 +3,21 @@
 function renderFQ(title, php, obj) {
     var indexphp = php;
     var myObj = obj;
-    
+
     indexphp.innerHTML = myObj.map((item, index) => {
 
         var topOfThePage = `
-        <div class="container shadow py-2 rounded">
+        <div class="container shadow pb-2 rounded">
+            <nav aria-label="breadcrumb" class="pt-3">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/view/perguntasfrequentes/">Perguntas Frequentes</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">${title}</li>
+                </ol>
+            </nav>
             <div class="row-fluid col-12 py-2">
                 <strong>
-                    <h3 class="col-12 pt-1 pb-0">Perguntas Frequêntes</h3>
+                    <h3 class="col-12 pt-1 pb-0">Perguntas Frequentes</h3>
                     <p class="pl-3">
                         ${title}
                     </p>

@@ -5,6 +5,14 @@ include '../defaultTop.php';
 
 <div class="container shadow rounded">
 
+    <nav aria-label="breadcrumb" class="pt-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="/view/assistenciaSocial">Assistência Social</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Unidade de Atendimento</li>
+        </ol>
+    </nav>
+
     <div class="row-fluid p-4">
 
         <h3 class="text-left">Cobertura da Rede Socioassistencial</h3>
@@ -61,7 +69,7 @@ include '../defaultTop.php';
         <p class="px-4 mb-0">Veja as unidades de atendimentos ofertados para a DEFESA E GARANTIA DE DIREITOS:</p>
         <ul class="pb-3">
             <spam>Privada</spam>
-            <li><a href="\view\assistenciaSocial\assessGarantDeDireito.php">Programa de Promoção do ireito de Crianças e Adolescentes à Convivência Familiar e Comunitária</a></li>
+            <li><a href="\view\assistenciaSocial\atendimento\assessGarantDeDireito.php">Programa de Promoção do ireito de Crianças e Adolescentes à Convivência Familiar e Comunitária</a></li>
         </ul>
 
 

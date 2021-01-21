@@ -19,6 +19,12 @@ var myRc = [
         'text': 'SIC',
         'alt': 'SIC'
     },
+    {
+        'href': '/view/mrosc.php',
+        'src': '/src/img/banner-mrosc2.jpg',
+        'text': 'MROSC',
+        'alt': 'MROSC'
+    },
 ];
 
 function renderRc(html, obj) {

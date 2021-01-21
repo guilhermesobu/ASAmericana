@@ -2,6 +2,12 @@
 
 <div class="p-3 mb-4 shadow rounded">
 
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+    </nav>
+
     <!-- NOTICIAS -->
     <div class="my-5 mx-3">
         <div class="row">

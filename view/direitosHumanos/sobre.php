@@ -4,6 +4,13 @@ include '../defaultTop.php';
 
 <div class="container shadow rounded">
 
+    <nav aria-label="breadcrumb" class="pt-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Direitos Humanos</li>
+        </ol>
+    </nav>
+
     <div class="row-fluid p-4">
 
         <h3 class="text-left">Direitos Humanos</h3>
@@ -20,6 +27,8 @@ include '../defaultTop.php';
             <li>promover a articulação institucional com Políticas Públicas, Sistema de Justiça e Garantia de Direitos e Entidades ligadas aos direitos humanos;</li>
             <li>elaborar e acompanhar políticas, planos, programas, projetos, diretrizes, protocolos, diagnósticos e campanhas intersetoriais com o objetivo de aprimorar os equipamentos públicos e privados, fomentando e publicizando os Direitos Humanos e seus Órgãos de Defesa e de Políticas.</li>
         </ol>
+
+        <p><a href="/view/direitosHumanos/uda.php">Veja detalhes sobre as Unidades de Atendimento</a></p>
 
     </div>
 
