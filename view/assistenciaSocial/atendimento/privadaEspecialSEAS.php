@@ -36,7 +36,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">luiz@vindealuz.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/wTDVAPGWBJQDasRu5"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                             <div class="col-md-8 col-sm-12">
                                 <strong>Unidade de Serviço</strong><br>
@@ -45,7 +45,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">abordagemam@vindealuz.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/55d3hZqAvWDAn7Xz9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>

@@ -21,3 +21,18 @@
 .nunito{
     font-family: Nunito !important;
 }
+
+
+/* CSS para fontes e textos */
+.font-cousine {
+    font-family: 'Cousine', monospace;
+    font-size: medium;
+}
+
+.font-large {
+    font-size: large;
+}
+
+.font-small {
+    font-size: 10px;
+} 

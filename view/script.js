@@ -17,7 +17,6 @@ if (window.innerWidth > 767) {
 //SERVIÇOS
 /*if (window.innerWidth > 767) {
     var dropServices = document.querySelector('#dropServices');
-    console.log('1');
     dropServices.addEventListener("mouseleave", () => {
         dropServices.click();
     });
@@ -32,7 +31,6 @@ if (window.innerWidth > 767) {
 //INSTITUCIONAL
 if (window.innerWidth > 767) {
     var dropInstitutional = document.querySelector('#dropInstitutional');
-    console.log('1');
     dropInstitutional.addEventListener("mouseleave", () => {
         dropInstitutional.click();
     });
@@ -47,7 +45,6 @@ if (window.innerWidth > 767) {
 //ASSISTENCIA SOCIAL
 if (window.innerWidth > 767) {
     var dropSocialAssistance = document.querySelector('#dropSocialAssistance');
-    console.log('1');
     dropSocialAssistance.addEventListener("mouseleave", () => {
         dropSocialAssistance.click();
     });
@@ -62,7 +59,6 @@ if (window.innerWidth > 767) {
 //SEGURANÇA ALIMENTAR E NUTICIONAL
 if (window.innerWidth > 767) {
     var dropSegAlimNut = document.querySelector('#dropSegAlimNut');
-    console.log('1');
     dropSegAlimNut.addEventListener("mouseleave", () => {
         dropSegAlimNut.click();
     });
@@ -77,7 +73,6 @@ if (window.innerWidth > 767) {
 //DIREITOS HUMANOS
 if (window.innerWidth > 767) {
     var dropDirHumano = document.querySelector('#dropDirHumano');
-    console.log('1');
     dropDirHumano.addEventListener("mouseleave", () => {
         dropDirHumano.click();
     });
@@ -92,7 +87,6 @@ if (window.innerWidth > 767) {
 // ACESSO À INFORMAÇÃO
 if (window.innerWidth > 767) {
     var dropAcessoInformacao = document.querySelector('#dropAcessoInformacao');
-    console.log('1');
     dropAcessoInformacao.addEventListener("mouseleave", () => {
         dropAcessoInformacao.click();
     });

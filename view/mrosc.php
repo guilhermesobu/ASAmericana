@@ -14,9 +14,9 @@ include 'defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3>MROSC</h3>
+        <h3>Marco Regulatório das Organizações da Sociedade Civil - MROSC</h3>
 
-        <p>A aprovação da Lei Federal nº 13.019 de 31 de julho de 2014 com suas alterações, <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13019.html">http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13019.html</a>, conhecida como <b>Marco Regulatório das Organizações da Sociedade Civil</b> (MROSC) representa uma grande conquista em todo território nacional, pois passa a ser estabelecido um novo regime jurídico das parcerias entre a administração pública e as organizações por meio de novos instrumentos jurídicos: os termos de Fomento e de Colaboração, no caso de parcerias com recursos financeiros, e o Acordo de Cooperação, no caso de parcerias sem recursos financeiros.</p>
+        <p>A aprovação da Lei Federal nº 13.019 de 31 de julho de 2014 com suas alterações, <a href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13019.htm">http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13019.html</a>, conhecida como <b>Marco Regulatório das Organizações da Sociedade Civil</b> (MROSC) representa uma grande conquista em todo território nacional, pois passa a ser estabelecido um novo regime jurídico das parcerias entre a administração pública e as organizações por meio de novos instrumentos jurídicos: os termos de Fomento e de Colaboração, no caso de parcerias com recursos financeiros, e o Acordo de Cooperação, no caso de parcerias sem recursos financeiros.</p>
 
         <p>A sua implementação estimula a gestão pública democrática nas diferentes esferas de governo e valoriza as organizações da sociedade civil como parceiras do Estado na garantia e efetivação de direitos, proporcionando parcerias com o poder público amparadas em regras claras e válidas, com foco no controle de resultados.</p>
 
@@ -29,8 +29,8 @@ include 'defaultTop.php';
         <p class="border-bottom pb-4"><a href="https://www.americana.sp.gov.br/americanaV6_index.php?it=66&a=conselhos_cmdca_download_chamamento">https://www.americana.sp.gov.br/americanaV6_index.php?it=66&a=conselhos_cmdca_download_chamamento</a></p>
 
         <p class="pt-2">Para saber mais: </p>
-        <p class="text-left"><a href="">LIVRETO: ENTENDA O MROSC - Marco Regulatório das Organizações da Sociedade Civil.</a></p>
-        <p class="text-left"><a href="">LIVRETO: ENTENDA O MROSC - Marco Regulatório das Organizações da Sociedade Civil Ilustrado do Planejamento à Prestação de Contas. Lei 13.019/2014 e Decreto 8.726/2016.</a></p>
+        <p class="text-left"><a href="/src/documents/LIVRETO-MROSC-1.pdf">LIVRETO: ENTENDA O MROSC - Marco Regulatório das Organizações da Sociedade Civil. Lei 13.019/2014.</a></p>
+        <p class="text-left"><a href="/src/documents/LIVRETO-MROSC-2.pdf">LIVRETO: ENTENDA O MROSC - Marco Regulatório das Organizações da Sociedade Civil Ilustrado do Planejamento à Prestação de Contas. Lei 13.019/2014 e Decreto 8.726/2016.</a></p>
 
     </div>
 

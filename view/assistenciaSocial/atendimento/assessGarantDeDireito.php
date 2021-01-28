@@ -41,7 +41,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">coasseje@coasseje.com.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href="https://goo.gl/maps/4MZMJ7NWeFJaXFkr6"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/t67hSKX9NGdc9LDD9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                             </div>
                         </address>

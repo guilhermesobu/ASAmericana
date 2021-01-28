@@ -38,7 +38,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">creas@americana.sp.gov.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/Pm52mGcbUCveC8Y19"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>

@@ -36,7 +36,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">inscricoecons@ciee.org.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/EZbXpCc3xRnkA7WL6"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>
@@ -50,7 +50,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">equipeccpa@yahoo.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/hK96GyBTZfnqrpUy9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>
@@ -64,7 +64,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">coordenadora@soma-americana.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/Lf9oNcnBfodxkS9n6"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>

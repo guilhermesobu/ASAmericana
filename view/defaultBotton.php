@@ -24,7 +24,7 @@
                             Rua das Poncianas, nº 1225 - Jardim Glória<BR>
                             CEP: 13468-180<BR>
                             Telefone: (19) 3471-6770<BR>
-                            E-mail: <a class="text-primary">acaosocial@americana.sp.gov.br</a><BR>
+                            E-mail: <a class="rounded-pill bg-white px-2">acaosocial@americana.sp.gov.br</a><BR>
                             Horário de atendimento: 9h às 16h<BR>
                         </address>
                     </div>
@@ -35,7 +35,7 @@
                             Avenida Brasil, nº 85 - Centro<BR>
                             CEP: 13465-901<BR>
                             Telefone: (19) 3475-9000<BR>
-                            E-mail (SAC) : <a class="text-primary">sac@americana.sp.gov.br</a><BR>
+                            E-mail (SAC) : <a class="rounded-pill bg-white px-2">sac@americana.sp.gov.br</a><BR>
                             Horário de atendimento: 9h às 16h<BR>
                         </address>
                     </div>

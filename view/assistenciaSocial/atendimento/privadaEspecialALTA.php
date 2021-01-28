@@ -39,7 +39,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">aama_feliz@yahoo.com.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/uVV5apTcYkt7kLQE7"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                             </div>
                         </address>
@@ -53,7 +53,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">secretariaongapam@gmail.com</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/xayhzDAM79DG1YtAA"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <strong>Unidade de Serviço (Famíli acolhedora)</strong><br>
@@ -62,7 +62,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">apamfamiliaacolhedora@gmail.com</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/Bf4ZKr3eDFc9Fp1J7"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                             </div>
                         </address>
@@ -76,7 +76,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">coasseje@coasseje.com.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/t67hSKX9NGdc9LDD9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <strong>Unidade de Serviço</strong><br>
@@ -85,7 +85,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">coord.acolhimento@coasseje.com.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/b4gzgRcp6VKwvSUg9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                             </div>
                         </address>
@@ -104,7 +104,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">aama_feliz@yahoo.com.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/uVV5apTcYkt7kLQE7"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <strong>Unidade de Atendimento</strong><br>
@@ -113,7 +113,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">aamarepublica@gmail.com</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/tFaAyRgeHUPYjw8d6"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                             </div>
                         </address>
@@ -127,7 +127,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">larmaeesperanca@gmail.com</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/1WSpJcPtFGCqyGAb9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                             </div>
                         </address>
@@ -141,7 +141,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">luiz@vindealuz.com.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/wTDVAPGWBJQDasRu5"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                                 <div class="col-md-8 col-sm-12">
                                     <strong>Unidade de Serviço</strong><br>
@@ -150,7 +150,7 @@ include '../../defaultTop.php';
                                     E-mail: <a class="text-primary">luiz@vindealuz.com.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/ZoCnumEXxYoZ4e5v5"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                             </div>
                         </address>
@@ -163,22 +163,13 @@ include '../../defaultTop.php';
                         <address class="col-12">
                             <div class="row">
                                 <div class="col-md-8 col-sm-12">
-                                    <strong>
-                                        Associação Beneficente Residncial Evangélico BENAIAH
-                                    </strong>
-                                    <br>
-                                    Rua Benaiah, nº 290 – Terramérica
-                                    <br>
-                                    Telefone: (19) 3461-8472
-                                    <br>
-                                    E-mail: 
-                                    <a class="text-primary">
-                                        contato@benaiah.org.br
-                                    </a>
-                                    <br>
+                                    <strong>Associação Beneficente Residncial Evangélico BENAIAH</strong><br>
+                                    Rua Benaiah, nº 290 – Terramérica<br>
+                                    Telefone: (19) 3461-8472<br>
+                                    E-mail: <a class="text-primary">contato@benaiah.org.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/NNfBCcteqdyaLRVT9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                             </div>
                         </address>
@@ -186,22 +177,13 @@ include '../../defaultTop.php';
                         <address class="col-12">
                             <div class="row">
                                 <div class="col-md-8 col-sm-12">
-                                    <strong>
-                                        Vila de São Vicente de Paulo Americana - Lar dos Velhinhos de São Vicente de Paulo
-                                    </strong>
-                                    <br>
-                                    Avenida Nove de Julho, nº 733 – São Domingos
-                                    <br>
-                                    Telefone: (19) 3461-1449
-                                    <br>
-                                    E-mail:
-                                    <a class="text-primary">
-                                        coordenacao.velhinhos@gmail.com
-                                    </a>
-                                    <br>
+                                    <strong>Vila de São Vicente de Paulo Americana - Lar dos Velhinhos de São Vicente de Paulo</strong><br>
+                                    Avenida Nove de Julho, nº 733 – São Domingos<br>
+                                    Telefone: (19) 3461-1449<br>
+                                    E-mail:<a class="text-primary">coordenacao.velhinhos@gmail.com</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/2epZCWHijFGDyRG98"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                             </div>
                         </address>

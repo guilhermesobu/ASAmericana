@@ -21,7 +21,7 @@ var myRc = [
     },
     {
         'href': '/view/mrosc.php',
-        'src': '/src/img/banner-mrosc2.jpg',
+        'src': '/src/img/MROSC.png',
         'text': 'MROSC',
         'alt': 'MROSC'
     },
@@ -38,7 +38,7 @@ function renderRc(html, obj) {
             <div class="container">
                 <div class="d-lg-block d-xl-none mt-3"></div> <!-- Essa linha só serve para dar MT-4 -->
 
-                <div class="row">
+                <div class="row justify-content-center">
                     <h5>Principais Links</h5>
                 </div>
                 <div class="row border rounded border-primary p-2 bg-white shadow">

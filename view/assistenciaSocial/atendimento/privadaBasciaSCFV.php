@@ -36,7 +36,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">secretariaongapam@gmail.com</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/J2rRHp4f5DBALcA37"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                             <div class="col-md-8 col-sm-12">
                                 <strong>Unidade do SCFV</strong><br>
@@ -45,7 +45,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">apamscfv@gmail.com</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/Zk816L4iUdiziV6Y8"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>
@@ -59,7 +59,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">coord.casade@dombosco.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/SMUatyQvtFQRZX7e7"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>
@@ -73,7 +73,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">cruzadadsa@hotmail.com</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/koDmmDqTcnjMo56C6"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                             <div class="col-md-8 col-sm-12">
                                 <strong>Unidade do SCFV I</strong><br>
@@ -82,7 +82,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">scfv.zanaga@gmail.com</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/rqHKYdr9k8GkXc1c8"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                             <div class="col-md-8 col-sm-12">
                                 <strong>Unidade do SCFV II</strong><br>
@@ -91,7 +91,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary"> scfv.guanabara@gmail.com</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/PTPSTyGnhbpbKEdn9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>
@@ -105,7 +105,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary"> equipeccpa@yahoo.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/Uq4RSSNgCBmtLYfo7"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                             <div class="col-md-8 col-sm-12">
                                 <strong>Unidade do SCFV</strong><br>
@@ -114,7 +114,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">projetocaminhodiaconia@gmail.com</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/F7Ho2uL6Lz87L5s3A"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>
@@ -128,7 +128,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">coordenadora@soma-americana.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/DVbyhTumM1vuLtK3A"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
 
                             <div class="col-md-8 col-sm-12">
@@ -138,7 +138,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">ccsaovito@gmail.com</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/vGBBerzGmg8dUYnD9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>
@@ -152,7 +152,7 @@ include '../../defaultTop.php';
                                 E-mail: <a class="text-primary">sespaamericana@yahoo.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href=""><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/Z5v4iKsFBVJ4jFrVA"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>

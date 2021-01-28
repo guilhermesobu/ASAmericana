@@ -30,12 +30,12 @@ include '../../defaultTop.php';
                             <div class="row">
                                 <div class="col-md-8 col-sm-12">
                                     <strong>Cadastro Único</strong><br>
-                                    Rua <br>
-                                    Telefone: (19) <br>
-                                    E-mail: <a class="text-primary"> </a><br>
+                                    Rua Dom Pedro II, 25 - Parque Novo Mundo<br>
+                                    Telefone: (19) 3471-6220<br>
+                                    E-mail: <a class="text-primary">cadunico1@americana.sp.gov.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
-                                    <a href="https://goo.gl/maps/4MZMJ7NWeFJaXFkr6"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                    <a href="https://goo.gl/maps/zsuwBAuNVzRN7ZaV8"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                             </div>
                         </address>
@@ -49,7 +49,7 @@ include '../../defaultTop.php';
             <h4 class="text-primary">Centro de Referência de Assistência Social - CRAS</h4>
             <p>A LOAS, em seu artigo 24-A institui o Serviço de Proteção e Atendimento Integral à Família (PAIF), integrando a proteção social básica e consistindo na oferta de ações e serviços socioassistenciais de prestação continuada, nos CRAS, por meio do trabalho social com famílias em situação de vulnerabilidade social, com o objetivo de prevenir o rompimento dos vínculos familiares e a violência no âmbito de suas relações, garantindo o direito à convivência familiar e comunitária.</p>
             <p>De acordo com a Tipificação Nacional dos Serviços Socioassistenciais5 o Serviço PAIF consiste no trabalho social com famílias, de caráter continuado, com a finalidade de fortalecer a função protetiva das famílias, prevenir a ruptura dos seus vínculos, promover seu acesso e usufruto de direitos e contribuir na melhoria de sua qualidade de vida.</p>
-            <p>Os/as usuários/as do PAIF são famílias em situação de vulnerabilidade social decorrente da pobreza, do precário ou nulo acesso aos serviços públicos, da fragilização de vínculos de pertencimento e sociabilidade e/ou qualquer outra situação de vulnerabilidade e risco social residentes nos territórios de abrangência dos CRAS, em especial: famílias beneficiárias de programas de transferência de renda e benefícios assistenciais; famílias que atendem os critérios de elegibilidade a tais programas ou benefícios, mas que ainda não foram contempladas; famílias em situação de vulnerabilidade em decorrência de dificuldades vivenciadas por algum de seus membros; pessoas com deficiência e/ou pessoas idosas que vivenciam situações de vulnerabilidade e risco social</p>
+            <p>Os/as usuários/as do PAIF são famílias em situação de vulnerabilidade social decorrente da pobreza, do precário ou nulo acesso aos serviços públicos, da fragilização de vínculos de pertencimento e sociabilidade e/ou qualquer outra situação de vulnerabilidade e risco social residentes nos territórios de abrangência dos CRAS, em especial: famílias beneficiárias de programas de transferência de renda e benefícios assistenciais; famílias que atendem os critérios de elegibilidade a tais programas ou benefícios, mas que ainda não foram contempladas; famílias em situação de vulnerabilidade em decorrência de dificuldades vivenciadas por algum de seus membros; pessoas com deficiência e/ou pessoas idosas que vivenciam situações de vulnerabilidade e risco social.</p>
             <div class="px-4 pt-2" id="addressServices">
                 <div class="row">
                     <address class="col-12">

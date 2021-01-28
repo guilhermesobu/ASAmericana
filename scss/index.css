@@ -2,19 +2,6 @@
     background-image: linear-gradient(to right, blue 70%, red);
 }
 
-.font-cousine {
-    font-family: 'Cousine', monospace;
-    font-size: medium;
-}
-
-.font-large {
-    font-size: large;
-}
-
-.font-small {
-    font-size: 10px;
-}
-
 .logo{
     padding-top: 10px;
     padding-bottom: 10px;
