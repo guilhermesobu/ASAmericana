@@ -13,8 +13,8 @@
         include 'view/noticias/noticias.php';
     ?>
 
-    <!-- CORPO DO SITE -->
-    <div class="row pt-2 justify-content-center">
+    <!-- CORPO DO -->
+    <div class="row pt-2 p-0 justify-content-center">
 
         <div class="col-12 pt-2 banner-width">
             <a class="banner-back btn mx-auto d-block" href="https://forms.gle/Axn9WYHJCw6W5pw28">

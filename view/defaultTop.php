@@ -3,10 +3,10 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css?<?php echo time(); ?>" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cousine&display=swap">
-    <link rel="stylesheet" href="/scss/index.css">
-    <link rel="stylesheet" href="/scss/fonts.css">
+    <link rel="stylesheet" href="/scss/index.css?<?php echo time(); ?>">
+    <link rel="stylesheet" href="/scss/fonts.css?<?php echo time(); ?>">
     <link rel="shortcut icon" type="/image/x-icon" hef="favicon.ico" />
 
     <title>Secretaria de Assistência Social e Direitos Humanos</title>
@@ -156,6 +156,6 @@
 
 
     <!-- CONTENT -->
-    <div class="container-fluid text-justify py-4 bg-texture-content">
+    <div class="container-fluid text-justify py-4">
         <div class="row justify-content-center">
             <div id="app" class="col-xl-8 col-12 bg-white">
