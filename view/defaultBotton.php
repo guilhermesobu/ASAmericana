@@ -50,9 +50,9 @@
             
             <script src="/view/script.js?<?php echo time(); ?>"></script>
             <script src="/view/scriptRC.js?<?php echo time(); ?>"></script>
-            <script src="/bootstrap/js/jquery-3.5.1.slim.min.js?<?php echo time(); ?>" crossorigin="anonymous"></script>
-            <script src="/bootstrap/js/popper.min.js?<?php echo time(); ?>" crossorigin="anonymous"></script>
-            <script src="/bootstrap/js/bootstrap.min.js?<?php echo time(); ?>" crossorigin="anonymous"></script>
+            <script src="/bootstrap/js/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+            <script src="/bootstrap/js/popper.min.js" crossorigin="anonymous"></script>
+            <script src="/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
         </body>
 
     </html>

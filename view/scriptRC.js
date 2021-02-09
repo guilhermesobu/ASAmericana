@@ -52,7 +52,7 @@ function renderRc(html, obj) {
             `
         } else if (index == myObj.length - 1) {
             return `
-                        <div class="col-xl-12 col pt-3">
+                        <div class="col-xl-12 col py-3">
                             <a href="${item.href}">
                                 <img src="${item.src}" alt="${item.alt}" class="mx-auto d-block" style="width: 90px; height: 90px;">
                                 <!-- <p style="font-size: 8px;" class="text-center">${item.text}</p> -->

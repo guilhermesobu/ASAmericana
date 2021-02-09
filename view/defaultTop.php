@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css?<?php echo time(); ?>" crossorigin="anonymous">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cousine&display=swap">
     <link rel="stylesheet" href="/scss/index.css?<?php echo time(); ?>">
     <link rel="stylesheet" href="/scss/fonts.css?<?php echo time(); ?>">
