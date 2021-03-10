@@ -1,5 +1,5 @@
 .bg-prefeitura{
-    background-image: linear-gradient(to right, blue 70%, red);
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.200) 70%, rgba(255, 0, 0, 0.200));
 }
 
 .logo{
@@ -13,7 +13,12 @@
     pointer-events: none;
 }
 
-/*Banner border*/
+/* REMOVER SUBINHAMENTO */
+.rsub:link{
+    text-decoration: none;
+}
+
+/*BANNER BORDER*/
 .banner-back{
     width: auto;
     background-color: #0062cc;
@@ -94,4 +99,26 @@ h3{
 .card-body{
     padding-left: 0px;
     padding-right: 0px;
+}
+
+/* BUTTON COLORS */
+.btn-services{
+    color: white;
+    width: 100%;
+}
+.btn-services:hover{
+    color: white;
+    font-weight: bolder;
+}
+.btn-orange{
+    background-color: orangered;
+}
+
+
+/* SETAS ANTERIOR E POSTERIOR */
+.bg-pointer-left {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.212) 60%, rgba(255, 255, 255, 0));
+}
+.bg-pointer-right {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.212) 60%, rgba(255, 255, 255, 0));
 }

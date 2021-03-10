@@ -31,7 +31,8 @@ include '../defaultTop.php';
         <p class="px-4 mb-0">Veja as unidades de atendimentos ofertados:</p>
         <ul class="pb-3">
             <spam>Pública</spam>
-            <li><a href="\view\assistenciaSocial\atendimento\publicaBasica.php">Cadastro Único e Centro de Referência de Assistência Social (CRAS)</a></li>
+            <li><a href="\view\assistenciaSocial\atendimento\publicaBasicaCRAS.php">Centro de Referência de Assistência Social (CRAS)</a></li>
+            <li><a href="\view\assistenciaSocial\atendimento\publicaBasicaCADU.php">Cadastro Único</a></li>
             <spam>Privada</spam>
             <li><a href="\view\assistenciaSocial\atendimento\privadaBasciaSCFV.php">Serviços de Convivência e Fortalecimento de Vínculos (SCFV)</a></li>
             <li><a href="\view\assistenciaSocial\atendimento\privadaBasciaPHRPD.php">Programas de Habilitação e Reabilitação da Pessoa com Deficiência</a></li>
@@ -69,7 +70,7 @@ include '../defaultTop.php';
         <p class="px-4 mb-0">Veja as unidades de atendimentos ofertados para a DEFESA E GARANTIA DE DIREITOS:</p>
         <ul class="pb-3">
             <spam>Privada</spam>
-            <li><a href="\view\assistenciaSocial\atendimento\assessGarantDeDireito.php">Programa de Promoção do ireito de Crianças e Adolescentes à Convivência Familiar e Comunitária</a></li>
+            <li><a href="\view\assistenciaSocial\atendimento\assessGarantDeDireito.php">Programa de Promoção do Direito de Crianças e Adolescentes à Convivência Familiar e Comunitária</a></li>
         </ul>
 
 

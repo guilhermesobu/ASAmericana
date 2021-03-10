@@ -99,7 +99,7 @@ if (window.innerWidth > 767) {
 }
 
 // AQUI ESTÁ A ABERTURA DE NOVA ABA AO CLICAR NO PMAS
-var pmas = document.querySelector('#btnPmas');
+/*var pmas = document.querySelector('#btnPmas');
 pmas.addEventListener('click', () => {
     window.open('https://www.americana.sp.gov.br/download/cmas/diversos/pmas-2018-2021.pdf', 'PMAS');
-})
+})*/

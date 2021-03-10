@@ -10,7 +10,7 @@
 
     <!-- NOTICIAS -->
     <?php 
-        include 'view/noticias/noticias.php';
+        include 'view/noticias/noticiasIndex.php';
     ?>
 
     <!-- CORPO DO -->
