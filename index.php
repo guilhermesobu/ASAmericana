@@ -13,7 +13,7 @@
         include 'view/noticias/noticiasIndex.php';
     ?>
 
-    <!-- CORPO DO -->
+    <!-- CORPO DO INDEX DA PÁGINA -->
     <div class="row pt-2 p-0 justify-content-center">
 
         <div class="col-12 pt-2 banner-width">

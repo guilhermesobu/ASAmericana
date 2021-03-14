@@ -39,12 +39,18 @@ include '../../defaultTop.php';
                         <div class="row">
                             <div class="col-md-8 col-sm-12">
                                 <strong>Casa dos Conselhos</strong><br>
-                                Rua Antonio Feliciano Castilho, 594 - Vila Amorim<br>
-                                Telefone: (19) 3475-3400<br>
-                                E-mail: <a class="text-primary">creas@americana.sp.gov.br</a><br>
+                                Rua Ibirapuera, 70 - Jardim Ipiranga<br>
+                                Telefone: (19) 3407-8448<br>
+                                E-mails: <br>
+                                <a class="text-primary pb-0">cmas@americana.sp.gov.br</a> - CMAS<br>
+                                <a class="text-primary pb-0">cmdca@americana.sp.gov.br</a><br>
+                                <a class="text-primary pb-0">comid@americana.sp.gov.br</a><br>
+                                <a class="text-primary pb-0">cmdm@americana.sp.gov.br</a><br>
+                                <a class="text-primary pb-0">comad@americana.sp.gov.br</a><br>
+                                <a class="text-primary pb-0">cmas@americana.sp.gov.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href="https://goo.gl/maps/Pm52mGcbUCveC8Y19"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/LMiXdC18HBWssys76"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>
