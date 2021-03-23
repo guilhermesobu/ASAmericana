@@ -1,12 +1,21 @@
 <?php
 
 
-// BANCO DE DADOS - Dados do banco de dados para conexão
+// BANCO DE DADOS - Dados do banco de dados para conexão LOCALHOST
+///*
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASSWORD', '');
 define('DB_NAME', 'asamericana');
+//*/
 
+// BANCO DE DADOS - Dados do banco de dados para conexão PRODUÇÃO
+/*
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'asamericana');
+*/
 
 // BANCO DE DADOS - Função para conectar e desconectar o BD
 function bdConnect($x)
