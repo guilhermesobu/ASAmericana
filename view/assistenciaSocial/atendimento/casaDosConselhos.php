@@ -16,18 +16,18 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Conselhos de Assistência Social</h3>
+        <h3 class="text-left">Conselhos Municipais</h3>
 
         <!-- ESPECIAL - CREAS -->
         <div>
 
             <h4 class="pt-4 text-primary">Casa dos Conselhos</h4>
-            <p class="mb-0">Os Conselhos de Assistência Social de Americana são:</p>
+            <p class="mb-0">Os Conselhos de Americana são:</p>
             <ul>
                 <li>Conselho Municipal de Assistência Social (CMAS)</li>
                 <li>Conselho Municipal dos Direitos da Criança e Adolescente (CMDCA)</li>
                 <li>Conselho Municipal do Idoso (COMID)</li>
-                <li>Conselho Municipal da Pessoa com Deficiência (COMPCD)</li>
+                <li>Conselho Municipal da Pessoa com Deficiência (CMDPD)</li>
                 <li>Conselho Municipal dos Direitos da Mulher (CMDM)</li>
                 <li>Conselho Municipal de Segurança Alimentar (COMSEA)</li>
                 <li>Conselho Municipal de Políticas Públicas sobre Álcool e Outras Drogas (COMAD)</li>

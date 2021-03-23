@@ -20,6 +20,7 @@
 <body class="nunito" style="min-width: 350px;">
     <!-- adamina, montserrat, nunito -->
 
+    <!-- Inicio do projeto -->
     <div class="container-fluid py-4 bg-prefeitura">
         <div class="row justify-content-between d-flex align-items-center">
 
@@ -42,7 +43,8 @@
 
     <!-- NAVBAR -->
     <div class="row-fluid border-bottom border-primary">
-        <nav class="navbar <?php //navbar-expand-xl ?> navbar-light bg-white border-primary border-bottom">
+        <nav class="navbar <?php //navbar-expand-xl 
+                            ?> navbar-light bg-white border-primary border-bottom">
             <a class="border rounded px-1 py-0 navbar-brand text-white bg-primary" href="/"><strong>SASDH</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -148,7 +150,7 @@
             </div>
 
         </nav>
-        
+
         <?php include "fastAccess.php" ?>
 
     </div>
@@ -160,4 +162,3 @@
     <div class="container-fluid text-justify py-4">
         <div class="row justify-content-center">
             <div id="app" class="col-xl-8 col-12 bg-white">
-

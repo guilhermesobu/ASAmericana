@@ -1,3 +1,5 @@
+<!-- NOTICIAS QUE APARECE NA HOME -->
+
 <div class="mb-5 mx-3">
     <div class="row">
         <h3 class="px-4">Notícias</h3>
@@ -55,7 +57,7 @@
     </div>
 
     <div class="row mx-5 pt-2">
-        <a class="bg-dark px-2 rounded text-white" href="/view/noticias/noticias.php">Ver notícias antigas...</a>
+        <a class="bg-dark px-2 rounded text-white" href="/view/noticias">Ver notícias antigas...</a>
     </div>
 
 </div>

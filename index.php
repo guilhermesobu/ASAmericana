@@ -10,7 +10,7 @@
 
     <!-- NOTICIAS -->
     <?php 
-        include 'view/noticias/noticiasIndex.php';
+        include 'view/noticias/noticiasHome.php';
     ?>
 
     <!-- CORPO DO INDEX DA PÁGINA -->

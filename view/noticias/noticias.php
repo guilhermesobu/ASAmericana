@@ -1,41 +1,57 @@
-<?php include '../defaultTop.php'; ?>
+<?php
+include '../defaultTop.php';
+
+//STARTANDO O CONTOLLER
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= '/controler/noticias.php';
+include "$path";
+
+//Trazer todas as noticias
+$noticias = noticias();
+
+$getId = 1;
+?>
 
 <div class="p-3 mb-4 shadow rounded">
+    <?php
+    while ($amostra = $noticias->fetch_assoc()) {
+        if ($amostra['id'] == $getId) {
+            continue;
+        } else {
+    ?>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item" aria-current="page"><a href="/">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Noticias</li>
+                </ol>
+            </nav>
 
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item" aria-current="page"><a href="/">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Noticias</li>
-        </ol>
-    </nav>
+            <div class="my-5 mx-3">
 
-    <div class="my-5 mx-3">
-        <div class="row">
-            <h3 class="px-4">Notícias</h3>
-        </div>
-        <div class="d-none d-md-block">
-            <div class="row border-bottom ">
-                <div class="col-md-3">Data de publicação</div>
-                <div class="col">Assunto</div>
+                <!-- NOTICIAS -->
+                <div class="row-fluid pb-4 px-4">
+                    <div class="row">
+                        <div class="col-md-6 align-self-end">
+                            <h5 class="text-primary"><?php echo $amostra['titulo'] ?></h5>
+                            <p class="text-right font-small"><?php traduzirData($amostra); ?></p>
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid rounded" src="<?php echo $amostra['url_imagem'] ?>" alt="Foto da Notícia">
+                        </div>
+                    </div>
+                    <?php echo $amostra['conteudo']; ?>
+
+                    <!-- BOTÃO PARA VOLTAR PRA PÁGINA DE NOTÍCIA -->
+                    <?php include "btnVoltar.php" ?>
+
+                </div>
+
             </div>
-        </div>
 
-        <a href="/view/noticias/2021/0205.php">
-            <div class="row border-bottom d-flex align-items-center py-2">
-                <div class="col-3">01/04/2021</div>
-                <div class="col">Lançamento do portal da Secretaria de Assistência Social e Direitos Humanos de Americana</div>
-            </div>
-        </a>
-        <a href="/view/noticias/2021/0205.php">
-            <div class="row border-bottom d-flex align-items-center py-2">
-                <div class="col-3">01/04/2021</div>
-                <div class="col">Lançamento do portal da Secretaria de Assistência Social e Direitos Humanos de Americana</div>
-            </div>
-        </a>
-
-
-    </div>
-
+    <?php
+        }
+    }
+    ?>
 
 </div>
 
