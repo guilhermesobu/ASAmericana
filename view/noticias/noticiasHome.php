@@ -1,63 +1,85 @@
 <!-- NOTICIAS QUE APARECE NA HOME -->
 
+<?php
+//STARTANDO O CONTOLLER
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= '/controler/noticias.php';
+include "$path";
+
+//Trazer todas as noticias
+$ativos = ativos()->fetch_assoc();
+$noticias = noticias();
+?>
+
 <div class="mb-5 mx-3">
-    <div class="row">
+    <div class="row w-100">
         <h3 class="px-4">Notícias</h3>
     </div>
 
-    <div class="bg-dark p-1 rounded">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
+    <div class="row justify-content-center">
+        <div class="bg-dark p-1 rounded mt-4 max-size-notice">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-                <div class="carousel-item active">
-                    <a href="/view/noticias/2021/0205.php">
-                        <img class="img-fluid" src="/src/img/noticias/Imagem1.png" alt="Noticia1">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="bg-dark rounded-top">SASDH</h5>
-                            <p class="bg-dark rounded-bottom">Hoje no dia X foi inalgurado a página oficial da SASDH, confira mais informações!</p>
-                        </div>
-                    </a>
+                <!-- BARRINHA NA IMAGEM -->
+                <ol class="carousel-indicators">
+                    <?php for ($i = 0; $i < $ativos['COUNT(ativo)']; $i++) {
+                        if ($i == 0) { ?>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="<?php echo $i; ?>" class="active"></li>
+                        <?php } else { ?>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="<?php echo $i; ?>"></li>
+                    <?php }
+                    } ?>
+                </ol>
+
+                <div class="carousel-inner">
+                    <?php
+                    $x = 0;
+                    while ($amostra = $noticias->fetch_assoc()) {
+                        $x++;
+                        if ($amostra['carrossel'] == 1 && $amostra['ativo'] == 1 && $x == 1) {
+                    ?>
+                            <div class="carousel-item active">
+                                <a href="">
+                                    <img class="img-fluid" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="bg-dark rounded-top"><?php echo $amostra['titulo']; ?></h5>
+                                    </div>
+                                </a>
+                            </div>
+                        <?php
+                        } elseif ($amostra['carrossel'] == 1 && $amostra['ativo'] == 1) {
+                        ?>
+                            <div class="carousel-item">
+                                <a href="">
+                                    <img class="img-fluid" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="bg-dark rounded-top"><?php echo $amostra['titulo']; ?></h5>
+                                    </div>
+                                </a>
+                            </div>
+                    <?php
+                        }
+                    }
+                    ?>
                 </div>
 
-                <div class="carousel-item">
-                    <a href="#">
-                        <img class="img-fluid" src="/src/img/noticias/Imagem2.png" alt="Noticia2">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="bg-dark rounded">Título da notícia, totalmente opcional aqui!</h5>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="carousel-item">
-                    <a href="#">
-                        <img class="img-fluid" src="/src/img/noticias/Imagem3.png" alt="Noticia3">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="bg-dark rounded-top">A IMAGEM DE FUNDO FOI ALTERADA!?!</h5>
-                            <p class="bg-dark rounded-bottom">O que será que aconteceu!? Para saber mais clique na imagem!</p>
-                        </div>
-                    </a>
-                </div>
+                <a class="carousel-control-prev bg-pointer-left" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next bg-pointer-right" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
 
             </div>
-            <a class="carousel-control-prev bg-pointer-left" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next bg-pointer-right" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-
     </div>
 
-    <div class="row mx-5 pt-2">
-        <a class="bg-dark px-2 rounded text-white" href="/view/noticias">Ver notícias antigas...</a>
+    <div class="row pt-2 justify-content-center">
+        <div class="col-fill">
+            <a class="bg-dark px-2 rounded text-white align-self-between" href="/view/noticias">Ver notícias antigas...</a>
+        </div>
     </div>
 
 </div>

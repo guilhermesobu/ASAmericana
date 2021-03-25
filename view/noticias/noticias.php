@@ -8,21 +8,20 @@ include "$path";
 
 //Trazer todas as noticias
 $noticias = noticias();
-
-$getId = 1;
 ?>
 
 <div class="p-3 mb-4 shadow rounded">
     <?php
     while ($amostra = $noticias->fetch_assoc()) {
-        if ($amostra['id'] == $getId) {
+        if ($amostra['id'] != $_POST['id']) {
             continue;
-        } else {
+        } elseif($amostra['ativo'] == 1) {
     ?>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item" aria-current="page"><a href="/">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Noticias</li>
+                    <li class="breadcrumb-item" aria-current="page"><a href="/view/noticias/">Noticias</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><?php echo traduzirDataAbreviada($amostra) . " - " . $amostra['titulo']; ?></li>
                 </ol>
             </nav>
 
@@ -36,7 +35,9 @@ $getId = 1;
                             <p class="text-right font-small"><?php traduzirData($amostra); ?></p>
                         </div>
                         <div class="col">
-                            <img class="img-fluid rounded" src="<?php echo $amostra['url_imagem'] ?>" alt="Foto da Notícia">
+                            <?php if ($amostra['url_imagem'] != "") { ?>
+                                <img class="img-fluid rounded" src="<?php echo $amostra['url_imagem']; ?>" alt="Foto da Notícia">
+                            <?php } ?>
                         </div>
                     </div>
                     <?php echo $amostra['conteudo']; ?>
@@ -45,9 +46,7 @@ $getId = 1;
                     <?php include "btnVoltar.php" ?>
 
                 </div>
-
             </div>
-
     <?php
         }
     }

@@ -4,17 +4,21 @@ $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= '/models/noticias.php';
 include "$path";
 
-$pathC = $_SERVER['DOCUMENT_ROOT'];
-$pathC .= '/models/connection.php';
-include "$pathC";
-
 
 function noticias(){
-    $x = mysqli_query(bdConnect(1), listarNoticias());
-    bdConnect(0); // Fechando a conexão
-    return $x;
-    //var_dump($x['titulo']);
+    $x = bdConnect(1);
+    $results = $x -> query(listarNoticias());
+    $x = bdConnect(0);
+    return $results;
 }
+
+function ativos(){
+    $x = bdConnect(1);
+    $results = $x -> query(contarAtivos());
+    $x = bdConnect(0);
+    return $results;
+}
+
 
 function traduzirData($data){
     switch ( date("D", strtotime($data['data'])) ) {
@@ -42,4 +46,8 @@ function traduzirData($data){
         case 12: echo " de Dezembro de "; break;
     };
     echo date("Y", strtotime($data['data']));
+}
+
+function traduzirDataAbreviada($data){
+    echo date("d/m/Y", strtotime($data['data']));
 }

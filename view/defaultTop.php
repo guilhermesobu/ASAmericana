@@ -20,6 +20,8 @@
 <body class="nunito" style="min-width: 350px;">
     <!-- adamina, montserrat, nunito -->
 
+    <?php include 'models/connection.php'; ?>
+
     <!-- Inicio do projeto -->
     <div class="container-fluid py-4 bg-prefeitura">
         <div class="row justify-content-between d-flex align-items-center">
@@ -52,7 +54,7 @@
 
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav d-flex justify-content-around">
+                <ul class="nav d-flex justify-content-around py-3">
 
                     <!-- INSTITUCIONAL -->
                     <li class="nav-item dropdown border-primary" id="dropInstitutional">
@@ -60,11 +62,20 @@
                             Institucional
                         </a>
                         <div class="dropdown-menu" aria-labelledby="institutional">
-                            <a class="dropdown-item btn" href="/view/institucional/historico.php">Histórico</a>
-                            <a class="dropdown-item btn" href="" hidden>Estrutura Organizacional</a>
+                            <a class="dropdown-item btn" href="/view/institucional/historico.php">História da SASDH</a>
+                            
+
+                            <!--<a class="dropdown-item btn" href="" >Estrutura Organizacional</a>-->
+                            <a class="dropdown-item dropdown-toggle btn" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Estrutura Organizacional<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>X</li>
+                                <li>Y</li>
+                            </ul>
+
+
                             <a class="dropdown-item btn" href="" hidden>Composição</a>
-                            <a class="dropdown-item btn" href="" hidden>Base Jurídica</a>
-                            <a class="dropdown-item btn" href="" hidden>Plano Estratégico</a>
+                            <a class="dropdown-item btn" href="" >Base Jurídica</a>
+                            <a class="dropdown-item btn" href="" >Plano Estratégico</a>
                         </div>
                     </li>
 
@@ -107,6 +118,20 @@
                         </div>
                     </li>
 
+                     <!-- CONSELHO TUTELAR -->
+                     <li class="nav-item dropdown border-primary">
+                        <a class="nav-link rounded" href="/view/direitosHumanos/uda.php">
+                            Conselho Tutelar
+                        </a>
+                    </li> 
+
+                    <!-- ORGÃOS DE CONTROLE SOCIAL -->
+                    <li class="nav-item dropdown border-primary">
+                        <a class="nav-link rounded" href="">
+                            Órgãos de Controle Social
+                        </a>
+                    </li> 
+
                     <!-- ACESSO À INFORMAÇÃO -->
                     <li class="nav-item dropdown border-primary" id="dropAcessoInformacao">
                         <a class="nav-link dropdown-toggle" id="acessoInformacao" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -115,14 +140,17 @@
                         <div class="dropdown-menu" aria-labelledby="acessoInformacao">
                             <a class="dropdown-item btn" href="https://www.americana.sp.gov.br/">Prefeitura de Americana</a>
                         </div>
-                    </li>
+                    </li> 
 
-                    <!-- CONSELHOS -->
+                    <!-- CONSELHOS 
                     <li class="nav-item dropdown border-primary">
                         <a class="nav-link rounded" href="https://www.americana.sp.gov.br/americanaV6_index.php?it=21&a=conselhos">
                             Orgãos de Controle Social (Conselhos Municipais)
                         </a>
-                    </li>
+                    </li> -->
+
+                   
+
 
                     <!-- FREQUENTLY QUESTION -->
                     <li class="nav-item dropdown border-primary" id="dropfrequentlyQuestion">
