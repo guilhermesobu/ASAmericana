@@ -22,7 +22,11 @@
 
 
     <!-- CONEXÃO COM BANCO DE DADOS -->
-    <?php include 'models/connection.php'; ?>
+    <?php 
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    $path .= '/models/connection.php';
+    include "$path";
+    ?>
 
 
     <!-- Inicio do projeto -->

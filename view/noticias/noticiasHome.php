@@ -39,23 +39,27 @@ $noticias = noticias();
                         if ($amostra['carrossel'] == 1 && $amostra['ativo'] == 1 && $x == 1) {
                     ?>
                             <div class="carousel-item active">
-                                <a href="">
-                                    <img class="img-fluid" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5 class="bg-dark rounded-top"><?php echo $amostra['titulo']; ?></h5>
-                                    </div>
-                                </a>
+                                <form action="view/noticias/noticias.php" method="POST">
+                                    <button class="btn w-100 " type="submit" name="id" value="<?php echo $amostra['id']; ?>">
+                                        <img class="img-fluid" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5 class="bg-dark rounded-top"><?php echo $amostra['titulo']; ?></h5>
+                                        </div>
+                                    </button>
+                                </form>
                             </div>
                         <?php
                         } elseif ($amostra['carrossel'] == 1 && $amostra['ativo'] == 1) {
                         ?>
                             <div class="carousel-item">
-                                <a href="">
-                                    <img class="img-fluid" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5 class="bg-dark rounded-top"><?php echo $amostra['titulo']; ?></h5>
-                                    </div>
-                                </a>
+                                <form action="view/noticias/noticias.php" method="POST">
+                                    <button class="btn w-100 " type="submit" name="id" value="<?php echo $amostra['id']; ?>">
+                                        <img class="img-fluid" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5 class="bg-dark rounded-top"><?php echo $amostra['titulo']; ?></h5>
+                                        </div>
+                                    </button>
+                                </form>
                             </div>
                     <?php
                         }
