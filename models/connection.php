@@ -20,7 +20,6 @@ function bdConnect($x)
 {
     if ($x == 1) {  //CONECTA
         return $connection = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-        //return mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
     } else {        //DESCONECTA
         $connection = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
         return mysqli_close($connection);

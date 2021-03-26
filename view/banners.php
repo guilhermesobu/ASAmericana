@@ -10,6 +10,7 @@ include "$path";
 $banners = banners();
 
 while ($amostra = $banners->fetch_assoc()) {
+    if($amostra['ativo'] == 1){
 ?>
 
     <div class="row pt-2 p-0 justify-content-center">
@@ -20,4 +21,4 @@ while ($amostra = $banners->fetch_assoc()) {
         </div>
     </div>
 
-<?php } ?>
+<?php } } ?>
