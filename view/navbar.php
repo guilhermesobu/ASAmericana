@@ -104,14 +104,16 @@
                         Perguntas Frequentes
                     </a>
                     <div class="dropdown-menu" aria-labelledby="frequentlyQuestion">
-                        <a class="dropdown-item btn" id="btnCad" href="/view/perguntasfrequentes/cad.php">Cadastro Único (CAD)</a>
-                        <span class="dropdown-header font-small">Auxílio Emergencial (AE - Caixa)</span>
-                        <a class="dropdown-item btn" href="/view/perguntasfrequentes/aeinformacoes.php">AE - Informações Gerais</a>
-                        <a class="dropdown-item btn" href="/view/perguntasfrequentes/aecadastramento.php">AE - Cadastramento</a>
-                        <a class="dropdown-item btn" href="/view/perguntasfrequentes/aeapp.php">AE - APP</a>
-                        <a class="dropdown-item btn" href="/view/perguntasfrequentes/aeresultado.php">AE - Resultado da Avaliação do Cadastro</a>
-                        <a class="dropdown-item btn" href="/view/perguntasfrequentes/aepagamento.php">AE - Pagamento do Benefício</a>
-                        <a class="dropdown-item btn" x href="/view/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
+                        <form action="/view/perguntasfrequentes/faq.php" method="POST">
+                            <button type="submit" class="dropdown-item btn" name="id" value="1">Cadastro Único (CAD)</button>
+                            <span class="dropdown-header font-small">Auxílio Emergencial (AE - Caixa)</span>
+                            <button type="submit" class="dropdown-item btn" name="id" value="2">AE - Informações Gerais</button>
+                            <button type="submit" class="dropdown-item btn" name="id" value="3">AE - Cadastramento</button>
+                            <button type="submit" class="dropdown-item btn" name="id" value="4">AE - APP</button>
+                            <button type="submit" class="dropdown-item btn" name="id" value="5">AE - Resultado da Avaliação do Cadastro</button>
+                            <button type="submit" class="dropdown-item btn" name="id" value="6">AE - Pagamento do Benefício</button>
+                            <button type="submit" class="dropdown-item btn" name="id" value="7">AE - Casos Especiais</button>
+                        </form>
                     </div>
                 </li>
 

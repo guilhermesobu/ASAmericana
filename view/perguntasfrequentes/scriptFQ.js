@@ -1,4 +1,4 @@
-var myCadContent = [
+/*var myCadContent = [
 {
     title: 'O que é?',
     description: '<p>O Cadastro Único (CadÚnico) para programas sociais do governo federal é um instrumento que identifica e caracteriza as famílias de baixa renda, permitindo que o governo conheça melhor a realidade socioeconômica dessa população. Nele são registradas informações como características da residência, identificação de cada pessoa, escolaridade, situação de trabalho e renda, entre outras.</p>'
@@ -141,9 +141,9 @@ var myCadContent = [
     title: 'Meu CPF está suspenso, posso fazer meu Cadastro Único?',
     description: `<p>Você deve primeiro regularizar seu CPF junto a Receita Federal.</p>`
 }
-];
+];*/
 
-var myAeContentIg = [
+/*var myAeContentIg = [
     {    
         title: 'O que é o Auxílio Emergencial aos Trabalhadores Informais?',
         description: `<p>O Auxílio Emergencial é um benefício financeiro destinado aos trabalhadores informais, microempreendedores individuais (MEI), autônomos e desempregados, e tem por objetivo fornecer proteção emergencial no período de enfrentamento à crise causada pela pandemia do Coronavírus - COVID 19.</p>`
@@ -206,9 +206,9 @@ var myAeContentIg = [
         `
     }
 
-];
+];*/
 
-var myAeContentCa = [
+/*  var myAeContentCa = [
     {
         title: 'É necessário ter celular para realizar o cadastramento pelo site CAIXA ou APP Auxílio Emergencial?',
         description: `<p>Sim, é necessário. No entanto, informamos que o público alvo para esse cadastramento são os empreendedores individuais, trabalhadores informais e pessoas desempregadas que não estão recebendo seguro desemprego.</p>
@@ -282,9 +282,9 @@ var myAeContentCa = [
         <a href="/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
         `
     }
-]
+] */
 
-var myAeContentAp = [
+/*var myAeContentAp = [
     {
         title: `Para que serve o aplicativo CAIXA | Auxílio Emergencial?`,
         description: `<p>Por meio do aplicativo, o cidadão que não faz parte do Cadastro Único e não recebe Bolsa Família pode preencher um cadastro e se habilitar ao recebimento do Auxílio Emergencial, desde que cumpra os requisitos da lei.</p>
@@ -374,7 +374,7 @@ var myAeContentAp = [
         description: `<p>Para as pessoas que receberão o benefício por meio da Poupança Social Digital, é importante ter celular, pois a movimentação da conta será feita pelo App Caixa Tem.</p>`
     }, 
     {    
-        title: ` Minha operadora não aparece nas opções (ALGAR, Correios e Nextel, etc). E aí, o SMS não chega?`,
+        title: `Minha operadora não aparece nas opções (ALGAR, Correios e Nextel, etc). E aí, o SMS não chega?`,
         description: `<p>O aplicativo foi atualizado para incluir as demais operadoras.</p>`
     }, 
     {   
@@ -416,9 +416,9 @@ var myAeContentAp = [
         <a href="/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
         `
     }
-]
+]*/
 
-var myAeContentRa = [
+/*var myAeContentRa = [
     {
         title: `Como faço para consultar o resultado da avaliação da minha solicitação?`,
         description: `<p>Para verificar se a solicitação foi aprovada ou indeferida, o cidadão pode consultar pelo APP/Site, na opção: Acompanhe sua solicitação. Ressaltamos que os cidadãos não devem comparecer as agências da CAIXA, uma vez que essas unidades não dispõem dessa informação.</p>`
@@ -455,9 +455,9 @@ var myAeContentRa = [
         <a href="/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
         `
     }
-]
+]*/
 
-var myAeContentPb = [
+/*var myAeContentPb = [
     {
         title: `Já estou cadastrado, como faço para saber se meu benefício foi liberado?`,
         description: `<p>Basta consultar no site da CAIXA ou pelo aplicativo para celular CAIXA | Auxílio Emergencial informando o seu CPF. Para consultar seu benefício <a href="">clique aqui</a>.</p>`
@@ -640,9 +640,9 @@ var myAeContentPb = [
         <a href="/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
         `
     }
-]
+]*/
 
-var myAeContentCe = [
+/*var myAeContentCe = [
     {
         title: `Sou trabalhadora informal/desempregada/MEI/contribuinte individual/autônoma, não tenho marido ou companheiro e vivo só com crianças e adolescentes de até 18 anos. Tenho direito ao auxílio emergencial? Quanto devo receber?`,
         description: `<p>Sim. As mulheres sem maridos ou companheiros que moram com crianças ou adolescentes de até 18 anos têm direito a duas cotas do auxílio emergencial, totalizando o valor de R$ 1.200,00 (mil e duzentos reais).</p>
@@ -765,7 +765,7 @@ var myAeContentCe = [
     },
     {
         title: `Sou trabalhador informal/desempregado/MEI/contribuinte individual/autônomo, mas na minha família alguém trabalha de carteira assinada, tenho direito ao auxílio emergencial?`,
-        description: `<p>Depende. Se ao somar todas as rendas das pessoas da sua família e dividir pelo número de pessoas, a renda por pessoa for menor do que meio salário mínimo ou a renda total da sua família for menor do três salários, o(a) senhor(a) pode ter direito ao auxílio emergencial, mesmo que outra pessoa da sua família trabalhe de carteira assinada.</p>
+        description: ` <p>Depende. Se ao somar todas as rendas das pessoas da sua família e dividir pelo número de pessoas, a renda por pessoa for menor do que meio salário mínimo ou a renda total da sua família for menor do três salários, o(a) senhor(a) pode ter direito ao auxílio emergencial, mesmo que outra pessoa da sua família trabalhe de carteira assinada.</p>
         <p>Para receber o auxílio emergencial, o(a) senhor(a) também deve cumprir os requisitos do programa:</p>
             <ul>
             <li>Ter mais de 18 anos de idade;</li>
@@ -834,7 +834,7 @@ var myAeContentCe = [
         <a href="/perguntasfrequentes/aecasosespeciais.php">AE - Casos Especiais</a>
         `
     }
-]
+]*/
 
 var myFrequentlyQuestions = document.querySelector('#app');
 

@@ -127,3 +127,7 @@ h3{
 .max-size-notice {
     max-width: 998px;
 }
+
+.min-size-height {
+    height: 448px;
+}

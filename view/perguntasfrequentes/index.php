@@ -15,15 +15,16 @@ include '../defaultTop.php';
     <div class="row-fluid p-4">
         <h4 class="text-primary">Opss... Não temos nenhum conteúdo aqui!</h4>
         <p class="pt-4">Por acavo você está procurando por...</p>
-        <ul>
-            <li><a href="/view/perguntasfrequentes/cad.php">Cadastro Único</a></li>
-            <li><a href="/view/perguntasfrequentes/aeinformacoes.php">Auxílio Emergencial - Informações Gerais</a></li>
-            <li><a href="/view/perguntasfrequentes/aecadastramento.php">Auxílio Emergencial - Cadastramento</a></li>
-            <li><a href="/view/perguntasfrequentes/aeapp.php">Auxílio Emergencial - APP</a></li>
-            <li><a href="/view/perguntasfrequentes/aeresultado.php">Auxílio Emergencial - Resultado da Avaliação do Cadastro</a></li>
-            <li><a href="/view/perguntasfrequentes/aepagamento.php">Auxílio Emergencial - Pagamento do Benefício</a></li>
-            <li><a href="/view/perguntasfrequentes/aecasosespeciais.php">Auxílio Emergencial - Casos Especiais</a></li>
-        </ul>
+        <form action="/view/perguntasfrequentes/faq.php" method="POST">
+            <button type="submit" class="dropdown-item btn text-primary" name="id" value="1">Cadastro Único (CAD)</button>
+            <span class="dropdown-header font-small">Auxílio Emergencial (AE - Caixa)</span>
+            <button type="submit" class="dropdown-item btn text-primary" name="id" value="2">AE - Informações Gerais</button>
+            <button type="submit" class="dropdown-item btn text-primary" name="id" value="3">AE - Cadastramento</button>
+            <button type="submit" class="dropdown-item btn text-primary" name="id" value="4">AE - APP</button>
+            <button type="submit" class="dropdown-item btn text-primary" name="id" value="5">AE - Resultado da Avaliação do Cadastro</button>
+            <button type="submit" class="dropdown-item btn text-primary" name="id" value="6">AE - Pagamento do Benefício</button>
+            <button type="submit" class="dropdown-item btn text-primary" name="id" value="7">AE - Casos Especiais</button>
+        </form>
 
     </div>
 

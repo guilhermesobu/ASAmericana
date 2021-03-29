@@ -29,7 +29,7 @@ $noticias = noticias();
 
                 <!-- NOTICIAS -->
                 <div class="row-fluid pb-4 px-4">
-                    <div class="row">
+                    <div class="row pb-5">
                         <div class="col-md-6 align-self-end">
                             <h5 class="text-primary"><?php echo $amostra['titulo'] ?></h5>
                             <p class="text-right font-small"><?php traduzirData($amostra); ?></p>

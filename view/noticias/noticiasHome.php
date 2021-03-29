@@ -12,12 +12,12 @@ $noticias = noticias();
 ?>
 
 <div class="mb-5 mx-3">
-    <div class="row w-100">
+    <div class="row">
         <h3 class="px-4">Notícias</h3>
     </div>
 
     <div class="row justify-content-center">
-        <div class="bg-dark p-1 rounded mt-4 max-size-notice">
+        <div class="bg-dark p-1 rounded mt-4 max-size-notice w-100">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
                 <!-- BARRINHA NA IMAGEM -->
@@ -35,15 +35,15 @@ $noticias = noticias();
                     <?php
                     $x = 0;
                     while ($amostra = $noticias->fetch_assoc()) {
-                        $x++;
-                        if ($amostra['carrossel'] == 1 && $amostra['ativo'] == 1 && $x == 1) {
+                        if ($amostra['carrossel'] == 1 && $amostra['ativo'] == 1 && $x == 0) {
+                            $x++;
                     ?>
                             <div class="carousel-item active">
                                 <form action="view/noticias/noticias.php" method="POST">
-                                    <button class="btn w-100 " type="submit" name="id" value="<?php echo $amostra['id']; ?>">
-                                        <img class="img-fluid" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5 class="bg-dark rounded-top"><?php echo $amostra['titulo']; ?></h5>
+                                    <button class="btn w-100" type="submit" name="id" value="<?php echo $amostra['id']; ?>">
+                                        <img class="img-fluid min-size-height rounded" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
+                                        <div class="carousel-caption">
+                                            <h5 class="bg-dark rounded"><?php echo $amostra['titulo']; ?></h5>
                                         </div>
                                     </button>
                                 </form>
@@ -53,10 +53,10 @@ $noticias = noticias();
                         ?>
                             <div class="carousel-item">
                                 <form action="view/noticias/noticias.php" method="POST">
-                                    <button class="btn w-100 " type="submit" name="id" value="<?php echo $amostra['id']; ?>">
-                                        <img class="img-fluid" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5 class="bg-dark rounded-top"><?php echo $amostra['titulo']; ?></h5>
+                                    <button class="btn w-100" type="submit" name="id" value="<?php echo $amostra['id']; ?>">
+                                        <img class="img-fluid min-size-height rounded" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
+                                        <div class="carousel-caption">
+                                            <h5 class="bg-dark rounded"><?php echo $amostra['titulo']; ?></h5>
                                         </div>
                                     </button>
                                 </form>

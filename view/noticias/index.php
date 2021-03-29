@@ -19,12 +19,12 @@ $noticias = noticias();
         </ol>
     </nav>
 
-    <div class="my-5 mx-3">
+    <div class="mt-5 mx-3">
         <div class="row">
             <h3 class="px-4">Notícias</h3>
         </div>
         <div class="d-none d-md-block">
-            <div class="row border-bottom ">
+            <div class="row">
                 <div class="col-md-3">Data de publicação</div>
                 <div class="col">Assunto</div>
             </div>
@@ -33,9 +33,9 @@ $noticias = noticias();
         <!-- SEPARADOR DA LISTA -->
         <?php
         while ($amostra = $noticias->fetch_assoc()) {
-            if ($amostra['ativo'] == 1 && $amostra['carrossel'] == 1) {
+            if ($amostra['ativo'] == 1) {
         ?>
-                <form action='noticias.php' method='POST' class="border-bottom">
+                <form action='noticias.php' method='POST' class="border-top">
                     <button class="btn w-100 " type="submit" name="id" value="<?php echo $amostra['id']; ?>">
                         <div class="row  d-flex align-items-center py-2 text-primary">
                             <div class="col-3 text-left"><?php echo traduzirDataAbreviada($amostra); ?></div>

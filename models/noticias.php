@@ -1,7 +1,7 @@
 <?php
 
 function listarNoticias(){
-    return 'SELECT * FROM noticia';
+    return 'SELECT * FROM noticia ORDER BY data DESC';
 }
 
 function contarAtivos(){
