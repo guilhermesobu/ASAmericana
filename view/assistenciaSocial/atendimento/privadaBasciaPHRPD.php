@@ -33,8 +33,9 @@ include '../../defaultTop.php';
                             <div class="col-md-8 col-sm-12">
                                 <strong>Associação de Pais e Amigos Excepcionais de Americana (APAE)</strong><br>
                                 Rua Abrahim Abraham, nº 97 – Residencial Nardini<br>
-                                Telefone: (19) 2198-9393<br>
-                                E-mail: <a class="text-primary">apaeamericana@apaeamericana.com.br</a><br>
+                                Telefone: (19) 2108-9356<br>
+                                E-mail: <a class="text-primary">dirsocial@apaeamericana.com.br</a><br>
+                                Site: <a href="www.apaeamericana.com.br">www.apaeamericana.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
                                 <a href="https://g.page/apaeamericana?share"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
@@ -49,6 +50,7 @@ include '../../defaultTop.php';
                                 Avenida Bandeirantes, nº 2.660 – Jardim Santana<br>
                                 Telefone: (19) 3461-6364 / (19) 3604-9399<br>
                                 E-mail: <a class="text-primary">contato@cpcamericana.com.br</a><br>
+                                Site: <a href="www.cpcamericana.com.br">www.cpcamericana.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
                                 <a href="https://goo.gl/maps/CyHTRBEgFk6H4qSQ8"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
@@ -59,9 +61,6 @@ include '../../defaultTop.php';
                 </div>
             </div>
         </div>
-
-
-
 
     </div>
 </div>

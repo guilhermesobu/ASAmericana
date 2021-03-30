@@ -10,7 +10,7 @@
         </div>
 
         <div class="col-sm col py-1 px-1">
-            <a class="btn btn-orange btn-services" href="/view/assistenciaSocial/atendimento/publicaBasicaCRAS.php">CAD ÚNICO</a>
+            <a class="btn btn-orange btn-services" href="/view/assistenciaSocial/atendimento/publicaBasicaCADU.php">CAD ÚNICO</a>
         </div>
 
     </div>

@@ -17,7 +17,7 @@ $noticias = noticias();
     </div>
 
     <div class="row justify-content-center">
-        <div class="bg-dark p-1 rounded mt-4 max-size-notice w-100">
+        <div class="bg-transparent p-1 rounded mt-4 max-size-notice w-100 col-md-6 col-12">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
                 <!-- BARRINHA NA IMAGEM -->
@@ -43,7 +43,7 @@ $noticias = noticias();
                                     <button class="btn w-100" type="submit" name="id" value="<?php echo $amostra['id']; ?>">
                                         <img class="img-fluid min-size-height rounded" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
                                         <div class="carousel-caption">
-                                            <h5 class="bg-dark rounded"><?php echo $amostra['titulo']; ?></h5>
+                                            <h5 class="bg-primary rounded"><?php echo $amostra['titulo']; ?></h5>
                                         </div>
                                     </button>
                                 </form>
@@ -56,7 +56,7 @@ $noticias = noticias();
                                     <button class="btn w-100" type="submit" name="id" value="<?php echo $amostra['id']; ?>">
                                         <img class="img-fluid min-size-height rounded" src="<?php echo $amostra['url_imagem']; ?>" alt="Noticia <?php echo $x; ?>">
                                         <div class="carousel-caption">
-                                            <h5 class="bg-dark rounded"><?php echo $amostra['titulo']; ?></h5>
+                                            <h5 class="bg-primary rounded"><?php echo $amostra['titulo']; ?></h5>
                                         </div>
                                     </button>
                                 </form>
@@ -67,11 +67,11 @@ $noticias = noticias();
                     ?>
                 </div>
 
-                <a class="carousel-control-prev bg-pointer-left" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev bg-pointer-left rounded" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next bg-pointer-right" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next bg-pointer-right rounded" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
