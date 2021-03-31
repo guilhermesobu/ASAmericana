@@ -6,7 +6,7 @@
         </div>
 
         <div class="col-sm col py-1 px-1">
-            <a class="btn btn-primary btn-services text-center" href="/view/assistenciaSocial/atendimento/publicaEspecial.php">CREAS</a>
+            <a class="btn btn-primary btn-services text-center" href="/view/assistenciaSocial/atendimento/publicaEspecialCREAS.php">CREAS</a>
         </div>
 
         <div class="col-sm col py-1 px-1">
@@ -21,7 +21,7 @@
             <a class="btn btn-danger btn-services text-center" href="/view/direitosHumanos/uda.php">CONSELHO TUTELAR</a>
         </div>
 
-        <div class="col py-1 px-1">
+        <div hidden class="col py-1 px-1">
             <a class="btn btn-success btn-services text-center" href="">ENTIDADES</a>
         </div>
 

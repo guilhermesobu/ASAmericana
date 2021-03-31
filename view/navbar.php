@@ -11,7 +11,7 @@
             <ul class="nav d-flex justify-content-around py-3">
 
                 <!-- INSTITUCIONAL -->
-                <li class="nav-item dropdown border-primary" id="dropInstitutional">
+                <li hidden class="nav-item dropdown border-primary" id="dropInstitutional">
                     <a class="nav-link dropdown-toggle" id="institutional" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Institucional
                     </a>
@@ -62,7 +62,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="segAlimNut">
                         <a class="dropdown-item btn" href="/view/segAlimentarNutricional/sobre.php">O que é</a>
-                        <a class="dropdown-item btn" href="/view/segAlimentarNutricional/uda.php">Unidade de Atendimento</a>
+                        <a class="dropdown-item btn" href="/view/segAlimentarNutricional/uda.php" hidden>Unidade de Atendimento</a>
                         <a class="dropdown-item btn" href="" hidden>Documentos</a>
                     </div>
                 </li>
@@ -75,7 +75,7 @@
                 </li>
 
                 <!-- ORGÃOS DE CONTROLE SOCIAL -->
-                <li class="nav-item dropdown border-primary">
+                <li hidden class="nav-item dropdown border-primary">
                     <a class="nav-link rounded" href="">
                         Órgãos de Controle Social
                     </a>

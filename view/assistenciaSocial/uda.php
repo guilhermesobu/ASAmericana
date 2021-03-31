@@ -62,7 +62,7 @@ include '../defaultTop.php';
 
 
         <!-- OUTROS -->
-        <h4 class="text-primary pt-3">OUTROS</h4>
+        <h4 class="text-primary pt-3">Outros</h4>
         <ul>
             <li><a href="/view/assistenciaSocial/atendimento/publicaBasicaCADU.php">Cadastro Único</a></li>
             <li><a href="/view/assistenciaSocial/atendimento/publicaBasicaPTR.php">Programas de Transferência de Renda</a></li>
@@ -72,7 +72,7 @@ include '../defaultTop.php';
 
 
         <!-- DEFESA E GARANTIA DE DIREITOS -->
-        <h3 class="pt-3 border-top">DEFESA E GARANTIA DE DIREITOS</h3>
+        <h3 class="pt-3 border-top">Defesa e Garantia de Direitos</h3>
         <ul>
             <li><a href="/view/assistenciaSocial/atendimento/assessGarantDeDireito.php">Programa de Promoção do Direito de Crianças e Adolescentes à Convivência Familiar e Comunitária</a></li>
         </ul>
