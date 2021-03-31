@@ -10,12 +10,12 @@
 
     <!-- NOTICIAS -->
     <?php
-        include 'view/noticias/noticiasHome.php';
+    include 'view/noticias/noticiasHome.php';
     ?>
 
     <!-- CORPO DO INDEX DA PÁGINA -->
     <?php
-        include 'view/banners.php';
+    include 'view/banners.php';
     ?>
 
 </div>

@@ -1,3 +1,0 @@
-#Ignora as alterações feitas no conector do banco de dados para não precisar ficar mudando sempre pra BD
-#do localhost para produção
-asamericana.com.br/models/connection.php

@@ -25,7 +25,7 @@ $noticias = noticias();
                 </ol>
             </nav>
 
-            <div class="my-5 mx-3">
+            <div class="mt-5 mx-3">
 
                 <!-- NOTICIAS -->
                 <div class="row-fluid pb-4 px-4">
