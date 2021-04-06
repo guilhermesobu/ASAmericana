@@ -21,7 +21,7 @@
                     <p>Foi dado início ao desenvolvimento do site da Secretaria de Assistência Social e Direitos Humanos em Outubro de 2020 e sua inalguração realizada no dia 10 de Abril de 2021.</p>
                 </div>
 
-                <div class="col-12 pt-4">
+                <div hidden class="col-12 pt-4">
                     <h4 class="text-primary">Secretário(a)</h4>
                     <p><strong>Ailton Gonçalves Dias</strong>, formação em Teologia, execeu função entre 2017 - 2020.</p>
                     <p><strong>Juliani</strong>, formação em Direito, iniciou em 2021.</p>

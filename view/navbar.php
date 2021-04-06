@@ -124,7 +124,7 @@
 
                 <!-- PUBLICAÇÕES -->
                 <li class="nav-item border-primary">
-                    <a class="nav-link rounded" href="/view/publicacoes.php">Publicações e Conteúdos</a>
+                    <a class="nav-link rounded" href="/view/publicacoes.php">Publicações e Regulamentações</a>
                 </li>
 
             </ul>

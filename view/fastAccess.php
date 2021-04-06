@@ -21,8 +21,8 @@
             <a class="btn btn-danger btn-services text-center" href="/view/direitosHumanos/uda.php">CONSELHO TUTELAR</a>
         </div>
 
-        <div hidden class="col py-1 px-1">
-            <a class="btn btn-success btn-services text-center" href="">ENTIDADES</a>
+        <div class="col py-1 px-1">
+            <a class="btn btn-success btn-services text-center" href="/view/assistenciaSocial/entidades/">ENTIDADES</a>
         </div>
 
         <div class="col-md col-sm-12 py-1 px-1">
