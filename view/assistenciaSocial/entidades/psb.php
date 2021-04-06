@@ -5,13 +5,13 @@
 </p>
 
 <div class="collapse" id="collapseExample">
-    <div class="card card-body border-bottom-0 rounded-0 rounded-top">
+    <div class="card card-body rounded-0 rounded-top">
 
         <nav>
             <div class="nav nav-tabs px-1" id="nav-tab" role="tablist">
                 <a class="font-small text-center col-4 nav-item nav-link active " id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Serviços de Convivência e Fortalecimento de Vínculos (SCFV)</a>
                 <a class="font-small text-center col-4 nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Programas de Habilitação e Reabilitação da Pessoa com Deficiência</a>
-                <a class="font-small text-center col-4 nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Programas de Habilitação e Reabilitação da Pessoa com Deficiência</a>
+                <a class="font-small text-center col-4 nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Programas de Promoção da Integração ao Mercado de Trabalho</a>
             </div>
         </nav>
         <div class="tab-content" id="nav-tabContent">
