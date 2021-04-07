@@ -17,7 +17,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="institutional">
 
-                        <a class="dropdown-item btn" href="institucional/estrutura.php" >Estrutura Organizacional</a>
+                        <a class="dropdown-item btn" href="view/institucional/estrutura.php" >Estrutura Organizacional</a>
                         <!--<a class="dropdown-item dropdown-toggle btn" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Estrutura Organizacional<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li>X</li>
