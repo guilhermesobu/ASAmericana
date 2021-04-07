@@ -11,18 +11,18 @@
             <ul class="nav d-flex justify-content-around py-3">
 
                 <!-- INSTITUCIONAL -->
-                <li hidden class="nav-item dropdown border-primary" id="dropInstitutional">
+                <li class="nav-item dropdown border-primary" id="dropInstitutional">
                     <a class="nav-link dropdown-toggle" id="institutional" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Institucional
                     </a>
                     <div class="dropdown-menu" aria-labelledby="institutional">
 
-                        <!--<a class="dropdown-item btn" href="" >Estrutura Organizacional</a>-->
-                        <a class="dropdown-item dropdown-toggle btn" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Estrutura Organizacional<span class="caret"></span></a>
+                        <a class="dropdown-item btn" href="institucional/estrutura.php" >Estrutura Organizacional</a>
+                        <!--<a class="dropdown-item dropdown-toggle btn" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Estrutura Organizacional<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li>X</li>
                             <li>Y</li>
-                        </ul>
+                        </ul>-->
 
                         <a class="dropdown-item btn" href="" hidden>Composição</a>
                         <a class="dropdown-item btn" href="">Base Jurídica</a>
