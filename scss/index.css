@@ -8,6 +8,10 @@
     max-height: 90px;
 }
 
+.sasdh-logo {
+    text-shadow: 1px 0px 3px #002c5a, -1px 0px 3px #002c5a;
+}
+
 /*point event none*/
 .pen{ 
     pointer-events: none;
@@ -132,3 +136,8 @@ h3{
     height: 340px;
 }
 
+/* ICOM IMAGE */
+.image-icon {
+    width: 64px;
+    height: 44px;
+}

@@ -39,9 +39,9 @@
                 <img class="px-3" src="/src/img/logo_americana_transparente.png" style="padding-top: 10px; padding-bottom: 10px; max-height: 90px;">
             </div>
 
-            <div class="col-xl-8 col-12 ">
+            <div class="col-xl-8 col-12">
                 <div class="text-center">
-                    <h3 class="pt-2 text-white">Secretaria de Assistência Social e Direitos Humanos</h3>
+                    <h3 class="pt-2 text-white sasdh-logo">Secretaria de Assistência Social e Direitos Humanos</h3>
                 </div>
             </div>
 

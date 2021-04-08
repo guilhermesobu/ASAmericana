@@ -15,12 +15,74 @@ include '../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Estrutura Organizacional</h3>
+        <h3 class="text-left">Secretaria de Assistência Social e Direitos Humanos</h3>
+        <p>Órgão responsável pela articulação, execução, coordenação e supervisão das políticas, serviços, programas, projetos e benefícios do município voltados para a gestão do Sistema Único de Assistência Social (SUAS) e no assessoramento e defesa de direitos humanos e socioassistenciais e de segurança alimentar e nutricional.</p>
 
-        <h4 class="pt-4">Organograma</h4>
-        <img class="w-100 border py-1" src="/src/img/organograma.png">
 
-        <h3 class="pt-4">Responsdabilidades das Áreas Essenciais</h3>
+        <h4 class="ext-left text-primary mt-5 pt-3 border-top border-primary">Estrutura Organizacional</h4>
+        <img class="w-100 py-1" src="/src/img/organograma.png">
+        <div class="col pt-2">
+            <span>Secretária de Assistência Social e Direitos Humanos</span><br>
+            <span class="text-primary">Juliani Hellen Munhoz Fernandes</span><br>
+        </div>
+        <div class="col pt-2">
+            <span>Diretora</span><br>
+            <span class="text-primary">Beatriz Betoli Bezerra</span><br>
+        </div>
+
+
+        <h4 class="text-left text-primary mt-5 pt-3 border-top border-primary">Unidade de Gestão Operacional do Sistema Único de Assistência Social, Direitos Humanos de Segurança Alimentar e Nutricional</h4>
+        <img class="w-100 py-1" src="/src/img/organograma2.png">
+        <div class="col pt-2">
+            <span>Departamento de Proteção Social Básica</span><br>
+            <span class="text-primary">Janaina Malagasi Basso</span><br>
+        </div>
+        <div class="col pt-2">
+            <span>Departamento de Proteção Social Especial</span><br>
+            <span class="text-primary">Maria Clara dos Santos Graciano</span><br>
+        </div>
+        <div class="col pt-2">
+            <span>Departamento de Gestão de Benefícios, Transferência de Renda e Cadastro Único</span><br>
+            <span class="text-primary">Valéria Mascaro</span><br>
+        </div>
+        <div class="col pt-2">
+            <span>Departamento de Assessoramento e Defesa de Direitos Humanos e Socioassistenciais</span><br>
+            <span class="text-primary">Alcimara Silva Batalhão</span><br>
+        </div>
+        <div class="col pt-2">
+            <span>Departamento de Segurança Alimentar e Nutricional</span><br>
+        </div>
+
+
+
+        <h4 class="text-left text-primary mt-5 pt-3 border-top border-primary">Unidade de Gestão Estratégica, Administrativa e Financeira e Orçamentária</h4>
+        <img class="w-100 py-1" src="/src/img/organograma3.png">
+        <div class="col pt-2">
+            <span>Departamento de Gestão Estratégica, Planejamento, Monitoramento e Avaliação</span><br>
+            <span class="text-primary">Thais Delafiori</span><br>
+        </div>
+        <div class="col pt-2">
+            <span>Departamento de Gestão Administrativa</span><br>
+            <span class="text-primary">Fabiana Aparecida Silvestre</span><br>
+        </div>
+        <div class="col pt-2">
+            <span>Departamento de Obras e Manutenção</span><br>
+            <span class="text-primary">João da Silva Carvalho</span><br>
+        </div>
+        <div class="col pt-2">
+            <span>Departamento de Gestão Financeira e Orçamentária</span><br>
+            <span class="text-primary">Neusa Bortoloto Franciscângelis</span><br>
+        </div>
+
+
+
+
+
+
+
+
+
+        <h3 class="text-left text-primary mt-5 pt-3 border-top border-primary">Responsdabilidades das Áreas Essenciais</h3>
 
         <!-- SECRETARIA DE ASSISTÊNCIA SOCIAL E DIREITOS HUMANOS -->
         <div>

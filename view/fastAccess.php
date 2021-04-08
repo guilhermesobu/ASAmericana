@@ -26,7 +26,7 @@
         </div>
 
         <div class="col-md col-sm-12 py-1 px-1">
-            <a class="btn btn-warning btn-services text-center" href="/view/assistenciaSocial/atendimento/casaDosConselhos.php">CASA DOS CONSELHOS</a>
+            <a class="btn btn-warning btn-services text-center" href="/view/assistenciaSocial/conselhos/index.php">CASA DOS CONSELHOS</a>
         </div>
 
     </div>

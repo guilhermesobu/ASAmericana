@@ -16,7 +16,7 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Rede Pública BÁSICA de Assistência Social</h3>
+        <h3 class="text-left">Rede Pública de PROTEÇÃO SOCIAL BÁSICA de Assistência Social</h3>
 
         <!-- PROTEÇÃO SOCIAL -->
         <div>

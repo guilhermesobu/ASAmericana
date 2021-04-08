@@ -16,7 +16,7 @@ include '../defaultTop.php';
         <h4 class="text-primary">Opss... Não temos nenhum conteúdo aqui!</h4>
         <p class="pt-4">Por acavo você está procurando por...</p>
         <ul>
-            <li><a href="/view/institucional/historico.php">Histórico</a></li>
+            <li hidden><a href="/view/institucional/historico.php">Histórico</a></li>
             <li><a href="/view/institucional/estrutura.php">Estrutura Organizacional</a></li>
         </ul>
 

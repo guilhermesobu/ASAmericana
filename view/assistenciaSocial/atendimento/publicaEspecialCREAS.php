@@ -16,7 +16,7 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Rede Pública ESPECIAL de Assistência Social</h3>
+        <h3 class="text-left">Rede Pública de PROTEÇÃO SOCIAL ESPECIAL de Assistência Social</h3>
 
         <!-- ESPECIAL - CREAS -->
         <div>
