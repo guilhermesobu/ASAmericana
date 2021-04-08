@@ -37,7 +37,7 @@ include '../../defaultTop.php';
                 <div class="row">
                     <address class="col-12">
                         <div class="row">
-                            <div class="col-md-8 col-sm-12">
+                            <div class="col-md-8 col">
                                 <strong>Casa dos Conselhos</strong><br>
                                 Rua Ibirapuera, 70 - Jardim Ipiranga<br>
                                 Telefone: (19) 3407-8448<br>
@@ -56,54 +56,60 @@ include '../../defaultTop.php';
                     </address>
                 </div>
 
-
-                <div class="row-fluid d-flex justify-content-around">
-                    <!-- CMAS -->
-                    <a class="btn border-primary" data-toggle="collapse" href="#collapseCMAS" role="button" aria-expanded="false" aria-controls="collapseCMAS">
-                        <img class="image-icon" src="/src/img/conselhos/logo-cmas.jpg"><br>
-                        <span>CMAS</span>
-                    </a>
-                    <!-- CMDCA -->
-                    <a class="btn border-primary" data-toggle="collapse" href="#collapseCMDCA" role="button" aria-expanded="false" aria-controls="collapseCMDCA">
-                        <img class="image-icon" src="/src/img/conselhos/logo-cmdca.jpg"><br>
-                        <span>CMDCA</span>
-                    </a>
-                    <!-- COMID -->
-                    <a class="btn border-primary" data-toggle="collapse" href="#collapseCOMID" role="button" aria-expanded="false" aria-controls="collapseCOMID">
-                        <img class="image-icon" src="/src/img/conselhos/logo-comid.jpg"><br>
-                        <span>COMID</span>
-                    </a>
-                    <!-- CMDM -->
-                    <a class="btn border-primary" data-toggle="collapse" href="#collapseCMDM" role="button" aria-expanded="false" aria-controls="collapseCMDM">
-                        <img class="image-icon" src="/src/img/conselhos/logo-cmdm.jpg"><br>
-                        <span>CMDM</span>
-                    </a>
-                    <!-- COMID -->
-                    <a class="btn border-primary" data-toggle="collapse" href="#collapseCOMSEA" role="button" aria-expanded="false" aria-controls="collapseCOMSEA">
-                        <img class="image-icon" src="/src/img/conselhos/logo-comsea.jpg"><br>
-                        <span>COSMEA</span>
-                    </a>
-                    <!-- COMAD -->
-                    <a class="btn border-primary" data-toggle="collapse" href="#collapseCOMAD" role="button" aria-expanded="false" aria-controls="collapseCOMAD">
-                        <img class="image-icon" src="/src/img/conselhos/logo-comad.jpg"><br>
-                        <span>COMAD</span>
-                    </a>
-                </div>
-
-                <div class="row-fluid pt-2">
-
-                    <?php
-                    include 'cmas.php';
-                    ?>
-
-                </div>
-
-
-
-
-
-
             </div>
+        </div>
+
+        <div class="row w-100 d-flex justify-content-around">
+            <!-- CMAS -->
+            <div class="col-fill pt-2">
+                <a class="btn border-primary" data-toggle="collapse" href="#collapseCMAS" role="button" aria-expanded="false" aria-controls="collapseCMAS">
+                    <img class="image-icon" src="/src/img/conselhos/logo-cmas.jpg"><br>
+                    <span>CMAS</span>
+                </a>
+            </div>
+            <!-- CMDCA -->
+            <div class="col-fill pt-2">
+                <a class="btn border-primary" data-toggle="collapse" href="#collapseCMDCA" role="button" aria-expanded="false" aria-controls="collapseCMDCA">
+                    <img class="image-icon" src="/src/img/conselhos/logo-cmdca.jpg"><br>
+                    <span>CMDCA</span>
+                </a>
+            </div>
+            <!-- COMID -->
+            <div class="col-fill pt-2">
+                <a class="btn border-primary" data-toggle="collapse" href="#collapseCOMID" role="button" aria-expanded="false" aria-controls="collapseCOMID">
+                    <img class="image-icon" src="/src/img/conselhos/logo-comid.jpg"><br>
+                    <span>COMID</span>
+                </a>
+            </div>
+            <!-- CMDM -->
+            <div class="col-fill pt-2">
+                <a class="btn border-primary" data-toggle="collapse" href="#collapseCMDM" role="button" aria-expanded="false" aria-controls="collapseCMDM">
+                    <img class="image-icon" src="/src/img/conselhos/logo-cmdm.jpg"><br>
+                    <span>CMDM</span>
+                </a>
+            </div>
+            <!-- COMID -->
+            <div class="col-fill pt-2">
+                <a class="btn border-primary" data-toggle="collapse" href="#collapseCOMSEA" role="button" aria-expanded="false" aria-controls="collapseCOMSEA">
+                    <img class="image-icon" src="/src/img/conselhos/logo-comsea.jpg"><br>
+                    <span>COSMEA</span>
+                </a>
+            </div>
+            <!-- COMAD -->
+            <div class="col-fill pt-2">
+                <a class="btn border-primary" data-toggle="collapse" href="#collapseCOMAD" role="button" aria-expanded="false" aria-controls="collapseCOMAD">
+                    <img class="image-icon" src="/src/img/conselhos/logo-comad.jpg"><br>
+                    <span>COMAD</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="row pt-2">
+
+            <?php
+            include 'cmas.php';
+            ?>
+
         </div>
 
 
