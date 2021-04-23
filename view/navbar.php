@@ -62,21 +62,21 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="segAlimNut">
                         <a class="dropdown-item btn" href="/view/segAlimentarNutricional/sobre.php">O que é</a>
-                        <a class="dropdown-item btn" href="/view/segAlimentarNutricional/uda.php" hidden>Unidade de Atendimento</a>
+                        <a class="dropdown-item btn" href="/view/segAlimentarNutricional/uda.php">Unidade de Atendimento</a>
                         <a class="dropdown-item btn" href="" hidden>Documentos</a>
                     </div>
                 </li>
 
                 <!-- CONSELHO TUTELAR -->
                 <li class="nav-item dropdown border-primary">
-                    <a class="nav-link rounded" href="/view/direitosHumanos/uda.php">
+                    <a class="nav-link rounded" href="/view/conselhoTutelar/">
                         Conselho Tutelar
                     </a>
                 </li>
 
                 <!-- ORGÃOS DE CONTROLE SOCIAL -->
-                <li hidden class="nav-item dropdown border-primary">
-                    <a class="nav-link rounded" href="">
+                <li class="nav-item dropdown border-primary">
+                    <a class="nav-link rounded" href="/view/controleSocial/">
                         Órgãos de Controle Social
                     </a>
                 </li>

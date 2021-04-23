@@ -15,8 +15,9 @@ include '../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Segurança Alimentar e Nutricional</h3>
-
+        <h3 class="text-left">Programa Banco de Alimentos</h3>
+        <p>O Banco de Alimentos trabalha sobre um tripé: diminuir o desperdício de alimentos; promover a educação alimentar e a segurança alimentar e nutricional e auxiliar na realização progressiva do direito humano à alimentação adequada. Como funciona? Capta alimento de um doador (indústria de alimentos, varejo, agricultora), depois vai para um banco de alimento fixo ou móvel até chegar nas instituições.</p>
+        <p>Em implantação.</p>
 
     </div>
 

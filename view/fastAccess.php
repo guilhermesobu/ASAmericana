@@ -18,7 +18,7 @@
     <div class="row text-center align-items-center">
 
         <div class="col py-1 px-1">
-            <a class="btn btn-gradient-blue btn-services text-center" href="/view/direitosHumanos/uda.php">CONSELHO TUTELAR</a>
+            <a class="btn btn-gradient-blue btn-services text-center" href="/view/conselhoTutelar/">CONSELHO TUTELAR</a>
         </div>
 
         <div class="col py-1 px-1">

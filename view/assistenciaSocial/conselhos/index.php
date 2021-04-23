@@ -21,9 +21,7 @@ include '../../defaultTop.php';
         <!-- ESPECIAL - CREAS -->
         <div>
 
-            <h4 class="pt-4 text-primary">Casa dos Conselhos</h4>
-            <p class="mb-0">Os Conselhos de Americana são:</p>
-            <ul>
+            <ul hidden>
                 <li>Conselho Municipal de Assistência Social (CMAS)</li>
                 <li>Conselho Municipal dos Direitos da Criança e Adolescente (CMDCA)</li>
                 <li>Conselho Municipal do Idoso (COMID)</li>
@@ -39,8 +37,9 @@ include '../../defaultTop.php';
                         <div class="row">
                             <div class="col-md-8 col">
                                 <strong>Casa dos Conselhos</strong><br>
-                                Rua Ibirapuera, 70 - Jardim Ipiranga<br>
+                                Rua Ibirapuera, nº 70 – Jardim Ipiranga<br>
                                 Telefone: (19) 3407-8448<br>
+                                Horário de Funcionamento: de segunda a sexta-feira, das 8h às 17h.<br>
                                 <!--E-mails: <br>
                                 <a class="text-primary pb-0">cmas@americana.sp.gov.br</a> - CMAS<br>
                                 <a class="text-primary pb-0">cmdca@americana.sp.gov.br</a><br>
@@ -50,13 +49,15 @@ include '../../defaultTop.php';
                                 <a class="text-primary pb-0">cmas@americana.sp.gov.br</a><br>-->
                             </div>
                             <div class="col align-self-center text-center">
-                                <a href="https://goo.gl/maps/LMiXdC18HBWssys76"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
+                                <a href="https://goo.gl/maps/d3j9jTgH7jaiJ477A"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                             </div>
                         </div>
                     </address>
                 </div>
 
             </div>
+            <h4>Os Conselhos de Americana são:</h4>
+
         </div>
 
         <div class="row w-100 d-flex justify-content-around">
