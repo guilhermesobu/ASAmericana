@@ -16,11 +16,9 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Rede Privada ESPECIAL DE ALTA COMPLEXIDADE de Assistência Social</h3>
-
         <!-- PRIVADA -->
         <div>
-            <h4>Serviços de Acolhimento para Jovens e Pessoas Adultas</h4>
+            <h4 class="text-primary">Serviços de Acolhimento para Jovens e Pessoas Adultas</h4>
             <p><strong>República</strong>: destinada, prioritariamente, a jovens entre 18 e 21 anos após desligamento de serviços de acolhimento para crianças e adolescentes ou em outra situação que demande este serviço. Possui tempo de permanência limitado, podendo ser reavaliado e prorrogado em função do projeto individual formulado em conjunto com o profissional de referência. O atendimento deve apoiar a qualificação e inserção profissional e a construção de projeto de vida. As repúblicas para jovens devem ser organizadas em unidades femininas e unidades masculinas, devendo ser dada a devida atenção à perspectiva de gênero no planejamento político-pedagógico do serviço.</p>
             <p><strong>Abrigo Institucional</strong>: acolhimento provisório com estrutura para acolher com privacidade pessoas do mesmo sexo ou grupo familiar. Atendimento em unidade institucional semelhante a uma residência.</p>
 
@@ -61,9 +59,9 @@ include '../../defaultTop.php';
                                     <strong>Associação Espírita Lar da Mãe Esperança (AELME)</strong><br>
                                     Modalidade: Abrigo Institucional<br>
                                     Rua Diogo de Faria, nº 420 – Cordenonsi<br>
-                                    Telefone: : (19) 3461-8493<br>
+                                    Telefone: (19) 3461-8493<br>
                                     E-mail: <a class="text-primary">larmaeesperanca@gmail.com</a><br>
-                                    Site: <a href="www.larmaeesperanca.com.br">www.larmaeesperanca.com.br</a><br>
+                                    Site: <a href="https://www.larmaeesperanca.com.br">www.larmaeesperanca.com.br</a><br>
                                     Equipamento de Referência: CREAS do município<br>
                                 </div>
                                 <div class="col align-self-center text-center">
@@ -80,7 +78,7 @@ include '../../defaultTop.php';
                                     Rua Pará, nº 315 – Monte Carlo<br>
                                     Telefone: (19) 2216-0260<br>
                                     E-mail: <a class="text-primary">abrigoam@vindealuz.com.br</a><br>
-                                    Site: <a href="www.vindealuz.com.br">www.vindealuz.com.br</a><br>
+                                    Site: <a href="https://www.vindealuz.com.br">www.vindealuz.com.br</a><br>
                                     Equipamento de Referência: CREAS do município<br>
                                 </div>
                                 <div class="col align-self-center text-center">

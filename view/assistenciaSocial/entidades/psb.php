@@ -1,5 +1,5 @@
 <p>
-    <a class="btn bg-transparent w-100 text-primary shadow border-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <a class="btn btn-gradient-blue btn-services w-100" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
         Organizações da Sociedade Civil - Proteção Social Básica
     </a>
 </p>

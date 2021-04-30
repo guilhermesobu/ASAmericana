@@ -16,8 +16,7 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Programa de Erradicação do Trabalho Infantil (PETI)</h3>
-
+        <h3 class="text-left text-primary">Programa de Erradicação do Trabalho Infantil (PETI)</h3>
 
         <!-- CADASTO UNICO -->
         <div>

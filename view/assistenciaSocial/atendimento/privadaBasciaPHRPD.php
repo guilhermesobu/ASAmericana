@@ -16,12 +16,10 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Rede Privada BÁSICA de Assistência Social</h3>
-
         <!-- PRIVADA - PESSOAS COM DEFICIENCIA -->
         <div>
 
-            <h4 class="pt-4 text-primary">Programas de Habilitação e Reabilitação da Pessoa com Deficiência</h4>
+            <h4 class="text-primary">Programas de Habilitação e Reabilitação da Pessoa com Deficiência</h4>
             <p>Os Programas de Habilitação e Reabilitação da Pessoa com Deficiência visam habilitar e reabilitar as pessoas com deficiência e promover a sua inclusão à vida comunitária, compreendendo o desenvolvimento de ações integradas e complementares para qualificar, incentivar e melhorar os benefícios e os serviços socioassistenciais.</p>
             <p>Os/as usuários/as são pessoas com deficiência que vivenciam situações de vulnerabilidades sociais pela fragilização de vínculos familiares e sociais e/ou pela ausência de acesso a possibilidades de inserção, habilitação social e comunitária, em especial famílias beneficiárias de Programas de Transferência de Renda e beneficiários do Benefício de Prestação Continuada (BPC).</p>
 
@@ -35,7 +33,7 @@ include '../../defaultTop.php';
                                 Rua Abrahim Abraham, nº 97 – Residencial Nardini<br>
                                 Telefone: (19) 2108-9356<br>
                                 E-mail: <a class="text-primary">dirsocial@apaeamericana.com.br</a><br>
-                                Site: <a href="www.apaeamericana.com.br">www.apaeamericana.com.br</a><br>
+                                Site: <a href="https://www.apaeamericana.com.br">www.apaeamericana.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
                                 <a href="https://g.page/apaeamericana?share"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
@@ -50,7 +48,7 @@ include '../../defaultTop.php';
                                 Avenida Bandeirantes, nº 2.660 – Jardim Santana<br>
                                 Telefone: (19) 3461-6364 / (19) 3604-9399<br>
                                 E-mail: <a class="text-primary">contato@cpcamericana.com.br</a><br>
-                                Site: <a href="www.cpcamericana.com.br">www.cpcamericana.com.br</a><br>
+                                Site: <a href="https://www.cpcamericana.com.br">www.cpcamericana.com.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
                                 <a href="https://goo.gl/maps/CyHTRBEgFk6H4qSQ8"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>

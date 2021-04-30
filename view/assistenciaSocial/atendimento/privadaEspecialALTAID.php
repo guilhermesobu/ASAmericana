@@ -16,11 +16,9 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Rede Privada ESPECIAL DE ALTA COMPLEXIDADE de Assistência Social</h3>
-
         <!-- PRIVADA -->
         <div>
-            <h4>Serviços de Acolhimento para Pessoas Idosas</h4>
+            <h4 class="text-left text-primary">Serviços de Acolhimento para Pessoas Idosas</h4>
             <p><strong>Abrigo Institucional</strong>: atendimento em unidade institucional com característica domiciliar que acolhe pessoas idosas com diferentes necessidades e graus de dependência. Deve assegurar a convivência com familiares, amigos e pessoas de referência de forma contínua, bem como o acesso às atividades culturais, educativas, lúdicas e de lazer na comunidade. A capacidade de atendimento das unidades deve seguir as normas da Vigilância Sanitária, devendo ser assegurado o atendimento de qualidade, personalizado, com até quatro idosos por quarto.</p>
 
             <div class="px-4 pt-2" id="addressServices">
@@ -33,11 +31,11 @@ include '../../defaultTop.php';
                         <address class="col-12">
                             <div class="row">
                                 <div class="col-md-8 col-sm-12">
-                                    <strong>Associação Beneficente Residncial Evangélico BENAIAH</strong><br>
+                                    <strong>Associação Beneficente Residencial Evangélico BENAIAH</strong><br>
                                     Rua Benaiah, nº 290 – Terramérica<br>
                                     Telefone: (19) 3461-8472<br>
                                     E-mail: <a class="text-primary">contato@benaiah.org.br</a><br>
-                                    Site: <a href="www.benaiah.org.br">www.benaiah.org.br</a><br>
+                                    Site: <a href="https://www.benaiah.org.br">www.benaiah.org.br</a><br>
                                     Equipamento de Referência: CREAS do município<br>
                                 </div>
                                 <div class="col align-self-center text-center">
@@ -53,7 +51,7 @@ include '../../defaultTop.php';
                                     Avenida Nove de Julho, nº 733 – São Domingos<br>
                                     Telefone: (19) 3461-1449<br>
                                     E-mail:<a class="text-primary">coordenacao.velhinhos@gmail.com</a><br>
-                                    Site: <a href="www.lardosvelhinhossvp.org.br">www.lardosvelhinhossvp.org.br</a><br>
+                                    Site: <a href="https://www.lardosvelhinhossvp.org.br">www.lardosvelhinhossvp.org.br</a><br>
                                     Equipamento de Referência: CREAS do município<br>
                                 </div>
                                 <div class="col align-self-center text-center">

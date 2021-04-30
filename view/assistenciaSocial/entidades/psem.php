@@ -1,5 +1,5 @@
 <p class="pt-4">
-    <a class="btn bg-transparent w-100 text-primary shadow border-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+    <a class="btn btn-gradient-blue btn-services w-100" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
         Organizações da Sociedade Civil - Proteção Social Especial - Média Complexidade
     </a>
 </p>

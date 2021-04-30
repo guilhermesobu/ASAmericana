@@ -36,7 +36,7 @@ include '../../defaultTop.php';
                                 Rua dos Apeninos, nº 219 – Jardim Alvorada<br>
                                 Telefone: (19) 3475-7200<br>
                                 E-mail: <a class="text-primary">secretariaongapam@gmail.com</a><br>
-                                Site: <a href="www.apam.net.br">www.apam.net.br</a><br>
+                                Site: <a href="https://www.apam.net.br">www.apam.net.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
                                 <a href="https://goo.gl/maps/J2rRHp4f5DBALcA37"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
@@ -61,7 +61,7 @@ include '../../defaultTop.php';
                                 Rua dos Colibris, nº 235 – Jardim dos Lírios<br>
                                 Telefone: : (19) 3406-1147 / (19) 3406-3332<br>
                                 E-mail: <a class="text-primary">coord.casade@dombosco.br</a><br>
-                                Site: <a href="www.dombosco.br/casadedombosco">www.dombosco.br/casadedombosco</a><br>
+                                Site: <a href="https://www.dombosco.br/casadedombosco">www.dombosco.br/casadedombosco</a><br>
                                 Unidade Pública de Referência: CRAS Mathiensen<br>
                             </div>
                             <div class="col align-self-center text-center">
@@ -77,7 +77,7 @@ include '../../defaultTop.php';
                                 Avenida Nove de Julho, nº 141 – Centro<br>
                                 Telefone: (19) 3461-1657<br>
                                 E-mail: <a class="text-primary">cruzadadsa@hotmail.com</a><br>
-                                Site: <a href="www.cruzadadsa.org.br">www.cruzadadsa.org.br</a><br>
+                                Site: <a href="https://www.cruzadadsa.org.br">www.cruzadadsa.org.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
                                 <a href="https://goo.gl/maps/koDmmDqTcnjMo56C6"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
@@ -111,7 +111,7 @@ include '../../defaultTop.php';
                                 Avenida Armando Sales de Oliveira, nº 730 – Jardim Ipiranga<br>
                                 Telefone: (19) 3406-1567<br>
                                 E-mail: <a class="text-primary"> equipeccpa@yahoo.com.br</a><br>
-                                E-mail: <a href="www.diaconiasaojudastadeu.org.br">www.diaconiasaojudastadeu.org.br</a><br>
+                                E-mail: <a href="https://www.diaconiasaojudastadeu.org.br">www.diaconiasaojudastadeu.org.br</a><br>
                             </div>
                             <div class="col align-self-center text-center">
                                 <a href="https://goo.gl/maps/Uq4RSSNgCBmtLYfo7"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
@@ -135,7 +135,7 @@ include '../../defaultTop.php';
                                 Praça dos Expedicionários, nº 29 – Vila Medon<br>
                                 Telefone: (19) 3461-2495 / (19) 3462-3946 / (19) 3462-5966<br>
                                 E-mail: <a class="text-primary">coordenadora@soma-americana.com.br</a><br>
-                                Site: <a href="www.soma-americana.com.br">www.soma-americana.com.br</a>
+                                Site: <a href="https://www.soma-americana.com.br">www.soma-americana.com.br</a>
                             </div>
                             <div class="col align-self-center text-center">
                                 <a href="https://goo.gl/maps/DVbyhTumM1vuLtK3A"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
@@ -145,7 +145,7 @@ include '../../defaultTop.php';
                                 <strong>Unidade do SCFV</strong><br>
                                 Rua Chucri Zogbi, nº 540 – São Vito <br>
                                 Telefone: (19) 3468-6605<br>
-                                E-mail: <a class="text-primary">ccsaovito@gmail.com</a><br>
+                                E-mail: <a class="text-primary">scfv1@soma-americana.com.br</a><br>
                                 Unidade Pública de Referência: CRAS São Manoel<br>
                             </div>
                             <div class="col align-self-center text-center">
@@ -161,7 +161,7 @@ include '../../defaultTop.php';
                                 Rua Pica Pau, nº 80 – Jardim dos Lírios<br>
                                 Telefone: (19) 3407-5128 / (19) 3407-5257<br>
                                 E-mail: <a class="text-primary">sespaamericana@yahoo.com.br</a><br>
-                                Site: <a href="www.sespaamericana.com.br">www.sespaamericana.com.br</a><br>
+                                Site: <a href="https://www.sespaamericana.com.br">www.sespaamericana.com.br</a><br>
                                 Unidade Pública de Referência: CRAS São Mathiensen<br>
                             </div>
                             <div class="col align-self-center text-center">

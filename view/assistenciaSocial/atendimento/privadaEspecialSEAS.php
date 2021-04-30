@@ -16,11 +16,9 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Rede Privada ESPECIAL DE MÉDIA COMPLEXIDADE de Assistência Social</h3>
-
         <!-- PRIVADA - SCFV -->
         <div>
-            <h4 class="pt-4 text-primary">Serviço Especializado em Abordagem Social (SEAS)</h4>
+            <h4 class="text-left text-primary">Serviço Especializado em Abordagem Social (SEAS)</h4>
             <p>Serviço ofertado, de forma continuada e programada, com a finalidade de assegurar trabalho social de abordagem e busca ativa que identifique, nos territórios, a incidência de trabalho infantil, exploração sexual de crianças e adolescentes, situação de rua, dentre outras. O Serviço deve buscar a resolução de necessidades imediatas e promover a inserção na rede de serviços socioassistenciais e das demais políticas públicas na perspectiva da garantia dos direitos.</p>
             <p>Os/as usuários/as do serviço são crianças, adolescentes, jovens, pessoas adultas, pessoas idosas e famílias que utilizam espaços públicos como forma de moradia e/ou sobrevivência.</p>
 
@@ -34,7 +32,7 @@ include '../../defaultTop.php';
                                 Rua Pará, nº 315 – Monte Carlo<br>
                                 Telefone: (19)3476-3049 / (19) 99632-5032 / (19) 2221-9955<br>
                                 E-mail: <a class="text-primary">abordagemam@vindealuz.com.br</a><br>
-                                Site: <a href="www.vindealuz.com.br">www.vindealuz.com.br</a><br>
+                                Site: <a href="https://www.vindealuz.com.br">www.vindealuz.com.br</a><br>
                                 Equipamento de Referência: CREAS do município<br>
                             </div>
                             <div class="col align-self-center text-center">

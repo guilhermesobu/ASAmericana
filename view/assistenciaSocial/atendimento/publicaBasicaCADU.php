@@ -16,8 +16,7 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Cadastro Único</h3>
-
+        <h3 class="text-left text-primary">Cadastro Único</h3>
 
         <!-- CADASTO UNICO -->
         <div>

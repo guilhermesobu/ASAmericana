@@ -16,11 +16,9 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Rede Privada ESPECIAL DE ALTA COMPLEXIDADE de Assistência Social</h3>
-
         <!-- PRIVADA -->
         <div>
-            <h4>Serviços de Acolhimento para Crianças e Adolescentes</h4>
+            <h4 class="text-left text-primary">Serviços de Acolhimento para Crianças e Adolescentes</h4>
             <p><strong>Família Acolhedora</strong>: serviço que organiza o acolhimento de crianças e adolescentes, afastados da família por medida de proteção, em residência de famílias acolhedoras cadastradas. É previsto até que seja possível o retorno à família de origem ou, na sua impossibilidade, o encaminhamento para adoção. O serviço é o responsável por selecionar, capacitar, cadastrar e acompanhar as famílias acolhedoras, bem como realizar o acompanhamento da criança e/ou adolescente acolhido e sua família de origem.</p>
             <p><strong>Abrigo Institucional</strong>: acolhimento provisório e excepcional para crianças e adolescentes de ambos os sexos, inclusive crianças e adolescentes com deficiência, sob medida de proteção (Art. 98 do Estatuto da Criança e do Adolescente) e em situação de risco pessoal e social, cujas famílias ou responsáveis encontrem-se temporariamente impossibilitados de cumprir sua função de cuidado e proteção. Atendimento em unidade institucional semelhante a uma residência, destinada ao atendimento de grupos de até 20 crianças e/ou adolescentes. Nessa unidade é indicado que os educadores/cuidadores trabalhem em turnos fixos diários, a fim de garantir estabilidade das tarefas de rotina diárias, referência e previsibilidade no contato com as crianças e adolescentes. Poderá contar com espaço específico para acolhimento imediato e emergencial, com profissionais preparados para receber a criança/adolescente, em qualquer horário do dia ou da noite, enquanto se realiza um estudo diagnóstico detalhado de cada situação para os encaminhamentos necessários.</p>
 
@@ -38,6 +36,7 @@ include '../../defaultTop.php';
                                     Rua Paulo Setúbal, nº 200 – Vila Santa Inês<br>
                                     Telefone: (19) 3461-4737<br>
                                     E-mail: <a class="text-primary">aama_feliz@yahoo.com.br</a><br>
+                                    Site: <a href="https://aama.nae.com.br/">aama.nae.com.br</a><br>
                                     Equipamento de Referência:  CREAS do município <br>
                                 </div>
                                 <div class="col align-self-center text-center">
@@ -53,13 +52,13 @@ include '../../defaultTop.php';
                                     Rua dos Apeninos, nº 219 – Jardim Alvorada<br>
                                     Telefone: : (19) 3475-7200<br>
                                     E-mail: <a class="text-primary">secretariaongapam@gmail.com</a><br>
-                                    Site: <a href="www.apam.net.br">www.apam.net.br</a><br>
+                                    Site: <a href="https://www.apam.net.br">www.apam.net.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
                                     <a href="https://goo.gl/maps/xayhzDAM79DG1YtAA"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>
                                 </div>
                                 <div class="col-md-8 col-sm-12">
-                                    <strong>Unidade de Serviço (Famíli acolhedora)</strong><br>
+                                    <strong>Unidade de Serviço (Família acolhedora)</strong><br>
                                     Rua dos Apeninos, nº 180 – Jardim Alvorada<br>
                                     Telefone: (19) 9 9927-9585 | (19) 3475-7200 (ramal 212)<br>
                                     E-mail: <a class="text-primary">apamfamiliaacolhedora@gmail.com</a><br>
@@ -78,7 +77,7 @@ include '../../defaultTop.php';
                                     Rua 7 de setembro, nº 25 – Centro<br>
                                     Telefone: (19) 3461-4050| (19) 3601-6550<br>
                                     E-mail: <a class="text-primary">coasseje@coasseje.com.br</a><br>
-                                    Site: <a href="www.coasseje.com.br">www.coasseje.com.br</a><br>
+                                    Site: <a href="https://www.coasseje.com.br">www.coasseje.com.br</a><br>
                                 </div>
                                 <div class="col align-self-center text-center">
                                     <a href="https://goo.gl/maps/t67hSKX9NGdc9LDD9"><img src="/src/icons/Local-Circle.png" id="common-icons" alt="Localização"></a>

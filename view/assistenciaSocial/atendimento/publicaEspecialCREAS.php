@@ -16,11 +16,9 @@ include '../../defaultTop.php';
 
     <div class="row-fluid p-4">
 
-        <h3 class="text-left">Rede Pública de PROTEÇÃO SOCIAL ESPECIAL de Assistência Social</h3>
-
         <!-- ESPECIAL - CREAS -->
         <div>
-            <h4 class="pt-4 text-primary">Centro de Referência Especializado de Assistência Social - CREAS</h4>
+            <h4 class="text-left text-primary">Centro de Referência Especializado de Assistência Social - CREAS</h4>
             <p>O CREAS é uma unidade pública de abrangência e gestão municipal destinada à prestação de serviços a indivíduos e famílias que se encontram em situação de risco pessoal ou social, por violação de direitos ou contingência, que demandam intervenções especializadas da proteção social especial. O CREAS oferta exclusivamente o Serviço PAEFI.</p>
             <p>Previsto no artigo 24-B da Lei Orgânica de Assistência Social (LOAS), o Serviço de Proteção e Atendimento Especializado a Famílias e Indivíduos (PAEFI), integra a proteção social especial de média complexidade e consiste no apoio, orientação e acompanhamento a famílias e indivíduos em situação de ameaça ou violação de direitos, articulando os serviços socioassistenciais com as diversas políticas públicas e com órgãos do sistema de garantia de direitos.</p>
             <p>Conforme a Tipificação Nacional dos Serviços Socioassistenciais, o serviço compreende atenções e orientações direcionadas para a promoção de direitos, a preservação e o fortalecimento de vínculos familiares, comunitários e sociais e para o fortalecimento da função protetiva das famílias diante do conjunto de condições que as vulnerabilizam e/ou as submetem a situações de risco pessoal e social, sendo um serviço ofertado exclusivamente pelo CREAS.</p>
