@@ -9,18 +9,17 @@ include '../defaultTop.php';
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Institucional</li>
+            <li class="breadcrumb-item active" aria-current="page">Estrutura Organizacional</li>
         </ol>
     </nav>
 
-    <div class="row-fluid p-4">
-        <h4 class="text-primary">Opss... Não temos nenhum conteúdo aqui!</h4>
-        <p class="pt-4">Por acavo você está procurando por...</p>
-        <ul>
-            <li hidden><a href="/view/institucional/historico.php">Histórico</a></li>
-            <li><a href="/view/institucional/estrutura.php">Estrutura Organizacional</a></li>
-        </ul>
+    <?php 
+    include 'organograma/sasdh.php';
+    include 'organograma/gestaoOperacional.php';
+    include 'organograma/gestaoEstrategica.php';
+    ?>
 
-    </div>
+    
 
 </div>
 
