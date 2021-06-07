@@ -1,0 +1,20 @@
+@font-face{
+    font-family: Nunito;
+    src: url(/src/fonts/nunito/Nunito-Regular.ttf);
+}
+.nunito{
+    font-family: Nunito !important;
+}
+
+/* CSS para efeito de fonte e texto */
+.u {
+    text-decoration: underline;
+}
+
+.i {
+    font-style: italic;
+}
+
+.b {
+    font-weight: bold;
+}

@@ -1,6 +1,5 @@
 <div class="row-fluid border-bottom border-primary">
-    <nav class="navbar <?php //navbar-expand-xl 
-                        ?> navbar-light bg-white border-primary border-bottom">
+    <nav class="navbar <?php //navbar-expand-xl ?> navbar-light bg-white border-primary border-bottom">
         <a class="border rounded px-1 py-0 navbar-brand text-white bg-primary" href="/"><strong>SASDH</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,9 +23,11 @@
                             <li>Y</li>
                         </ul>-->
 
-                        <a hidden class="dropdown-item btn" href="">Composição</a>
+
+                        <a class="dropdown-item btn" href="/view/institucional/regulamentacoes.php">Regulamentações</a>
                         <a class="dropdown-item btn" href="/view/institucional/basejuridica.php">Base Jurídica</a>
-                        <a hidden class="dropdown-item btn" href="">Plano Estratégico</a>
+                        <a hidden class="dropdown-item btn" href="">Composição</a>
+                        <a class="dropdown-item btn" href="/view/institucional/planoEstrategico/">Plano Estratégico</a>
                         <a hidden class="dropdown-item btn" href="/view/institucional/historico.php">História da SASDH</a>
                     </div>
                 </li>
@@ -99,7 +100,12 @@
                     </li> -->
 
                 <!-- FREQUENTLY QUESTION -->
-                <li class="nav-item dropdown border-primary" id="dropfrequentlyQuestion">
+                <li class="nav-item dropdown border-primary">
+                    <a class="nav-link rounded" href="/view/perguntasfrequentes/">
+                        Perguntas Frequentes
+                    </a>
+                </li>
+                <!--<li class="nav-item dropdown border-primary" id="dropfrequentlyQuestion">
                     <a class="nav-link dropdown-toggle" id="frequentlyQuestion" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Perguntas Frequentes
                     </a>
@@ -115,7 +121,7 @@
                             <button type="submit" class="dropdown-item btn" name="id" value="7">AE - Casos Especiais</button>
                         </form>
                     </div>
-                </li>
+                </li>-->
 
                 <!-- CONTATO -->
                 <li class="nav-item border-primary">

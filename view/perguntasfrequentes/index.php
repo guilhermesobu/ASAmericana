@@ -1,7 +1,15 @@
 <!-- HISTORICO -->
 <?php
 include '../defaultTop.php';
+
+//STARTANDO O CONTOLLER
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= '/controler/faq.php';
+include "$path";
+
+$assunto = assunto();
 ?>
+
 
 <div class="container shadow rounded">
 
@@ -13,20 +21,26 @@ include '../defaultTop.php';
     </nav>
 
     <div class="row-fluid p-4">
-        <h4 class="text-primary">Opss... Não temos nenhum conteúdo aqui!</h4>
-        <p class="pt-4">Por acavo você está procurando por...</p>
-        <form action="/view/perguntasfrequentes/faq.php" method="POST">
-            <button type="submit" class="dropdown-item btn text-primary" name="id" value="1">Cadastro Único (CAD)</button>
-            <span class="dropdown-header font-small">Auxílio Emergencial (AE - Caixa)</span>
-            <button type="submit" class="dropdown-item btn text-primary" name="id" value="2">AE - Informações Gerais</button>
-            <button type="submit" class="dropdown-item btn text-primary" name="id" value="3">AE - Cadastramento</button>
-            <button type="submit" class="dropdown-item btn text-primary" name="id" value="4">AE - APP</button>
-            <button type="submit" class="dropdown-item btn text-primary" name="id" value="5">AE - Resultado da Avaliação do Cadastro</button>
-            <button type="submit" class="dropdown-item btn text-primary" name="id" value="6">AE - Pagamento do Benefício</button>
-            <button type="submit" class="dropdown-item btn text-primary" name="id" value="7">AE - Casos Especiais</button>
+
+        <h4 class="text-primary">Perguntas Frequentes</h4>
+
+        <div class="col-12">Publicado em <spam class="bg-primary px-2 rounded text-white">00/00/2021</spam> | Atualizado em <spam class="bg-primary px-2 rounded text-white">00/00/2021</spam>
+        </div>
+
+        <form action="faq.php" method="GET" class="pt-3">
+            <?php
+            while ($amostra = $assunto->fetch_assoc()) {
+            ?>
+                <button type="submit" class="btn btn-gradient-blue w-100 mt-2" name="id" value="<?php echo $amostra['id']; ?>">
+                    <?php echo $amostra['assunto']; ?>
+                </button>
+            <?php
+            }
+            ?>
         </form>
 
     </div>
+
 
 </div>
 

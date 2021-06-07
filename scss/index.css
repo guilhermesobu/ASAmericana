@@ -121,6 +121,12 @@ h3{
 .btn-gradient-blue{
     background-image: linear-gradient(to right, blue, #41B6E6);
     border: 0px;
+    color: white;
+    
+}
+.btn-gradient-blue:hover{
+    font-weight: bold;
+    color: white;
 }
 
 
@@ -149,3 +155,5 @@ h3{
     width: 64px;
     height: 44px;
 }
+
+

@@ -1,0 +1,156 @@
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 90px;
+}
+
+/*point event none*/
+.pen{ 
+    pointer-events: none;
+}
+
+/* REMOVER SUBLINHAMENTO */
+.rsub:link{
+    text-decoration: none;
+}
+
+/* BANNER BORDER */
+.banner-back{
+    width: auto;
+    background-color: #012a57;
+}
+.banner-width{
+    max-width: 620px;
+}
+.width-350{
+    width: 350px;
+}
+.webkit{
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+/* DEFAULT COLOURS */
+.bg-blue{
+    background-color: #012a57;
+    color: #ffffff !important;
+}
+.bg-black, .bg-black:hover{
+    background-color: #012a57;
+    color: #ffffff;
+    text-decoration: underline;
+    border-radius: 2px;
+}
+a, h1, h2, h3, h4, h5{
+    color: #012a57;
+}
+
+/* BREADCRUMB */
+.breadcrumb, .breadcrumb-item.active, .breadcrumb-item, .breadcrumb-item a{
+    background-color: #012a57;
+    color: #ffffff;
+}
+.breadcrumb{
+    border: 1px solid white;
+}
+label{
+    margin-bottom: 0px;
+}
+
+/* LINKS */
+.link-white a{
+    color: #ffffff;
+}
+
+/* CONTENT & SUMARY */
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sumary {
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    background-color: #012a57;
+}
+.sumary h3 {
+    color: #ffffff;
+}
+.content li{
+    padding-bottom: 10px;
+}
+
+
+
+/* ACESSIBILIDADE */
+a {
+    padding: 0px 5px 0px 5px;
+    color: #012a57;
+}
+a {
+    border: 1px solid transparent;
+}
+:focus, a:hover {
+    color: #ffffff;
+    background-color: #012a57;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    text-decoration: underline;
+}
+.accesskeys {
+    pointer-events: none;
+}
+.acessibilidade {
+    font-size: 16px !important;
+}
+
+/* CONTEÚDO OCULTO */
+.oculto, .oculto:focus, .oculto:hover{
+    color:#ffffff00 !important;
+    pointer-events: none;
+    background-color: #ffffff00 !important;
+}
+
+/* BOTÃO VOLTAR AO TOPO - defaultBotton.php */
+.return-top, .return-top:hover {
+    font-size: 16px !important;
+    position: sticky;
+    bottom: 25px;
+    right: 25px;
+    background-color: #012a57;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    border-radius: 30px;
+    float:right;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    text-shadow: 0px 6px #ffffff;
+}
+
+
+
+
+/* ADDRESS */
+#common-icons{
+    width: 44px;
+    height: 44px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#addressServices > div address {
+    border-left: 5px solid #0062cc;
+    border-bottom: 5px solid #41B6E6;
+    border-radius: 5px;
+}
+.card-body{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* ICOM IMAGE */
+.image-icon {
+    width: 64px;
+    height: 44px;
+}

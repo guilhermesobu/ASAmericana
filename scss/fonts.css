@@ -36,3 +36,17 @@
 .font-small {
     font-size: 10px;
 } 
+
+
+/* CSS para efeito de fonte e texto */
+.u {
+    text-decoration: underline;
+}
+
+.i {
+    font-style: italic;
+}
+
+.b {
+    font-weight: bold;
+}

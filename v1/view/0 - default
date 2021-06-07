@@ -1,0 +1,42 @@
+<?php include 'defaultTop.php'; ?>
+
+<!-- TITULO DEVE MUDAR PARA CADA PÁGICA EM QUE ESTIVER -->
+<title>SASDH - </title>
+
+<!-- BREADCRUMB -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><label>Navegação Estrutural</label></li>
+        <li class="breadcrumb-item active" aria-current="page">Home</li>
+    </ol>
+</nav>
+
+<!-- SUMARY -->
+<div class="sumary link-white" id="sumario">
+    <h3>Sumário</h3>
+    <ol>
+        <li><a href="#item1">Item 1</a></li>
+    </ol>
+</div>
+
+
+<!-- INÍCIO DO CONTEÚDO -- OBS PARA ACESSIBILIDADE -->
+<a href="#iniciodoconteudo" class="oculto">Início do conteúdo</a>
+<!-- INÍCIO DO CONTEÚDO -- OBS PARA ACESSIBILIDADE  -->
+
+
+<!-- CONTENT -->
+<div class="content" id="content">
+
+    <h3 id="item1">Item 1</h3>
+    
+
+
+
+    <!-- FIM DO CONTEÚDO -- OBS PARA ACESSIBILIDADE  -->
+    <a href="#finaodoconteudo" class="oculto">Final do conteúdo</a>
+    <!-- FIM DO CONTEÚDO -- OBS PARA ACESSIBILIDADE  -->
+
+</div>
+
+<?php include 'defaultBotton.php'; ?>

@@ -1,6 +1,9 @@
 
 // AQUI ESTÀ O EFEITO CONSTANTE DO NAVBAR
 // PERGUNTAS FREQUENTES
+
+/*  DROPDOWN DAS PERGUNTAS FREQUENTES
+
 if (window.innerWidth > 767) {
     var dropfrequentlyQuestion = document.querySelector('#dropfrequentlyQuestion');
     dropfrequentlyQuestion.addEventListener("mouseleave", () => {
@@ -12,7 +15,7 @@ if (window.innerWidth > 767) {
             frequentlyQuestion.click();
         }
     });
-}
+}*/
 
 //SERVIÇOS
 /*if (window.innerWidth > 767) {
